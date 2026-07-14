@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WORLD DISPATCH — กระดานข่าวรอบโลก</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Public+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0c0e;
+    --panel:#14171b;
+    --row-alt:#0f1216;
+    --line:#252a30;
+    --amber:#f2a900;
+    --teal:#16bfa8;
+    --violet:#b892ff;
+    --text:#eae7dd;
+    --text-dim:#868d94;
+    --text-faint:#565d63;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Public Sans', sans-serif;
+    line-height:1.55;
+  }
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  .disp{font-family:'Space Grotesk', sans-serif;}
+
+  /* ===== HEADER ===== */
+  header{
+    border-bottom:1px solid var(--line);
+    padding:26px 20px 20px;
+    position:sticky; top:0; z-index:20;
+    background:rgba(10,12,14,0.94);
+    backdrop-filter:blur(6px);
+  }
+  .header-top{
+    max-width:1100px; margin:0 auto;
+    display:flex; justify-content:space-between; align-items:flex-end;
+    flex-wrap:wrap; gap:14px;
+  }
+  .brand .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.7rem; letter-spacing:0.25em; color:var(--amber);
+    text-transform:uppercase;
+  }
+  .brand h1{
+    font-family:'Space Grotesk', sans-serif;
+    font-size:clamp(1.7rem, 4vw, 2.5rem);
+    font-weight:700;
+    margin:6px 0 0;
+    letter-spacing:0.01em;
+  }
+  .clock-wrap{
+    display:flex; align-items:center; gap:10px;
+  }
+  .clock{
+    display:flex; gap:3px;
+  }
+  .flap-digit{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:3px;
+    width:26px; height:34px;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:1.1rem; font-weight:600;
+    color:var(--amber);
+  }
+  .clock-label{font-size:0.65rem; color:var(--text-dim); letter-spacing:0.1em; text-transform:uppercase;}
+
+  .snapshot-note{
+    max-width:1100px; margin:14px auto 0;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem; color:var(--text-faint);
+    display:flex; align-items:center; gap:8px;
+  }
+  .dot{width:6px; height:6px; border-radius:50%; background:var(--teal); animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;} 50%{opacity:0.25;}}
+
+  /* ===== FILTER TABS ===== */
+  .tabs{
+    max-width:1100px; margin:18px auto 0;
+    display:flex; gap:8px; flex-wrap:wrap;
+  }
+  .tab{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--text-dim);
+    background:transparent;
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:7px 14px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+  }
+  .tab:hover{color:var(--text);}
+  .tab.active{
+    color:var(--bg);
+    background:var(--amber);
+    border-color:var(--amber);
+  }
+
+  /* ===== BOARD ===== */
+  main{max-width:1100px; margin:0 auto; padding:26px 20px 70px;}
+  .board{border:1px solid var(--line); border-radius:4px; overflow:hidden;}
+  .row{
+    display:grid;
+    grid-template-columns:88px 150px 90px 1fr 130px;
+    align-items:start;
+    gap:16px;
+    padding:16px 18px;
+    border-bottom:1px solid var(--line);
+    background:var(--panel);
+    cursor:pointer;
+    transition:background 0.2s ease;
+  }
+  .row:nth-child(even){background:var(--row-alt);}
+  .row:hover{background:#1a1e24;}
+  .row:last-child{border-bottom:none;}
+  .row.hidden{display:none;}
+  .row.open{
+    background:#1c2229;
+    box-shadow:inset 3px 0 0 var(--amber);
+    position:relative; z-index:1;
+  }
+
+  .col-time{font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:var(--text-dim); padding-top:2px;}
+  .col-region{font-size:0.85rem; color:var(--text-dim); padding-top:2px;}
+  .col-region .flag{margin-right:6px;}
+  .col-code{padding-top:2px;}
+  .badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.68rem; font-weight:600; letter-spacing:0.06em;
+    padding:3px 8px; border-radius:2px;
+    display:inline-block;
+  }
+  .badge.world{color:var(--amber); border:1px solid var(--amber); background:rgba(242,169,0,0.08);}
+  .badge.economy{color:var(--teal); border:1px solid var(--teal); background:rgba(22,191,168,0.08);}
+  .badge.tech{color:var(--violet); border:1px solid var(--violet); background:rgba(184,146,255,0.08);}
+
+  .col-headline h3{
+    font-family:'Space Grotesk', sans-serif;
+    font-size:1rem; font-weight:600;
+    margin:0; color:var(--text);
+  }
+  .detail{
+    display:grid; grid-template-rows:0fr;
+    transition:grid-template-rows 0.3s ease;
+  }
+  .row.open .detail{grid-template-rows:1fr;}
+  .detail-inner{overflow:hidden;}
+  .detail p{
+    margin:10px 0 0; font-size:0.88rem; color:var(--text-dim);
+    padding-top:10px; border-top:1px dashed var(--line);
+  }
+  .col-source{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem; color:var(--text-faint);
+    text-align:right;
+  }
+  .col-source a{color:var(--text-dim); text-decoration:none; border-bottom:1px dotted var(--text-faint);}
+  .col-source a:hover{color:var(--amber); border-color:var(--amber);}
+  .toggle-hint{font-size:0.65rem; color:var(--text-faint); margin-top:4px; display:block;}
+
+  @media (max-width:760px){
+    .row{grid-template-columns:1fr; gap:6px;}
+    .col-source{text-align:left;}
+  }
+
+  footer{
+    text-align:center; padding:40px 20px 60px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--text-faint);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div class="brand">
+      <div class="eyebrow">Global newsroom snapshot</div>
+      <h1>WORLD DISPATCH</h1>
+    </div>
+    <div class="clock-wrap">
+      <div>
+        <div class="clock-label">เวลาท้องถิ่นของคุณ</div>
+        <div class="clock" id="clock"></div>
+      </div>
+    </div>
+  </div>
+  <div class="snapshot-note"><span class="dot"></span> ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด — ดูหมายเหตุด้านล่างสำหรับการต่อยอด)</div>
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-filter="all">ทั้งหมด</button>
+    <button class="tab" data-filter="world">โลก</button>
+    <button class="tab" data-filter="economy">เศรษฐกิจ</button>
+    <button class="tab" data-filter="tech">เทคโนโลยี</button>
+  </div>
+</header>
+
+<main>
+  <div class="board" id="board"></div>
+</main>
+
+<footer>
+  WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว
+</footer>
+
+<script>
+/* ========================================================
+   ข้อมูลข่าว (snapshot วันที่ 14 ก.ค. 2569)
+   โครงสร้างนี้ออกแบบให้ต่อยอดกับ API ข่าวจริงได้ง่าย —
+   ดูฟังก์ชัน fetchLiveDispatches() ด้านล่างสำหรับจุดเชื่อมต่อ
+   ======================================================== */
+const DISPATCHES = [
+  {time:'13 ก.ค.', region:'กรุงเทพฯ ไทย', flag:'🇹🇭', category:'world', headline:'ทีมสอบสวนคดีเพลิงไหม้บาร์กลางกรุงเทพฯ เสียชีวิต 27 ราย', detail:'เจ้าหน้าที่นิติเวชเริ่มตรวจสอบจุดเกิดเหตุไฟไหม้บาร์ดนตรีในกรุงเทพฯ ตั้งแต่เช้าวันจันทร์ พบผู้เสียชีวิตส่วนใหญ่ติดอยู่ในห้องน้ำที่ไม่มีหน้าต่างใกล้ทางออกด้านหลัง ผู้สืบสวนกำลังตรวจสอบเพดานเหนือเวทีการแสดงเพื่อหาสาเหตุที่แท้จริง', source:'NPR', url:'https://www.npr.org/2026/07/12/g-s1-133238/fire-breaks-out-at-a-pub-in-bangkok-killing-at-least-27-people-officials-say'},
+  {time:'12 ก.ค.', region:'โทรอนโต แคนาดา', flag:'🇨🇦', category:'world', headline:'เหตุกราดยิงในงานเทศกาลวัฒนธรรมลาตินที่โทรอนโต', detail:'มีผู้เสียชีวิตอย่างน้อย 2 ราย และบาดเจ็บอีกอย่างน้อย 4 ราย จากเหตุยิงในงานเทศกาลเฉลิมฉลองวัฒนธรรมลาตินอเมริกาที่เมืองใหญ่ที่สุดของแคนาดาเมื่อคืนวันเสาร์', source:'NPR', url:'https://www.npr.org/2026/07/12/g-s1-133229/toronto-shooting-salsa-festival'},
+  {time:'11 ก.ค.', region:'แคนซัสซิตี สหรัฐฯ', flag:'🇺🇸', category:'world', headline:'อาร์เจนตินาผ่านเข้ารอบรองชนะเลิศฟุตบอลโลก', detail:'ฆูเลียน อัลบาเรซยิงประตูชัยจากระยะไกลในนาทีที่ 112 พาอาร์เจนตินาแชมป์เก่าเอาชนะสวิตเซอร์แลนด์ ผ่านเข้าสู่รอบรองชนะเลิศฟุตบอลโลก', source:'NPR', url:'https://www.npr.org/2026/07/11/nx-s1-5888612/2026-world-cup-fifa-argentina-switzerland-quarterfinal'},
+  {time:'9 ก.ค.', region:'อินเดีย', flag:'🇮🇳', category:'world', headline:'น้ำท่วมในอินเดียพัดถังแก๊สหุงต้มนับพันใบ', detail:'เหตุน้ำท่วมในรัฐมหาราษฏระของอินเดียพัดพาถังแก๊สหุงต้มจากโรงงานบรรจุแก๊สจำนวนมากลงแม่น้ำ สร้างความกังวลด้านความปลอดภัยในชุมชนริมแม่น้ำ', source:'Al Jazeera', url:'https://www.aljazeera.com/video/newsfeed/2026/7/9/india-floods-sweep-away-thousands-of-gas-cylinders'},
+  {time:'9 ก.ค.', region:'ออสเตรเลีย–อินเดีย', flag:'🌏', category:'world', headline:'ออสเตรเลียเซ็นข้อตกลงขายแร่ยูเรเนียมให้อินเดีย', detail:'ออสเตรเลียและอินเดียลงนามข้อตกลงส่งออกยูเรเนียมเพื่อใช้ในทางสันติ ระหว่างการเยือนออสเตรเลียของนายกฯ อินเดีย นเรนทระ โมดี ปิดช่องว่างที่ค้างมากว่าทศวรรษนับจากข้อตกลงความร่วมมือนิวเคลียร์ปี 2014', source:'Al Jazeera', url:'https://www.aljazeera.com/news/2026/7/9/australia-india-strike-deal-on-uranium-exports-during-pm-modis-visit'},
+  {time:'7 ก.ค.', region:'ตะวันออกกลาง', flag:'🌍', category:'world', headline:'สหรัฐฯ เพิกถอนใบอนุญาตน้ำมันอิหร่าน หลังเหตุโจมตีเรือบรรทุกน้ำมัน', detail:'สหรัฐฯ ยกเลิกมาตรการผ่อนปรนคว่ำบาตรน้ำมันอิหร่านที่เพิ่งประกาศไปเมื่อปลายเดือนมิถุนายน หลังอิหร่านโจมตีเรือบรรทุกน้ำมันที่ใช้เส้นทางผ่านช่องแคบฮอร์มุซที่กองทัพเรือสหรัฐฯ คุ้มกัน แม้เตหะรานเคยให้สัญญาเปิดเส้นทางเดินเรืออย่างเสรี', source:'CNBC', url:'https://www.cnbc.com/2026/07/07/us-revokes-iran-oil-sanctions-waiver-tanker-attacks.html'},
+
+  {time:'14 ก.ค.', region:'สหรัฐฯ', flag:'🇺🇸', category:'economy', headline:'ประธานเฟดคนใหม่แถลงต่อสภาคองเกรสเป็นครั้งแรก', detail:'เควิน วอร์ช ประธานธนาคารกลางสหรัฐฯ คนใหม่ แถลงต่อคณะกรรมาธิการบริการการเงินสภาผู้แทนราษฎรเป็นครั้งแรกในวันนี้ ก่อนแถลงต่อวุฒิสภาในวันพรุ่งนี้ ท่ามกลางตัวเลขเงินเฟ้อเดือนมิถุนายนที่คาดว่าจะลดลงจาก 4.2% เหลือ 3.8%', source:'Bloomberg', url:'https://www.bloomberg.com/news/articles/2026-07-11/warsh-and-us-inflation-will-set-tone-for-july-fed-decision'},
+  {time:'7 ก.ค.', region:'สหรัฐฯ', flag:'🇺🇸', category:'economy', headline:'ขาดดุลการค้าสหรัฐฯ พุ่งสูงสุดในรอบปี', detail:'ส่วนต่างระหว่างการนำเข้าและส่งออกของสหรัฐฯ ขยายตัว 42% ในเดือนพฤษภาคม แตะระดับ 7.76 หมื่นล้านดอลลาร์ ซึ่งเป็นระดับสูงสุดในรอบกว่าหนึ่งปี ขณะที่การนำเข้าสินค้าทุนสำหรับศูนย์ข้อมูล AI พุ่งแตะระดับสูงสุดเป็นประวัติการณ์', source:'The Washington Post', url:'https://www.washingtonpost.com/business/2026/07/07/good-news-america-is-exporting-more-bad-news-trade-deficit-just-snapped-back/'},
+  {time:'16 มิ.ย.', region:'จีน', flag:'🇨🇳', category:'economy', headline:'การลงทุนสินทรัพย์ถาวรของจีนหดตัวรุนแรงสุดนับตั้งแต่โควิด', detail:'ตัวเลขทางการจีนระบุว่าการลงทุนในสินทรัพย์ถาวรช่วงห้าเดือนแรกของปีลดลง 4.1% จากปีก่อน รุนแรงกว่าที่คาดการณ์ไว้ถึงสองเท่า โดยการลงทุนภาคอสังหาริมทรัพย์ลดลงถึง 16.2% ยอดค้าปลีกก็ลดลงเป็นครั้งแรกในรอบกว่าสามปี', source:'CNBC', url:'https://www.cnbc.com/2026/06/16/china-economy-may-retail-sales-industrial-output-fixed-asset-investment-.html'},
+  {time:'10 ก.ค.', region:'สหรัฐฯ', flag:'🇺🇸', category:'economy', headline:'แอปเปิลฟ้อง OpenAI ข้อหาขโมยความลับทางการค้าฮาร์ดแวร์', detail:'แอปเปิลยื่นฟ้อง OpenAI ต่อศาลรัฐบาลกลางในแคลิฟอร์เนียตอนเหนือ กล่าวหาอดีตพนักงานแอปเปิล 2 คนที่ย้ายไปทำงานฮาร์ดแวร์ให้ OpenAI ว่าขโมยข้อมูลลับเกี่ยวกับผลิตภัณฑ์ที่ยังไม่เปิดตัว รวมถึงข้อมูลซัพพลายเออร์และเทคนิคการผลิต', source:'CNBC', url:'https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html'},
+  {time:'9 ก.ค.', region:'สหรัฐฯ', flag:'🇺🇸', category:'economy', headline:'เงินร่วมลงทุนในสตาร์ตอัพสหรัฐฯ ทะลุ 4 แสนล้านดอลลาร์', detail:'ข้อมูลจาก PitchBook-NVCA ระบุว่าเงินร่วมลงทุนในสหรัฐฯ ช่วงครึ่งปีแรกของปี 2026 แตะระดับ 412.7 พันล้านดอลลาร์ เพิ่มขึ้นเกือบ 30% จากทั้งปี 2025 โดยสตาร์ตอัพด้าน AI คิดเป็นสัดส่วนถึง 86% ของเงินทุนทั้งหมด', source:'SiliconANGLE', url:'https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/'},
+
+  {time:'6 ก.ค.', region:'จีน', flag:'🇨🇳', category:'tech', headline:'เทนเซ็นต์เปิดตัวโมเดล AI ขนาด 295 พันล้านพารามิเตอร์', detail:'เทนเซ็นต์เปิดตัวโมเดลภาษาขนาดใหญ่ชื่อ Hy3 ที่มีพารามิเตอร์รวม 295 พันล้าน (ใช้งานจริง 21 พันล้านต่อครั้ง) ระบุว่าให้ประสิทธิภาพเทียบเท่าโมเดลที่ใหญ่กว่า 2-5 เท่า และปล่อยภายใต้สัญญาอนุญาตแบบเปิด Apache 2.0 ไม่จำกัดพื้นที่ใช้งาน', source:'Tencent', url:'https://www.tencent.com/en-us/articles/2202386.html'},
+  {time:'9 ก.ค.', region:'สหรัฐฯ', flag:'🇺🇸', category:'tech', headline:'เมตาเดินหน้าผลิตชิป AI ของตัวเอง เริ่มเดินสายการผลิตกันยายนนี้', detail:'บันทึกภายในของเมตาที่รอยเตอร์ตรวจสอบพบว่า บริษัทเตรียมเริ่มผลิตชิป AI ที่ออกแบบเอง รหัส "Iris" ตั้งแต่เดือนกันยายน เพื่อเพิ่มกำลังประมวลผลเป็นสองเท่า ทำงานร่วมกับ Broadcom ออกแบบและ TSMC ผลิต โดยไม่ได้ทดแทนชิป Nvidia และ AMD ที่ใช้อยู่', source:'TechCrunch', url:'https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/'},
+  {time:'13 ก.ค.', region:'ทั่วโลก', flag:'🌐', category:'tech', headline:'เงินลงทุนในบริษัทพลังงานฟิวชันพุ่ง 69% แตะสถิติใหม่', detail:'รายงานของ Fusion Industry Association ระบุว่าการลงทุนทั่วโลกในบริษัทพัฒนาพลังงานนิวเคลียร์ฟิวชันในรอบ 12 เดือนที่ผ่านมาเพิ่มขึ้น 69% แตะระดับ 4.5 พันล้านดอลลาร์ ยอดสะสมตั้งแต่ปี 2021 รวมแล้วกว่า 1.42 หมื่นล้านดอลลาร์', source:'Bloomberg', url:'https://www.bloomberg.com/news/articles/2026-07-13/global-investment-in-fusion-companies-surges-69-to-4-5-billion'},
+  {time:'9 ก.ค.', region:'ยุโรป', flag:'🇪🇺', category:'tech', headline:'สตาร์ตอัพยุโรประดมทุนสูงสุดในรอบ 4 ปี', detail:'ข้อมูลจาก Crunchbase ระบุว่าสตาร์ตอัพในยุโรประดมทุนได้ราว 2.4 หมื่นล้านดอลลาร์ในไตรมาสที่สองของปี 2026 เพิ่มขึ้นราวหนึ่งในสามจากไตรมาสก่อนหน้า โดยสหราชอาณาจักรระดมทุนได้กว่า 1 หมื่นล้านดอลลาร์ ใกล้เคียงสถิติสูงสุดในปี 2021', source:'Crunchbase News', url:'https://news.crunchbase.com/venture/data-funding-ai-ma-up-europe-q2-2026/'}
+];
+
+/* ========================================================
+   โหลดข่าวจาก news.json ซึ่งถูกอัปเดตอัตโนมัติทุกวันโดย
+   GitHub Actions (ดู .github/workflows/update-news.yml และ
+   fetch_news.py) — ถ้าโหลดไม่ได้ (เช่น เปิดไฟล์ตรงๆ ในเครื่อง
+   โดยไม่ผ่านเว็บโฮสต์) จะใช้ข่าว snapshot ที่ฝังไว้ด้านบนแทน
+   ======================================================== */
+async function fetchLiveDispatches(){
+  try{
+    const res = await fetch('news.json', {cache: 'no-store'});
+    if(!res.ok) throw new Error('news.json not found');
+    const data = await res.json();
+    if(Array.isArray(data.items) && data.items.length > 0){
+      updateSnapshotNote(data.updated_at);
+      return data.items;
+    }
+    throw new Error('news.json ว่างเปล่า');
+  }catch(err){
+    console.warn('โหลด news.json ไม่สำเร็จ ใช้ข้อมูล snapshot สำรองแทน:', err);
+    return DISPATCHES;
+  }
+}
+
+function updateSnapshotNote(isoDate){
+  const note = document.querySelector('.snapshot-note');
+  if(!note || !isoDate) return;
+  const d = new Date(isoDate);
+  const formatted = d.toLocaleString('th-TH', {dateStyle:'long', timeStyle:'short'});
+  note.innerHTML = `<span class="dot"></span> อัปเดตข่าวล่าสุดโดยอัตโนมัติ: ${formatted}`;
+}
+
+const board = document.getElementById('board');
+const tabs = document.querySelectorAll('.tab');
+let currentFilter = 'all';
+
+let renderedItems = [];
+
+function renderBoard(items){
+  renderedItems = items;
+  board.innerHTML = '';
+  items.forEach((d, i)=>{
+    const row = document.createElement('div');
+    row.className = 'row';
+    row.dataset.category = d.category;
+    row.dataset.idx = i; // ผูกแถวกับข้อมูลชิ้นนี้โดยตรง ป้องกันคลิกแล้วขึ้นรายละเอียดผิดข่าว
+    const catLabel = d.category === 'world' ? 'โลก' : d.category === 'economy' ? 'เศรษฐกิจ' : 'เทคโนโลยี';
+    row.innerHTML = `
+      <div class="col-time mono">${d.time}</div>
+      <div class="col-region"><span class="flag">${d.flag}</span>${d.region}</div>
+      <div class="col-code"><span class="badge ${d.category}">${catLabel}</span></div>
+      <div class="col-headline">
+        <h3>${d.headline}</h3>
+        <div class="detail"><div class="detail-inner"><p>${d.detail}</p></div></div>
+        <span class="toggle-hint mono">แตะเพื่อดูรายละเอียด</span>
+      </div>
+      <div class="col-source">${d.source}<br><a href="${d.url}" target="_blank" rel="noopener">อ่านต้นฉบับ ↗</a></div>
+    `;
+    board.appendChild(row);
+  });
+}
+
+// ใช้ event delegation ที่ระดับ board แทนการผูก listener ทีละแถว
+// เพื่อให้คลิกแล้วตรงกับข่าวที่เห็นบนจอเสมอ ไม่ว่าจะกรองหมวดไว้หรือไม่
+board.addEventListener('click', (e)=>{
+  if(e.target.tagName === 'A') return;
+  const row = e.target.closest('.row');
+  if(!row) return;
+  const idx = Number(row.dataset.idx);
+  const wasOpen = row.classList.contains('open');
+  // ปิดการ์ดอื่นที่เปิดค้างไว้ก่อน กันไม่ให้ซ้อนกันจนดูสับสน
+  document.querySelectorAll('.row.open').forEach(r => r.classList.remove('open'));
+  if(!wasOpen){
+    row.classList.add('open');
+    const hint = row.querySelector('.toggle-hint');
+    if(hint) hint.textContent = 'แตะเพื่อย่อรายละเอียด';
+  }
+  document.querySelectorAll('.row:not(.open) .toggle-hint').forEach(h=>{
+    h.textContent = 'แตะเพื่อดูรายละเอียด';
+  });
+});
+
+function applyFilter(filter){
+  currentFilter = filter;
+  document.querySelectorAll('.row').forEach(row=>{
+    row.classList.toggle('hidden', filter !== 'all' && row.dataset.category !== filter);
+  });
+  tabs.forEach(t=>t.classList.toggle('active', t.dataset.filter === filter));
+}
+
+tabs.forEach(tab=>{
+  tab.addEventListener('click', ()=> applyFilter(tab.dataset.filter));
+});
+
+// live clock, split-flap style
+function renderClock(){
+  const clockEl = document.getElementById('clock');
+  const now = new Date();
+  const str = now.toLocaleTimeString('th-TH', {hour:'2-digit', minute:'2-digit', second:'2-digit', hour12:false});
+  clockEl.innerHTML = str.split('').map(ch=>{
+    if(ch === ':') return `<div class="flap-digit mono" style="border:none;background:none;color:var(--text-faint);width:8px;">:</div>`;
+    return `<div class="flap-digit mono">${ch}</div>`;
+  }).join('');
+}
+renderClock();
+setInterval(renderClock, 1000);
+
+// init
+fetchLiveDispatches().then(items=>{
+  renderBoard(items);
+  applyFilter('all');
+});
+</script>
+</body>
+</html>
