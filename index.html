@@ -16,6 +16,7 @@
     --amber:#f2a900;
     --teal:#16bfa8;
     --violet:#b892ff;
+    --pink:#ff5f96;
     --text:#eae7dd;
     --text-dim:#868d94;
     --text-faint:#565d63;
@@ -195,6 +196,7 @@
   .badge.world{color:var(--amber); border:1px solid var(--amber); background:rgba(242,169,0,0.08);}
   .badge.economy{color:var(--teal); border:1px solid var(--teal); background:rgba(22,191,168,0.08);}
   .badge.tech{color:var(--violet); border:1px solid var(--violet); background:rgba(184,146,255,0.08);}
+  .badge.esports{color:var(--pink); border:1px solid var(--pink); background:rgba(255,95,150,0.08);}
 
   .col-headline h3{
     font-family:'Space Grotesk', sans-serif;
@@ -312,6 +314,7 @@
     <button class="tab" data-filter="world" data-i18n="tabWorld">โลก</button>
     <button class="tab" data-filter="economy" data-i18n="tabEconomy">เศรษฐกิจ</button>
     <button class="tab" data-filter="tech" data-i18n="tabTech">เทคโนโลยี</button>
+    <button class="tab" data-filter="esports" data-i18n="tabEsports">อีสปอร์ต</button>
   </div>
 </header>
 
@@ -337,8 +340,8 @@ const I18N = {
     eyebrow: 'สรุปข่าวรอบโลก',
     visitors: 'ผู้เข้าชม',
     localTime: 'เวลาท้องถิ่นของคุณ',
-    tabAll: 'ทั้งหมด', tabWorld: 'โลก', tabEconomy: 'เศรษฐกิจ', tabTech: 'เทคโนโลยี',
-    catWorld: 'โลก', catEconomy: 'เศรษฐกิจ', catTech: 'เทคโนโลยี',
+    tabAll: 'ทั้งหมด', tabWorld: 'โลก', tabEconomy: 'เศรษฐกิจ', tabTech: 'เทคโนโลยี', tabEsports: 'อีสปอร์ต',
+    catWorld: 'โลก', catEconomy: 'เศรษฐกิจ', catTech: 'เทคโนโลยี', catEsports: 'อีสปอร์ต',
     readOriginal: 'อ่านต้นฉบับ ↗',
     toggleOpen: 'แตะเพื่อย่อรายละเอียด',
     toggleClosed: 'แตะเพื่อดูรายละเอียด',
@@ -351,8 +354,8 @@ const I18N = {
     eyebrow: 'Global newsroom snapshot',
     visitors: 'Visitors',
     localTime: 'Your local time',
-    tabAll: 'All', tabWorld: 'World', tabEconomy: 'Economy', tabTech: 'Technology',
-    catWorld: 'World', catEconomy: 'Economy', catTech: 'Technology',
+    tabAll: 'All', tabWorld: 'World', tabEconomy: 'Economy', tabTech: 'Technology', tabEsports: 'Esports',
+    catWorld: 'World', catEconomy: 'Economy', catTech: 'Technology', catEsports: 'Esports',
     readOriginal: 'Read original ↗',
     toggleOpen: 'Tap to collapse',
     toggleClosed: 'Tap for details',
@@ -422,6 +425,13 @@ const DISPATCHES = [
   {time:'6 ก.ค.', region:'จีน', flag:'🇨🇳', category:'tech', headline:'เทนเซ็นต์เปิดตัวโมเดล AI ขนาด 295 พันล้านพารามิเตอร์', detail:'เทนเซ็นต์เปิดตัวโมเดลภาษาขนาดใหญ่ชื่อ Hy3 ที่มีพารามิเตอร์รวม 295 พันล้าน (ใช้งานจริง 21 พันล้านต่อครั้ง) ระบุว่าให้ประสิทธิภาพเทียบเท่าโมเดลที่ใหญ่กว่า 2-5 เท่า และปล่อยภายใต้สัญญาอนุญาตแบบเปิด Apache 2.0 ไม่จำกัดพื้นที่ใช้งาน', source:'Tencent', url:'https://www.tencent.com/en-us/articles/2202386.html'},
   {time:'9 ก.ค.', region:'สหรัฐฯ', flag:'🇺🇸', category:'tech', headline:'เมตาเดินหน้าผลิตชิป AI ของตัวเอง เริ่มเดินสายการผลิตกันยายนนี้', detail:'บันทึกภายในของเมตาที่รอยเตอร์ตรวจสอบพบว่า บริษัทเตรียมเริ่มผลิตชิป AI ที่ออกแบบเอง รหัส "Iris" ตั้งแต่เดือนกันยายน เพื่อเพิ่มกำลังประมวลผลเป็นสองเท่า ทำงานร่วมกับ Broadcom ออกแบบและ TSMC ผลิต โดยไม่ได้ทดแทนชิป Nvidia และ AMD ที่ใช้อยู่', source:'TechCrunch', url:'https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/'},
   {time:'13 ก.ค.', region:'ทั่วโลก', flag:'🌐', category:'tech', headline:'เงินลงทุนในบริษัทพลังงานฟิวชันพุ่ง 69% แตะสถิติใหม่', detail:'รายงานของ Fusion Industry Association ระบุว่าการลงทุนทั่วโลกในบริษัทพัฒนาพลังงานนิวเคลียร์ฟิวชันในรอบ 12 เดือนที่ผ่านมาเพิ่มขึ้น 69% แตะระดับ 4.5 พันล้านดอลลาร์ ยอดสะสมตั้งแต่ปี 2021 รวมแล้วกว่า 1.42 หมื่นล้านดอลลาร์', source:'Bloomberg', url:'https://www.bloomberg.com/news/articles/2026-07-13/global-investment-in-fusion-companies-surges-69-to-4-5-billion'},
+
+  {time:'6–19 ก.ค.', region:'ปารีส ฝรั่งเศส', flag:'🇫🇷', category:'esports', headline:'Esports World Cup 2026 ย้ายมาจัดที่ปารีส แข่งกว่า 25 รายการ', detail:'งาน Esports World Cup 2026 ย้ายจากซาอุดีอาระเบียมาจัดที่กรุงปารีส รวม 25 ทัวร์นาเมนต์ 24 เกม นักแข่งกว่า 2,000 คน เงินรางวัลรวมกว่า 75 ล้านดอลลาร์ บวกกับรางวัลระดับสโมสรอีก 30 ล้านดอลลาร์', source:'PandaScore', url:'https://www.pandascore.co/blog/esports-tournaments-july-2026-calendar'},
+  {time:'13–19 ก.ค.', region:'League of Legends', flag:'🎮', category:'esports', headline:'League of Legends ที่ Esports World Cup 2026 กำลังแข่งอยู่ตอนนี้', detail:'การแข่งขัน League of Legends ในรายการ Esports World Cup 2026 จัดขึ้นระหว่างวันที่ 13-19 กรกฎาคม มี 16 สโมสรเข้าร่วมชิงเงินรางวัล 2 ล้านดอลลาร์', source:'PandaScore', url:'https://www.pandascore.co/blog/esports-tournaments-july-2026-calendar'},
+  {time:'6–18 ก.ค.', region:'Dota 2', flag:'🎮', category:'esports', headline:'Dota 2 ในศึก Esports World Cup 2026 เข้าสู่ช่วงโค้งสุดท้าย', detail:'การแข่งขัน Dota 2 ในรายการ Esports World Cup 2026 ดำเนินมาตั้งแต่ 6 กรกฎาคม และจะสิ้นสุดวันที่ 18 กรกฎาคม มี 24 สโมสรร่วมชิงเงินรางวัล 2 ล้านดอลลาร์', source:'PandaScore', url:'https://www.pandascore.co/blog/esports-tournaments-july-2026-calendar'},
+  {time:'14 ก.ค.', region:'VALORANT', flag:'🎮', category:'esports', headline:'VALORANT Champions Tour 2026 เดินหน้าเข้าสเตจใหม่หลายภูมิภาค', detail:'การแข่งขัน VALORANT Champions Tour 2026 ดำเนินต่อเนื่องหลายภูมิภาค สาย China อยู่ในช่วง Stage 2 รอบแบ่งกลุ่ม ขณะที่สาย EMEA Stage 2 เพิ่งเริ่มขึ้นกลางเดือนกรกฎาคม', source:'Esports Charts', url:'https://escharts.com/upcoming-tournaments/valorant'},
+  {time:'ก.ค. 2569', region:'Counter-Strike 2', flag:'🇩🇪', category:'esports', headline:'วงการ CS2 พักหายใจหลัง IEM Cologne Major เพิ่งจบ รอทัวร์นาเมนต์ใหญ่ถัดไป', detail:'หลัง Team Falcons คว้าแชมป์ IEM Cologne Major 2026 ไปเมื่อเดือนมิถุนายน วงการ Counter-Strike 2 เข้าสู่ช่วงพัก ก่อนทัวร์นาเมนต์ใหญ่ถัดไปอย่าง BLAST Bounty Summer ปลายเดือนกรกฎาคม', source:'esports.gg', url:'https://esports.gg/news/counter-strike-2/schedule-cs2-events-2026/'},
+
   {time:'9 ก.ค.', region:'ยุโรป', flag:'🇪🇺', category:'tech', headline:'สตาร์ตอัพยุโรประดมทุนสูงสุดในรอบ 4 ปี', detail:'ข้อมูลจาก Crunchbase ระบุว่าสตาร์ตอัพในยุโรประดมทุนได้ราว 2.4 หมื่นล้านดอลลาร์ในไตรมาสที่สองของปี 2026 เพิ่มขึ้นราวหนึ่งในสามจากไตรมาสก่อนหน้า โดยสหราชอาณาจักรระดมทุนได้กว่า 1 หมื่นล้านดอลลาร์ ใกล้เคียงสถิติสูงสุดในปี 2021', source:'Crunchbase News', url:'https://news.crunchbase.com/venture/data-funding-ai-ma-up-europe-q2-2026/'}
 ];
 
@@ -471,6 +481,11 @@ function getFilteredItems(){
     : allItems.filter(d => d.category === currentFilter);
 }
 
+const CAT_LABEL_KEYS = { world:'catWorld', economy:'catEconomy', tech:'catTech', esports:'catEsports' };
+function getCatLabel(category){
+  return t(CAT_LABEL_KEYS[category] || category);
+}
+
 function renderBoard(items){
   renderedItems = items;
   board.innerHTML = '';
@@ -479,7 +494,7 @@ function renderBoard(items){
     row.className = 'row';
     row.dataset.category = d.category;
     row.dataset.idx = i; // ผูกแถวกับข้อมูลชิ้นนี้โดยตรง ป้องกันคลิกแล้วขึ้นรายละเอียดผิดข่าว
-    const catLabel = d.category === 'world' ? t('catWorld') : d.category === 'economy' ? t('catEconomy') : t('catTech');
+    const catLabel = getCatLabel(d.category);
     row.innerHTML = `
       <div class="col-time mono">${d.time}</div>
       <div class="col-region"><span class="flag">${d.flag}</span>${d.region}</div>
