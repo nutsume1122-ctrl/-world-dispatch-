@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-07-14T10:36:35.997793+00:00",
+  "updated_at": "2026-07-14T10:43:50.865768+00:00",
   "items": [
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Schumer slams Trump over Iran war",
+      "detail": "Schumer slams Trump over Iran war",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/schumer-slams-trump-over-iran-war?traffic_source=rss"
+    },
     {
       "time": "14 ก.ค.",
       "region": "Channel News Asia",
@@ -18,10 +29,21 @@
       "flag": "🇸🇬",
       "category": "world",
       "headline": "Bangladesh floods heighten dengue, cholera risks, says IFRC",
-      "detail": "Sonakshi Dey, the International Federation of Red Cross and Red Crescent Societies’ (IFRC) Bangladesh programme director, told CNA’s Asia First that aid efforts in the country are being hampered by multiple challenges.…",
+      "detail": "Sonakshi Dey, the International Federation of Red Cross and Red Crescent Societies’ (IFRC) Bangladesh programme director, told CNA’s Asia First that aid efforts in the country are being hampered by multiple challenges. &nbsp;",
       "image": "https://dam.mediacorp.sg/image/upload/s--b1JoJ9oJ--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/07/14/bangladesh_flooding_pic_0.jpg?itok=vcQ8k490",
       "source": "Channel News Asia",
       "url": "https://www.channelnewsasia.com/world/bangladesh-floods-dengue-cholera-risk-ifrc-6253181"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Jaguars pre-training camp 53-man roster prediction: Tight end - Yahoo Sports",
+      "detail": "Jaguars pre-training camp 53-man roster prediction: Tight end&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSldJRktuVWhmcWNnaGhzTV9pM0pjSTBUSVZVbXBfcEdRS0N4NEtzU2VZZmoyb3huNTV5TW1Xdk9leVFWZjJ3MTBRVm9vSGtIaG5yVG81WXVwTW1iTU5YenQ3STBQOG0yMEFFODFWZmJzQWpiUkt3SDJoUDBQYWx3U3ZXaw?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -113,6 +135,17 @@
     },
     {
       "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Panthers picked as potential landing spot for controversial WR - Yahoo Sports",
+      "detail": "Panthers picked as potential landing spot for controversial WR&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYXVNZzBaTDY3S1I5N1M1N0dfVHdnQ2tocWswQTMwbU5LMjk0cEIwbUFTa0pYU0Q2bHFKMVV3T1ZhdGxOTTE4ZGlBQUVyTTdtenlBS3oyOEk2dVJ6VVJCbTFhVy1ndlc3RHBLbE91TUozTzdiTjRTRnVLRktLZkNrWkxjUXlpUUVoLW02UGRTYnk?oc=5"
+    },
+    {
+      "time": "14 ก.ค.",
       "region": "Channel News Asia",
       "flag": "🇸🇬",
       "category": "world",
@@ -135,28 +168,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever - WSJ",
-      "detail": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever&nbsp;&nbsp;WSJ",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcjg2QVVJQ2VhZ2tsVWN2WXQ5MnNOUUZOd05ITlU3bVI0emltMXVpVU9CNW05a1Y4cndHRW9IOElxMDQyRDBmM3JGWkRaRGs1VE9OS0w4LWdkY2d6UmRwcjVINndjdFk4ck80d0RyR0stdnpvSllSbExkLW9OLVFPNzVab184Zw?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "NY Giants news: John Harbaugh — players handled Dart-Carter situation - Yahoo Sports",
-      "detail": "NY Giants news: John Harbaugh — players handled Dart-Carter situation&nbsp;&nbsp;Yahoo Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdVQwaXJRWHd2UzBUS000WkJ5OWRSXzBadExvSzJYOHNqQUp4elkyU05admlfX1pQTE5ZWVBORkpqdXBGWFVEc1MwY2EwNnhDWGFaR2xiU25oRFFWdzM4OVNJR0oxbThmYk5OOGhqV1hTRWZRVW1BN1hQVG1TQjctY3pDVQ?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "DW (Germany)",
       "flag": "🇩🇪",
       "category": "world",
@@ -165,17 +176,6 @@
       "image": "",
       "source": "DW (Germany)",
       "url": "https://www.dw.com/en/bastille-day-france-holds-parade-with-ukraine-in-focus/a-77945107?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "LCK Legends Recreate 'Romantic Era' in Special Event - 조선일보",
-      "detail": "LCK Legends Recreate 'Romantic Era' in Special Event&nbsp;&nbsp;조선일보",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORzg3eUgxRklGM3BIa3JOVFFWZ0VLUjBCRTFwZUlCdGs2dTlJR205cnFTcFpNMkd4NXkxcHZObE1sYVl3LVlIT1VLMlhRa2oxSFhCSEo4TUNNUE1jMnZ5ZDZ6SnFaUHhidnRNRlQwYnFiYVhQMGtOdW02TkZNbzl2eGs5TGJFZw?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -227,7 +227,7 @@
       "flag": "🇫🇷",
       "category": "world",
       "headline": "Gilgit-Baltistan: Pakistan's tourist jewel tested by development and climate change",
-      "detail": "In just a few decades, the Hunza Valley in Gilgit-Baltistan, a remote mountainous region of northern Pakistan, has undergone a dramatic transformation. Expanded access to education, improved healthcare and strong local…",
+      "detail": "In just a few decades, the Hunza Valley in Gilgit-Baltistan, a remote mountainous region of northern Pakistan, has undergone a dramatic transformation. Expanded access to education, improved healthcare and strong local development have reshaped the area, in a model of progress often linked to foundations associated with the Aga Khan, the spiritual leader of the Ismaili community. The minority…",
       "image": "https://s.france24.com/media/display/571cbc9a-7edc-11f1-b3ce-005056a90284/w:1024/p:16x9/FR-NW-OOV-ECRAN-FREEZE-PAKISTAN-GILGIT-BALTISTAN-TOURISME-BAIN-Lauren.jpg",
       "source": "France24",
       "url": "https://www.france24.com/en/tv-shows/focus/20260714-gilgit-baltistan-pakistan-s-tourist-jewel-tested-by-development-and-climate-change"
@@ -249,7 +249,7 @@
       "flag": "🇫🇷",
       "category": "world",
       "headline": "Kyiv claims drone attacks on 11 Russian tankers in Sea of Azov",
-      "detail": "Ukrainian drones hit several Russian vessels in the Sea of ​Azov ‌overnight on Tuesday, Kyiv's ‌drone forces commander said, as the Kremlin denied that repeated Ukrainian attacks on the major export route would impact…",
+      "detail": "Ukrainian drones hit several Russian vessels in the Sea of ​Azov ‌overnight on Tuesday, Kyiv's ‌drone forces commander said, as the Kremlin denied that repeated Ukrainian attacks on the major export route would impact Russia's export capacity.",
       "image": "https://s.france24.com/media/display/dd88fbba-7f5c-11f1-afb7-005056bf30b7/w:1024/p:16x9/000-67DV8WD.jpg",
       "source": "France24",
       "url": "https://www.france24.com/en/europe/20260714-kyiv-claims-drone-attacks-11-russian-tankers-in-sea-of-azov"
@@ -260,7 +260,7 @@
       "flag": "🇫🇷",
       "category": "world",
       "headline": "Police investigate Jayden Adam's death after he was found in CapeTown property",
-      "detail": "The South African international football player Jayden Adams has died at the age of 25. He was in all three ​of his side's group stage games in the World Cup. No cause of death has been given. A police investigation is…",
+      "detail": "The South African international football player Jayden Adams has died at the age of 25. He was in all three ​of his side's group stage games in the World Cup. No cause of death has been given. A police investigation is underway in Cape Town. Details by Nicholas Rushworth.",
       "image": "https://s.france24.com/media/display/ab7a649a-7f63-11f1-adf9-005056a97e36/w:1024/p:16x9/EN-20260713-215505-215621-CS.jpg",
       "source": "France24",
       "url": "https://www.france24.com/en/police-investigate-jayden-adam-s-death-after-he-was-found-in-capetown-property"
@@ -271,21 +271,10 @@
       "flag": "🇫🇷",
       "category": "world",
       "headline": "Senegal football coach sacked after World Cup defeat",
-      "detail": "In Senegal, the controversial elimination of the Lions of Teranga from the 2026 World Cup is having consequences. The Senegalese Football Federation, which parted ways with national team manager Pape Thiaw, addressed…",
+      "detail": "In Senegal, the controversial elimination of the Lions of Teranga from the 2026 World Cup is having consequences. The Senegalese Football Federation, which parted ways with national team manager Pape Thiaw, addressed the press on Monday to explain its decision. Details and analysis by Ojara Babatunde, football specialist.",
       "image": "https://s.france24.com/media/display/d34b3284-7f62-11f1-b521-005056a97e36/w:1024/p:16x9/EN-20260713-215114-215441-CS.jpg",
       "source": "France24",
       "url": "https://www.france24.com/en/senegal-football-coach-sacked-after-world-cup-defeat"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "FIFA World Cup brackets: Semifinal schedule, France vs Spain prediction",
-      "detail": "France face Spain in the first World Cup semifinal, as Argentina prepare to renew their rivalry with England.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/14/fifa-world-cup-brackets-semifinal-schedule-france-vs-spain-prediction?traffic_source=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -315,7 +304,7 @@
       "flag": "🇬🇧",
       "category": "world",
       "headline": "‘God is punishing the politicians’: anger at earthquake response grows in Venezuela",
-      "detail": "Threat of social unrest rises as public indignation at lack of disaster aid comes on top of fallout from US military intervention• A revolution in ruins: fury amid the rubble of a housing project in quake-hit…",
+      "detail": "Threat of social unrest rises as public indignation at lack of disaster aid comes on top of fallout from US military intervention• A revolution in ruins: fury amid the rubble of a housing project in quake-hit VenezuelaPublic anger at what many perceive as the Venezuelan government’s botched response to twin earthquakes that killed nearly 4,500 people is growing, with one grieving mother caught on…",
       "image": "https://i.guim.co.uk/img/media/8bafa017d0d8044df32e35ff9dcd98fbfff7b55a/631_291_5050_4039/master/5050.jpg?width=140&quality=85&auto=format&fit=max&s=505f28495b55972c8c2a2dd573dd332c",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela"
@@ -348,7 +337,7 @@
       "flag": "🇫🇷",
       "category": "world",
       "headline": "Community complains of toxic flammable gas leaks in Nigeria's Niger Delta",
-      "detail": "In Nigeria, residents in the Niger Delta town of Billé have taken to the streets to demand government action over catastrophic pollution. For several months, the community has complained of toxic, flammable gas leaking…",
+      "detail": "In Nigeria, residents in the Niger Delta town of Billé have taken to the streets to demand government action over catastrophic pollution. For several months, the community has complained of toxic, flammable gas leaking from the ground, contaminating water and destroying aquatic life – which the people rely upon for their livelihood. It's the latest in a long series of environmental disasters in…",
       "image": "https://s.france24.com/media/display/4f7d3d54-7f61-11f1-9d2b-005056bfb2b6/w:1024/p:16x9/EN-20260713-214857-215111-CS.jpg",
       "source": "France24",
       "url": "https://www.france24.com/en/community-complains-of-toxic-flammable-gas-leaks-in-nigeria-s-niger-delta"
@@ -359,7 +348,7 @@
       "flag": "🇫🇷",
       "category": "world",
       "headline": "Sudanese court sentences Hemedti to death in absentia",
-      "detail": "In Sudan, the courts have just sentenced General Hemetti, the commander of the Rapid Support Forces, to death in absentia. According to the court, he is responsible for war crimes, crimes against humanity and genocide,…",
+      "detail": "In Sudan, the courts have just sentenced General Hemetti, the commander of the Rapid Support Forces, to death in absentia. According to the court, he is responsible for war crimes, crimes against humanity and genocide, particularly in the West Darfur region. Details by regional FRANCE 24 correspondent, Bastien Renouil.",
       "image": "https://s.france24.com/media/display/a4f139ee-7f60-11f1-bc7c-005056a90284/w:1024/p:16x9/EN-20260713-214653-214856-CS.jpg",
       "source": "France24",
       "url": "https://www.france24.com/en/sudanese-court-sentences-hemedti-to-death-in-absentia"
@@ -414,7 +403,7 @@
       "flag": "💰",
       "category": "economy",
       "headline": "US refunds $81bn in Trump tariffs after supreme court ruled them illegal",
-      "detail": "Government has been forced to pay back duties to companies that imported goods into the US that were hit by Trump’s tariffsBusiness live – latest updatesThe US government has already paid back tens of billions of…",
+      "detail": "Government has been forced to pay back duties to companies that imported goods into the US that were hit by Trump’s tariffsBusiness live – latest updatesThe US government has already paid back tens of billions of dollars in tariffs it collected before the supreme court ruled them illegal, according to budget figures released on Monday.Tariffs – taxes on imported goods – have been a key part of…",
       "image": "https://i.guim.co.uk/img/media/a312a19904b3254dc8f4518a2aab7603b6ba5d11/103_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=e5c0469824b9a3779e9d0f5dc2a19c8f",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/us-news/2026/jul/14/trump-tariffs-us-refunds"
@@ -601,7 +590,7 @@
       "flag": "💻",
       "category": "tech",
       "headline": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-      "detail": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting…",
+      "detail": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
       "image": "",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/"
@@ -766,7 +755,7 @@
       "flag": "🎮",
       "category": "esports",
       "headline": "As much as I want Super Smash Bros. back at Evo, it no longer makes sense to include it",
-      "detail": "One of the most devastating things to ever happen to the Super Smash Bros. community was the time Nintendo pulled Smash games from Evo. Evo used to be one of the largest showcases of Smash&#8217;s talented, gritty, and…",
+      "detail": "One of the most devastating things to ever happen to the Super Smash Bros. community was the time Nintendo pulled Smash games from Evo. Evo used to be one of the largest showcases of Smash&#8217;s talented, gritty, and passionate esports scene. Pros crying on stage after they won, Smash players boo&#8217;ing during the Wii U &#8230; Continued The post As much as I want Super Smash Bros. back at…",
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/smash-no-longer-fits-evo"
@@ -799,7 +788,7 @@
       "flag": "🌍",
       "category": "world",
       "headline": "Nigeria: U.S. Backs Nigeria to Prosecute Terrorism-Related Offences",
-      "detail": "[Leadership] The United States of America has thrown its weight behind Nigeria in the efforts to combat terrorism by ensuring a system that will effectively prosecute terrorism-related offences in the country as well as…",
+      "detail": "[Leadership] The United States of America has thrown its weight behind Nigeria in the efforts to combat terrorism by ensuring a system that will effectively prosecute terrorism-related offences in the country as well as boost intelligence sharing.",
       "image": "",
       "source": "AllAfrica",
       "url": "https://allafrica.com/stories/202607130871.html"
@@ -810,7 +799,7 @@
       "flag": "💰",
       "category": "economy",
       "headline": "US state attorneys general file lawsuit in effort to block Paramount merger",
-      "detail": "Bipartisan group argue in lawsuit that $110bn merger would hurt competition and lead to thousands of job lossesA dozen US state attorneys general are seeking to block the $110bn merger of Paramount Skydance and Warner…",
+      "detail": "Bipartisan group argue in lawsuit that $110bn merger would hurt competition and lead to thousands of job lossesA dozen US state attorneys general are seeking to block the $110bn merger of Paramount Skydance and Warner Bros Discovery, arguing in a lawsuit filed on Monday that it would hurt competition and lead to higher prices for consumers.The coalition behind the lawsuit is led by the California…",
       "image": "https://i.guim.co.uk/img/media/b302d13eedff044e908cd2838c56f307c67e14b6/662_0_7298_5840/master/7298.jpg?width=140&quality=85&auto=format&fit=max&s=b1cfdc500ebf4b245fbbe5c4ad73964e",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/media/2026/jul/13/paramount-warner-bros-merger-lawsuit"
@@ -821,7 +810,7 @@
       "flag": "💰",
       "category": "economy",
       "headline": "US justice department investigating UAW president over corruption allegations",
-      "detail": "Shawn Fain calls allegations ‘bogus’ and says attorney holds a ‘grudge’ against him over union’s ‘anti-war stance’ on GazaThe US Department of Justice is investigating allegations against the United Auto Workers (UAW)…",
+      "detail": "Shawn Fain calls allegations ‘bogus’ and says attorney holds a ‘grudge’ against him over union’s ‘anti-war stance’ on GazaThe US Department of Justice is investigating allegations against the United Auto Workers (UAW) president, Shawn Fain, that he put pressure on another high-ranking union official to provide benefits to his fiancee and sister and then retaliated against the official who refused…",
       "image": "https://i.guim.co.uk/img/media/0d5667573c9dee0728fd4c489df4f20964cc609a/418_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=0395892f557d9e2e20722fd43a92077f",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/us-news/2026/jul/13/justice-department-uaw-president-investigation"
@@ -832,7 +821,7 @@
       "flag": "⚽",
       "category": "sports",
       "headline": "‘Knocking you out was a huge joy’: reliving the dramas of England v Argentina in 1998 and 2002",
-      "detail": "How Diego Simeone, Michael Owen and Glenn Hoddle remember the two classic World Cup matches between historical rivalsIn all the acrimony, the wars, the deep history going back to the British invasions of 1806 and 1807,…",
+      "detail": "How Diego Simeone, Michael Owen and Glenn Hoddle remember the two classic World Cup matches between historical rivalsIn all the acrimony, the wars, the deep history going back to the British invasions of 1806 and 1807, the Hand of God and the boot of Beckham, there is also an acknowledgment from those closest to the struggle that England and Argentina make perfect footballing sparring…",
       "image": "https://i.guim.co.uk/img/media/71849608a154f4685034829ebac32f1142377fd2/545_45_2593_2075/master/2593.jpg?width=140&quality=85&auto=format&fit=max&s=fd8b7c6e7de13cac8318f91f9bd5a84d",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/jul/13/knocking-you-out-was-a-huge-joy-reliving-the-dramas-of-england-v-argentina-in-1998-and-2002"
@@ -843,7 +832,7 @@
       "flag": "⚽",
       "category": "sports",
       "headline": "Former Kansas basketball star Lagerald Vick charged with attempted murder",
-      "detail": "Vick arrested in connection with Memphis shooting29-year-old started on Jayhawks’ 2018 Final Four teamLagerald Vick, a former University of Kansas basketball player and a starter on their 2018 Final Four team, has been…",
+      "detail": "Vick arrested in connection with Memphis shooting29-year-old started on Jayhawks’ 2018 Final Four teamLagerald Vick, a former University of Kansas basketball player and a starter on their 2018 Final Four team, has been charged with attempted first-degree murder in ⁠Tennessee.Vick, 29, was a guard for the Jayhawks from 2015 to 2019. Continue reading...",
       "image": "https://i.guim.co.uk/img/media/7912b57179bf23c7542c7093021c7ac7bc480a4b/230_0_2288_1831/master/2288.jpg?width=140&quality=85&auto=format&fit=max&s=fde824aea7ed226664c1f207c699995d",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/jul/13/lagerald-vick-kansas-basketball-arrest-murder-charge"
@@ -854,7 +843,7 @@
       "flag": "⚽",
       "category": "sports",
       "headline": "Conor McGregor plans to fight again in UFC despite return lasting just 69 seconds",
-      "detail": "Saturday’s bout in Las Vegas finished in first roundIrishman says he will undergo surgery on legConor McGregor says he plans to fight again in UFC despite the fact that his return to competition lasted just 69 seconds…",
+      "detail": "Saturday’s bout in Las Vegas finished in first roundIrishman says he will undergo surgery on legConor McGregor says he plans to fight again in UFC despite the fact that his return to competition lasted just 69 seconds before he suffered a leg injury, which he says will require ⁠surgery.“Surgery. Prehab. Return ⁠to ​martial arts practice. Go again,” McGregor wrote on Instagram on Monday. “Final…",
       "image": "https://i.guim.co.uk/img/media/a667d18646ab06ebbcf21f1d5303d8d8a10a8c3d/418_509_3528_2823/master/3528.jpg?width=140&quality=85&auto=format&fit=max&s=77110120608aa46919a2c8dc5023b494",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/jul/13/conor-mcgregor-plans-to-fight-again-in-ufc-despite-return-lasting-just-69-seconds"
@@ -865,7 +854,7 @@
       "flag": "💰",
       "category": "economy",
       "headline": "Oil prices leap and stocks fall as Trump reinstates Hormuz blockade on Iranian shipping",
-      "detail": "Brent crude rises 5% after US president says 20% toll will be imposed on key trade route to cover ‘safety and security’Oil prices rose 5% on Monday as Donald Trump reinstated the US blockade of Iranian shipping in the…",
+      "detail": "Brent crude rises 5% after US president says 20% toll will be imposed on key trade route to cover ‘safety and security’Oil prices rose 5% on Monday as Donald Trump reinstated the US blockade of Iranian shipping in the Gulf and will charge other countries to pass through the strait of Hormuz.As the US and Iran exchanged strikes amid an escalating standoff over the vital trade route, the price of…",
       "image": "https://i.guim.co.uk/img/media/0b8cf49a0160ddf1f85e423260216a183df6a248/1040_0_5200_4160/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=2563990829aff19123cee7dae35e5723",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/business/2026/jul/13/oil-prices-leap-stocks-fall-us-iran-strait-of-hormuz-brent-crude-markets"
@@ -876,7 +865,7 @@
       "flag": "🎮",
       "category": "esports",
       "headline": "“I think LEC is one step ahead”: CBLOL’s FURIA and LCP’s Team Secret Whales tell us what it takes to catch up to bigger regions",
-      "detail": "Underdog stories aren’t built on random happenstance. Rather, they are fostered through the unseen moments that fly under the radar. League of Legends isn’t any different from any other form of competition. Teams are…",
+      "detail": "Underdog stories aren’t built on random happenstance. Rather, they are fostered through the unseen moments that fly under the radar. League of Legends isn’t any different from any other form of competition. Teams are bracketed into their specific roles, similar to other sports. China’s LPL is making a run at the dominant LCK, Korea’s top &#8230; Continued The post &#8220;I think LEC is one step…",
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/furia-team-secret-whales-interview-regions"
@@ -920,7 +909,7 @@
       "flag": "⚽",
       "category": "sports",
       "headline": "How Tadej Pogacar became the new ‘patron’ of the Tour de France peloton | Jeremy Whittle",
-      "detail": "Slovenian’s dominance has drawn admiration and criticism, with some fearing the race is losing its competitive edgeRiding the Tour de France in 40C heat is hard enough without having to race against Tadej Pogacar and…",
+      "detail": "Slovenian’s dominance has drawn admiration and criticism, with some fearing the race is losing its competitive edgeRiding the Tour de France in 40C heat is hard enough without having to race against Tadej Pogacar and UAE Team Emirates XRG every day. As the peloton takes a breather, lounges in the shade and rehydrates on the Tour’s first rest day, most team managers are pondering what genuine…",
       "image": "https://i.guim.co.uk/img/media/6177d275ffe80b5ea4c51ef72bc66cf1f9fe5c5c/698_0_5825_4660/master/5825.jpg?width=140&quality=85&auto=format&fit=max&s=1fc6e42d03e1b0f8ed9236a3f3a4042d",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/sport/2026/jul/13/how-tadej-pogacar-became-the-new-patron-of-the-tour-de-france-peloton"
@@ -942,7 +931,7 @@
       "flag": "⚽",
       "category": "sports",
       "headline": "Spain, France, Argentina and England beware: Demons haunt the World Cup semi-finals",
-      "detail": "The World Cup spotlight causes single games to live longer in the memory than any other. The remaining teams at this tournament face defining momentsWorld Cup games mean more. England have only ever played 80 games in…",
+      "detail": "The World Cup spotlight causes single games to live longer in the memory than any other. The remaining teams at this tournament face defining momentsWorld Cup games mean more. England have only ever played 80 games in the finals, which is to say, not much more than two Premier League seasons in the 76 years since they first entered. Those games draw huge audiences: more than 17 million in the UK…",
       "image": "https://i.guim.co.uk/img/media/7c22759204ae430e3549225ef3d778fdb8127335/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=aab52aa8c439de16e014a5ee916d16be",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/global/2026/jul/13/world-cup-semi-finals-england-argentina-france-spain"
@@ -953,7 +942,7 @@
       "flag": "🇬🇧",
       "category": "world",
       "headline": "Killings continue on Del Monte farm in Kenya, families say, after G4S hired for security",
-      "detail": "Exclusive: Three men killed in incidents over past year allegedly involving G4S guards, who replaced in-house team after previous deathsBereaved families and politicians have raised alarm about continued killings on Del…",
+      "detail": "Exclusive: Three men killed in incidents over past year allegedly involving G4S guards, who replaced in-house team after previous deathsBereaved families and politicians have raised alarm about continued killings on Del Monte’s pineapple farm in Kenya despite the company hiring a British security firm to replace its in-house security team after previous deaths were exposed by the Guardian.The…",
       "image": "https://i.guim.co.uk/img/media/47ef4bc525153f24a51b0a766a45d2e43394da0e/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d12d700c3d52be73980da7797e7807fa",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s"
@@ -975,7 +964,7 @@
       "flag": "💰",
       "category": "economy",
       "headline": "The New York nurses replaced by AI: ‘It should concern every patient who cares about quality of care’",
-      "detail": "The union for 12 nurses laid off by Montefiore hospital say company broke contract they recently won through a strikeMarilyn Shuler has worked as a utilization review nurse for 39 years at Montefiore hospital in the…",
+      "detail": "The union for 12 nurses laid off by Montefiore hospital say company broke contract they recently won through a strikeMarilyn Shuler has worked as a utilization review nurse for 39 years at Montefiore hospital in the Bronx in New York City, helping to read patient charts and communicate with insurance companies over coverage.After nearly four decades in her job, Shuler is one of 12 nurses who were…",
       "image": "https://i.guim.co.uk/img/media/d54bc0f6ffbe7f61c31d660dc4f73230d751048c/418_0_4164_3333/master/4164.jpg?width=140&quality=85&auto=format&fit=max&s=b7eb14940eec6f6f321a7d8944031f91",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/technology/2026/jul/13/nurses-new-york-ai"
@@ -986,10 +975,21 @@
       "flag": "💰",
       "category": "economy",
       "headline": "Is Donald Trump winning his war against the media?",
-      "detail": "President and allies have sued, cut access and issued subpoenas, but experts say media still producing strong workDonald Trump has ramped up his attacks on the media to a level without precedent in American history in…",
+      "detail": "President and allies have sued, cut access and issued subpoenas, but experts say media still producing strong workDonald Trump has ramped up his attacks on the media to a level without precedent in American history in the first 17 months of his second presidency.But have Trump and his allies won their war against the media – or at least put the industry on a weaker footing than in the past? The…",
       "image": "https://i.guim.co.uk/img/media/2dd6999c2cb56bdd9cee378401d8d1add48482d4/539_0_6061_4849/master/6061.jpg?width=140&quality=85&auto=format&fit=max&s=1cdaf9f89f5f28b9b3d2fb8154999989",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/media/2026/jul/13/trump-war-on-media"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Esports World Cup 2026 crowns 100 Thieves UNLIMIT and DarkAngel in opening week - PCQuest",
+      "detail": "Esports World Cup 2026 crowns 100 Thieves UNLIMIT and DarkAngel in opening week&nbsp;&nbsp;PCQuest",
+      "image": "",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbkRUZU1qT25vTWYxRmJlajhiLWFuSWR6Z01rSVp4LTRYQ3VTcHpXUjJKV3RSUjNfU1NYN0QxLTBNcEpCT1dhMi04dXAtYmxsT01uNU1MQlBMSWpoOWVZcl9TZ0JsX2VXSkpvU0loOUtyMnRja2g3OWY1RDVRREpZX0tMZzhyaS1KUXBPbnMtbmdJa3EzM2thc25LcXYzZ3F4ZHBuV2FtQXcyZW1BQkRhZmE4SFhQejI3U2ZN0gHAAUFVX3lxTE1QMmdJM3VQX1VhdUMzelBMUkhnMV90bktoSmY3YS1vcHNFUGpuZWxlOVQ2d1V4Ul9sdHVJTEZiWkRxTXlwSnFFYmp0MUhJUWpIWXpmYmRLb09FX3R0aFBzVFhVNTd1QmxwLWxTWGlhRzVxUmN4NXhOeUVKWVhHREdpeHY2R2t0SHZpcUphdWV3dHBBNlYzanBlRTd3SmxuZjVMZUtldHZwQWhGY3RKdGFuMXdjQl9BR2xTQlZfV3V3UQ?oc=5"
     },
     {
       "time": "13 ก.ค.",
@@ -1015,22 +1015,11 @@
     },
     {
       "time": "12 ก.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Zeka and Zeus became the first players to win all Riot Games international competitions - sheepesports.com",
-      "detail": "Zeka and Zeus became the first players to win all Riot Games international competitions&nbsp;&nbsp;sheepesports.com",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOHdXVEZUQ1k2eUZLTm5ZancyN1lXdjhMaW0wT2NNdEZzYjZwMjFES1lwaGpFZlVmaE8wUmhQSkIyLWN2cHBtNVZxVnNyMnUzOXR2anNCZ0pFM1g1OHFldVU1WUtXZ3Z1YVk4bENVenFtaDNLMHg2c1F1ZzdmQ3VOeXphN2VCYS00UEZ2ODRIZENXamxxM1NWTXV5RGhkcmNMZ3pjRFc3TFhPZm1lYi1raHBid0F5ajRkeGNnS19nUndxczAyYXpSRU9WdkFSWTUw?oc=5"
-    },
-    {
-      "time": "12 ก.ค.",
       "region": "The Guardian Sport",
       "flag": "⚽",
       "category": "sports",
       "headline": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
-      "detail": "We assess the teams who played in the last eight as the business end of the tournament approachesDidier Deschamps has seen it all before and certainly does not fear even the lowest of blocks. It is clear everyone is…",
+      "detail": "We assess the teams who played in the last eight as the business end of the tournament approachesDidier Deschamps has seen it all before and certainly does not fear even the lowest of blocks. It is clear everyone is afraid of Les Bleus, which is understandable, and they are using it to their advantage. It is admirable how teams keep France quiet for lengthy periods but the game is too long to…",
       "image": "https://i.guim.co.uk/img/media/cad40fd925036bee11f5c793e023d34127ee67d8/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=708738f96655044789589a07a268d33f",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/jul/12/world-cup-2026-power-rankings-france-spain-england-argentina"
@@ -1063,10 +1052,21 @@
       "flag": "🇬🇧",
       "category": "world",
       "headline": "First patients enrolled in record-breaking Ebola treatment trial in DRC",
-      "detail": "Two drugs are being trialled in the Ituri region in a programme set up just six weeks after the outbreak was declared, with hopes it will reduce mortality ratesThere is no approved drug to help the medical teams…",
+      "detail": "Two drugs are being trialled in the Ituri region in a programme set up just six weeks after the outbreak was declared, with hopes it will reduce mortality ratesThere is no approved drug to help the medical teams scrabbling to save lives in the Ebola outbreak in the Democratic Republic of the Congo – but there are hopes that could change within months as the first patients are enrolled in a…",
       "image": "https://i.guim.co.uk/img/media/b5a234cedfbdf2689683190861251d50d942e050/416_0_6091_4873/master/6091.jpg?width=140&quality=85&auto=format&fit=max&s=86950fd5e1ad95b2dd03d3caec82b943",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/12/record-breaking-ebola-treatment-trial-drc"
+    },
+    {
+      "time": "12 ก.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Notable Stories of EWC 26 Week 1 - Esports World Cup",
+      "detail": "Notable Stories of EWC 26 Week 1&nbsp;&nbsp;Esports World Cup",
+      "image": "",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sbTRnUU9DOXFIMUFPalJWcU1GWHFhZ3ZWMG1rUFNlWkItNkJqR2ozU2VLdlYxX2JWODBKRXdwSWdFcjNldlB5QXdXdjRSeDhVcGxGU1ZsNkRCbVFUTGFsY21xWVZrSEY2cFNrRkV0OVdEZw?oc=5"
     },
     {
       "time": "11 ก.ค.",
@@ -1074,7 +1074,7 @@
       "flag": "🇬🇧",
       "category": "world",
       "headline": "Nigeria says army has killed 300 bandits in north-western state of Zamfara",
-      "detail": "Vigilantes also took part in the fight that raged all night and the following morning, residents sayNigerian soldiers killed more than 300 members of kidnapping and cattle bandit gangs in the north-western state of…",
+      "detail": "Vigilantes also took part in the fight that raged all night and the following morning, residents sayNigerian soldiers killed more than 300 members of kidnapping and cattle bandit gangs in the north-western state of Zamfara this week, according to a government official.Government troops targeted the gangs in Gummi district in a two-day operation that “led to the elimination of more than 300…",
       "image": "https://i.guim.co.uk/img/media/d858003c23f5b83b5571c5f6ef15e6cd9be9eebc/753_0_5800_4640/master/5800.jpg?width=140&quality=85&auto=format&fit=max&s=a005778c97ec1794e7dd4edfc5732eb0",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/11/nigeria-army-kills-bandits-north-western-state-zamfara"
@@ -1085,7 +1085,7 @@
       "flag": "🎮",
       "category": "esports",
       "headline": "Monsoon interviews Blinkzr ahead of ALGS 2026 Split 1 Playoffs at EWC",
-      "detail": "Ahead of the ALGS 2026 Split 1 Playoffs at the Esports World Cup in Paris, we handed Bowen &#8220;Monsoon&#8221; Fuller the mic and let him interview his own teammate, Miguel &#8220;Blinkzr&#8221; Quiles, with Esports…",
+      "detail": "Ahead of the ALGS 2026 Split 1 Playoffs at the Esports World Cup in Paris, we handed Bowen &#8220;Monsoon&#8221; Fuller the mic and let him interview his own teammate, Miguel &#8220;Blinkzr&#8221; Quiles, with Esports Insider (ESI) stepping in only occasionally. Rather than the usual pre-match press questions, we&#8217;ve got two champions bidding for back-to-back titles, &#8230; Continued The…",
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/monsoon-blinkzr-interview-algs-2026-split-1-playoffs-ewc"
@@ -1129,7 +1129,7 @@
       "flag": "🎮",
       "category": "esports",
       "headline": "Even the Dota 2 pros are bored with Tier 1 tournaments: Let’s shake it up with Fearless Draft and Tier 2 teams",
-      "detail": "Last week, tournament organizer BLAST announced changes to its Dota 2 series, the BLAST Slam, revealing that they’re cutting the prize pool down from $1 million to $750,000. And to be completely honest, this wasn’t a…",
+      "detail": "Last week, tournament organizer BLAST announced changes to its Dota 2 series, the BLAST Slam, revealing that they’re cutting the prize pool down from $1 million to $750,000. And to be completely honest, this wasn’t a shocker to me. The Dota scene gets a million-dollar tournament almost every single month, from the aforementioned BLAST Slam, &#8230; Continued The post Even the Dota 2 pros are…",
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/dota-2-tier-1-tourneys-stale-solution"
@@ -1140,7 +1140,7 @@
       "flag": "🎮",
       "category": "esports",
       "headline": "Top Fatal Fury fighter GO1 drops out of Esports World Cup, and he took the hype and views along with him",
-      "detail": "It is incredibly rough to see a legend like Goichi &#8220;GO1&#8221; Kishida have to pull out of a major tournament like the Esports World Cup due to health issues, especially when he was the main anchor keeping a lot…",
+      "detail": "It is incredibly rough to see a legend like Goichi &#8220;GO1&#8221; Kishida have to pull out of a major tournament like the Esports World Cup due to health issues, especially when he was the main anchor keeping a lot of us glued to the screen. Fighting games thrive on storylines, and GO1&#8217;s run with Fatal &#8230; Continued The post Top Fatal Fury fighter GO1 drops out of Esports World Cup,…",
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/go1-health-issues-esports-world-cup"
@@ -1162,7 +1162,7 @@
       "flag": "🎮",
       "category": "esports",
       "headline": "A buffet, not a meal: Inside the Esports World Cup opening ceremony",
-      "detail": "Chess grandmaster Magnus Carlsen was a diminutive silhouette as he sat at the end of the stage where he’d be illuminated at the end of the Esports World Cup’s Opening Ceremony&#8217;s opening gambit. Five minutes later,…",
+      "detail": "Chess grandmaster Magnus Carlsen was a diminutive silhouette as he sat at the end of the stage where he’d be illuminated at the end of the Esports World Cup’s Opening Ceremony&#8217;s opening gambit. Five minutes later, French superstar Aya Nakamura performed one song and left the stage. So too did Theodora, before waltzing up the &#8230; Continued The post A buffet, not a meal: Inside the…",
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/esports-world-cup-opening-ceremony"
@@ -1173,7 +1173,7 @@
       "flag": "🇬🇧",
       "category": "world",
       "headline": "Developing countries spend more repaying foreign debt than on education, UN reveals",
-      "detail": "Unesco report shows children lost out to servicing debt in 113 countries, with 18 spending five times more on loansMost developing countries spent less on education than they did repaying debt last year, according to…",
+      "detail": "Unesco report shows children lost out to servicing debt in 113 countries, with 18 spending five times more on loansMost developing countries spent less on education than they did repaying debt last year, according to the UN, at the same time as global aid to education is predicted to decline by up to 30%.More was spent on servicing foreign debt than on education in 113 developing countries in…",
       "image": "https://i.guim.co.uk/img/media/1f3499a36b13998727100bda701915513e4c6156/149_0_1890_1512/master/1890.jpg?width=140&quality=85&auto=format&fit=max&s=3a9965c4a40c281dd153f2e8e18170a6",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco"
@@ -1184,7 +1184,7 @@
       "flag": "🇬🇧",
       "category": "world",
       "headline": "Furore in Nigeria over fake federal agency set up in government HQ",
-      "detail": "President orders investigation after fictitious body given funding, triggering renewed scrutiny of alleged corruptionA fictitious federal entity that was allocated 1.3bn naira (£700,000) in Nigeria’s 2026 budget has…",
+      "detail": "President orders investigation after fictitious body given funding, triggering renewed scrutiny of alleged corruptionA fictitious federal entity that was allocated 1.3bn naira (£700,000) in Nigeria’s 2026 budget has precipitated a political storm in Africa’s largest democracy in the run-up to a general election set for January.The fake agency came to light last October when Femi Gbajabiamila, the…",
       "image": "https://i.guim.co.uk/img/media/f80796421f1ba8310e6cf11d9923b0d36fda17d6/584_0_3309_2649/master/3309.jpg?width=140&quality=85&auto=format&fit=max&s=2c7e4088119348a28d3bdfa3bae10781",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/09/bola-tinubu-under-pressure-fake-nigerian-government-agency-political-storm"
