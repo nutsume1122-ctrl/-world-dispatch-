@@ -36,5 +36,8 @@ jobs:
             echo "ไม่มีข้อมูลใหม่ ข้ามการ commit"
           else
             git commit -m "อัปเดตข่าวและอัตราแลกเปลี่ยนอัตโนมัติ $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # ดึงการเปลี่ยนแปลงล่าสุดจาก remote มา rebase ก่อน กันกรณีมีคน
+            # commit ไฟล์อื่น (เช่นแก้ index.html) พร้อมกันตอน workflow กำลังรัน
+            git pull --rebase origin main
             git push
           fi
