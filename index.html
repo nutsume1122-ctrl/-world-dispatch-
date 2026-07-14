@@ -198,6 +198,24 @@
     text-align:center; padding:40px 20px 60px;
     font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--text-faint);
   }
+
+  .pagination{
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    margin-top:22px; flex-wrap:wrap;
+  }
+  .page-btn{
+    font-family:'IBM Plex Mono', monospace; font-size:0.75rem;
+    color:var(--text-dim); background:var(--panel); border:1px solid var(--line);
+    border-radius:4px; padding:7px 13px; cursor:pointer; transition:all 0.2s ease;
+    min-width:36px; text-align:center;
+  }
+  .page-btn:hover:not(:disabled){color:var(--text); border-color:var(--amber);}
+  .page-btn.active{background:var(--amber); color:var(--bg); border-color:var(--amber); font-weight:600;}
+  .page-btn:disabled{opacity:0.35; cursor:not-allowed;}
+  .page-info{
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--text-faint);
+    margin:0 6px;
+  }
 </style>
 </head>
 <body>
@@ -235,6 +253,7 @@
 
 <main>
   <div class="board" id="board"></div>
+  <div class="pagination" id="pagination"></div>
 </main>
 
 <footer>
@@ -262,6 +281,7 @@ const I18N = {
     footer: 'WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว',
     updatedPrefix: 'อัปเดตข่าวล่าสุดโดยอัตโนมัติ:',
     snapshotDefault: 'ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด)',
+    prevPage: '← ก่อนหน้า', nextPage: 'ถัดไป →', pageInfo: 'หน้า {current} จาก {total}',
   },
   en: {
     eyebrow: 'Global newsroom snapshot',
@@ -275,6 +295,7 @@ const I18N = {
     footer: 'WORLD DISPATCH — a digest of headlines from multiple newsrooms for quick reference. Please read the full article via the source link.',
     updatedPrefix: 'News last auto-updated:',
     snapshotDefault: 'News snapshot as of July 14, 2026 (real headlines, not a live feed).',
+    prevPage: '← Previous', nextPage: 'Next →', pageInfo: 'Page {current} of {total}',
   }
 };
 
@@ -299,10 +320,9 @@ function setLanguage(lang){
   currentLang = lang;
   localStorage.setItem('wd-lang', lang);
   applyStaticI18n();
-  // เรนเดอร์การ์ดข่าวใหม่เพื่ออัปเดตป้ายหมวด/ข้อความปุ่มให้เป็นภาษาที่เลือก
-  if(typeof renderedItems !== 'undefined' && renderedItems.length){
-    renderBoard(renderedItems);
-    applyFilter(currentFilter);
+  // เรนเดอร์หน้าปัจจุบันใหม่เพื่ออัปเดตป้ายหมวด/ปุ่ม/ตัวแบ่งหน้าให้เป็นภาษาที่เลือก
+  if(allItems.length){
+    renderPage();
   }
 }
 
@@ -372,10 +392,20 @@ function updateSnapshotNote(isoDate){
 }
 
 const board = document.getElementById('board');
+const paginationEl = document.getElementById('pagination');
 const tabs = document.querySelectorAll('.tab');
 let currentFilter = 'all';
+let currentPage = 1;
+const PAGE_SIZE = 10; // จำนวนข่าวต่อ 1 หน้า
 
-let renderedItems = [];
+let allItems = [];       // ข่าวทั้งหมดที่โหลดมา (ไม่กรอง)
+let renderedItems = [];  // ข่าวเฉพาะหน้าปัจจุบันที่กำลังแสดงอยู่บนจอ (ใช้อ้างอิงตอนสลับภาษา)
+
+function getFilteredItems(){
+  return currentFilter === 'all'
+    ? allItems
+    : allItems.filter(d => d.category === currentFilter);
+}
 
 function renderBoard(items){
   renderedItems = items;
@@ -401,6 +431,59 @@ function renderBoard(items){
   });
 }
 
+function renderPagination(totalPages){
+  paginationEl.innerHTML = '';
+  if(totalPages <= 1) return; // ไม่ต้องมีปุ่มถ้ามีหน้าเดียว
+
+  const prevBtn = document.createElement('button');
+  prevBtn.className = 'page-btn';
+  prevBtn.textContent = t('prevPage');
+  prevBtn.disabled = currentPage === 1;
+  prevBtn.addEventListener('click', ()=> goToPage(currentPage - 1));
+  paginationEl.appendChild(prevBtn);
+
+  // แสดงเลขหน้าแบบย่อ ถ้าหน้าเยอะเกินไป: 1 ... 4 5 [6] 7 8 ... 20
+  const pagesToShow = new Set([1, totalPages, currentPage, currentPage - 1, currentPage + 1]);
+  let lastShown = 0;
+  for(let p = 1; p <= totalPages; p++){
+    if(!pagesToShow.has(p)) continue;
+    if(p - lastShown > 1){
+      const dots = document.createElement('span');
+      dots.className = 'page-info';
+      dots.textContent = '…';
+      paginationEl.appendChild(dots);
+    }
+    const btn = document.createElement('button');
+    btn.className = 'page-btn' + (p === currentPage ? ' active' : '');
+    btn.textContent = p;
+    btn.addEventListener('click', ()=> goToPage(p));
+    paginationEl.appendChild(btn);
+    lastShown = p;
+  }
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'page-btn';
+  nextBtn.textContent = t('nextPage');
+  nextBtn.disabled = currentPage === totalPages;
+  nextBtn.addEventListener('click', ()=> goToPage(currentPage + 1));
+  paginationEl.appendChild(nextBtn);
+}
+
+function renderPage(){
+  const filtered = getFilteredItems();
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  currentPage = Math.min(Math.max(1, currentPage), totalPages);
+  const start = (currentPage - 1) * PAGE_SIZE;
+  renderBoard(filtered.slice(start, start + PAGE_SIZE));
+  renderPagination(totalPages);
+}
+
+function goToPage(n){
+  currentPage = n;
+  renderPage();
+  board.scrollIntoView({behavior:'smooth', block:'start'});
+}
+
 // ใช้ event delegation ที่ระดับ board แทนการผูก listener ทีละแถว
 // เพื่อให้คลิกแล้วตรงกับข่าวที่เห็นบนจอเสมอ ไม่ว่าจะกรองหมวดไว้หรือไม่
 board.addEventListener('click', (e)=>{
@@ -423,10 +506,9 @@ board.addEventListener('click', (e)=>{
 
 function applyFilter(filter){
   currentFilter = filter;
-  document.querySelectorAll('.row').forEach(row=>{
-    row.classList.toggle('hidden', filter !== 'all' && row.dataset.category !== filter);
-  });
-  tabs.forEach(t=>t.classList.toggle('active', t.dataset.filter === filter));
+  currentPage = 1;
+  tabs.forEach(tb=>tb.classList.toggle('active', tb.dataset.filter === filter));
+  renderPage();
 }
 
 tabs.forEach(tab=>{
@@ -449,7 +531,7 @@ setInterval(renderClock, 1000);
 // init
 applyStaticI18n();
 fetchLiveDispatches().then(items=>{
-  renderBoard(items);
+  allItems = items;
   applyFilter('all');
 });
 </script>
