@@ -373,15 +373,19 @@
   @media (max-width:480px){
     .thumb{ width:52px; height:52px; }
   }
-  .detail{
-    display:grid; grid-template-rows:0fr;
-    transition:grid-template-rows 0.3s ease;
+  /* สรุปข่าว: แสดงให้เห็นเลยไม่ต้องกด ตัดที่ 3 บรรทัดเพื่อไม่ให้ยาวเกินไป */
+  .summary{
+    margin:6px 0 0;
+    font-size:0.85rem; line-height:1.5;
+    color:var(--text-dim);
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
   }
-  .row.open .detail{grid-template-rows:1fr;}
-  .detail-inner{overflow:hidden;}
-  .detail p{
-    margin:10px 0 0; font-size:0.88rem; color:var(--text-dim);
-    padding-top:10px; border-top:1px dashed var(--line);
+  .row.open .summary{
+    -webkit-line-clamp:unset;
+    overflow:visible;
   }
   .col-source{
     font-family:'IBM Plex Mono', monospace;
@@ -390,7 +394,7 @@
   }
   .col-source a{color:var(--text-dim); text-decoration:none; border-bottom:1px dotted var(--text-faint);}
   .col-source a:hover{color:var(--amber); border-color:var(--amber);}
-  .toggle-hint{font-size:0.65rem; color:var(--text-faint); margin-top:4px; display:block;}
+  .toggle-hint{font-size:0.65rem; color:var(--text-faint); margin-top:6px; display:block;}
 
   @media (max-width:760px){
     .row{grid-template-columns:1fr; gap:6px;}
@@ -617,8 +621,8 @@ const I18N = {
     tabAll: 'ทั้งหมด', tabWorld: 'โลก', tabEconomy: 'เศรษฐกิจ', tabTech: 'เทคโนโลยี', tabEsports: 'อีสปอร์ต', tabSports: 'กีฬา',
     catWorld: 'โลก', catEconomy: 'เศรษฐกิจ', catTech: 'เทคโนโลยี', catEsports: 'อีสปอร์ต', catSports: 'กีฬา',
     readOriginal: 'อ่านต้นฉบับ ↗',
-    toggleOpen: 'แตะเพื่อย่อรายละเอียด',
-    toggleClosed: 'แตะเพื่อดูรายละเอียด',
+    toggleOpen: 'ย่อสรุปข่าว',
+    toggleClosed: 'แตะเพื่ออ่านสรุปเต็ม',
     footer: 'WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว',
     updatedPrefix: 'อัปเดตข่าวล่าสุดโดยอัตโนมัติ:',
     snapshotDefault: 'ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด)',
@@ -644,8 +648,8 @@ const I18N = {
     tabAll: 'All', tabWorld: 'World', tabEconomy: 'Economy', tabTech: 'Technology', tabEsports: 'Esports', tabSports: 'Sports',
     catWorld: 'World', catEconomy: 'Economy', catTech: 'Technology', catEsports: 'Esports', catSports: 'Sports',
     readOriginal: 'Read original ↗',
-    toggleOpen: 'Tap to collapse',
-    toggleClosed: 'Tap for details',
+    toggleOpen: 'Collapse summary',
+    toggleClosed: 'Tap for full summary',
     footer: 'WORLD DISPATCH — a digest of headlines from multiple newsrooms for quick reference. Please read the full article via the source link.',
     updatedPrefix: 'News last auto-updated:',
     snapshotDefault: 'News snapshot as of July 14, 2026 (real headlines, not a live feed).',
@@ -1039,7 +1043,7 @@ function renderBoard(items){
           ${thumbHtml}
           <div class="headline-text">
             <h3>${d.headline}</h3>
-            <div class="detail"><div class="detail-inner"><p>${d.detail}</p></div></div>
+            <p class="summary">${d.detail}</p>
             <span class="toggle-hint mono">${t('toggleClosed')}</span>
           </div>
         </div>
