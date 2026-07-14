@@ -74,6 +74,27 @@
   }
   .clock-label{font-size:0.65rem; color:var(--text-dim); letter-spacing:0.1em; text-transform:uppercase;}
 
+  .header-controls{display:flex; align-items:center; gap:14px;}
+  .lang-toggle{
+    display:flex; border:1px solid var(--line); border-radius:4px; overflow:hidden;
+  }
+  .lang-btn{
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem; font-weight:600;
+    letter-spacing:0.05em; padding:6px 12px; background:var(--panel);
+    color:var(--text-dim); cursor:pointer; border:none;
+    transition:all 0.2s ease;
+  }
+  .lang-btn.active{background:var(--amber); color:var(--bg);}
+  .lang-btn:not(.active):hover{color:var(--text);}
+
+  .visitor-counter{
+    display:flex; align-items:center; gap:6px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--text-dim);
+    border:1px solid var(--line); border-radius:4px; padding:6px 12px;
+  }
+  .visitor-counter .eye{color:var(--teal);}
+  .visitor-counter .count{color:var(--amber); font-weight:600;}
+
   .snapshot-note{
     max-width:1100px; margin:14px auto 0;
     font-family:'IBM Plex Mono', monospace;
@@ -184,22 +205,31 @@
 <header>
   <div class="header-top">
     <div class="brand">
-      <div class="eyebrow">Global newsroom snapshot</div>
+      <div class="eyebrow" data-i18n="eyebrow">Global newsroom snapshot</div>
       <h1>WORLD DISPATCH</h1>
     </div>
-    <div class="clock-wrap">
+    <div class="header-controls">
+      <div class="visitor-counter">
+        <span class="eye">◉</span>
+        <span data-i18n="visitors">ผู้เข้าชม</span>
+        <span class="count" id="visitorCount">…</span>
+      </div>
+      <div class="lang-toggle">
+        <button class="lang-btn active" data-lang="th">TH</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
       <div>
-        <div class="clock-label">เวลาท้องถิ่นของคุณ</div>
+        <div class="clock-label" data-i18n="localTime">เวลาท้องถิ่นของคุณ</div>
         <div class="clock" id="clock"></div>
       </div>
     </div>
   </div>
-  <div class="snapshot-note"><span class="dot"></span> ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด — ดูหมายเหตุด้านล่างสำหรับการต่อยอด)</div>
+  <div class="snapshot-note" id="snapshotNote"><span class="dot"></span> <span data-i18n="snapshotDefault">ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด — ดูหมายเหตุด้านล่างสำหรับการต่อยอด)</span></div>
   <div class="tabs" id="tabs">
-    <button class="tab active" data-filter="all">ทั้งหมด</button>
-    <button class="tab" data-filter="world">โลก</button>
-    <button class="tab" data-filter="economy">เศรษฐกิจ</button>
-    <button class="tab" data-filter="tech">เทคโนโลยี</button>
+    <button class="tab active" data-filter="all" data-i18n="tabAll">ทั้งหมด</button>
+    <button class="tab" data-filter="world" data-i18n="tabWorld">โลก</button>
+    <button class="tab" data-filter="economy" data-i18n="tabEconomy">เศรษฐกิจ</button>
+    <button class="tab" data-filter="tech" data-i18n="tabTech">เทคโนโลยี</button>
   </div>
 </header>
 
@@ -208,10 +238,96 @@
 </main>
 
 <footer>
-  WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว
+  <span data-i18n="footer">WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว</span>
 </footer>
 
 <script>
+/* ========================================================
+   ระบบสองภาษา (ไทย/อังกฤษ) — สลับเฉพาะข้อความของหน้าเว็บ
+   (หัวข้อ ปุ่ม ป้ายกำกับ) ส่วนหัวข้อข่าวเองจะแสดงตามภาษา
+   ต้นฉบับที่ดึงมา (ข่าวจาก RSS ต่างประเทศจะเป็นอังกฤษ,
+   ข่าว snapshot สำรองที่ฝังไว้จะเป็นไทย) เพราะการแปลข่าว
+   สดอัตโนมัติต้องพึ่งบริการแปลภาษาแยกต่างหาก
+   ======================================================== */
+const I18N = {
+  th: {
+    eyebrow: 'สรุปข่าวรอบโลก',
+    visitors: 'ผู้เข้าชม',
+    localTime: 'เวลาท้องถิ่นของคุณ',
+    tabAll: 'ทั้งหมด', tabWorld: 'โลก', tabEconomy: 'เศรษฐกิจ', tabTech: 'เทคโนโลยี',
+    catWorld: 'โลก', catEconomy: 'เศรษฐกิจ', catTech: 'เทคโนโลยี',
+    readOriginal: 'อ่านต้นฉบับ ↗',
+    toggleOpen: 'แตะเพื่อย่อรายละเอียด',
+    toggleClosed: 'แตะเพื่อดูรายละเอียด',
+    footer: 'WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว',
+    updatedPrefix: 'อัปเดตข่าวล่าสุดโดยอัตโนมัติ:',
+    snapshotDefault: 'ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด)',
+  },
+  en: {
+    eyebrow: 'Global newsroom snapshot',
+    visitors: 'Visitors',
+    localTime: 'Your local time',
+    tabAll: 'All', tabWorld: 'World', tabEconomy: 'Economy', tabTech: 'Technology',
+    catWorld: 'World', catEconomy: 'Economy', catTech: 'Technology',
+    readOriginal: 'Read original ↗',
+    toggleOpen: 'Tap to collapse',
+    toggleClosed: 'Tap for details',
+    footer: 'WORLD DISPATCH — a digest of headlines from multiple newsrooms for quick reference. Please read the full article via the source link.',
+    updatedPrefix: 'News last auto-updated:',
+    snapshotDefault: 'News snapshot as of July 14, 2026 (real headlines, not a live feed).',
+  }
+};
+
+let currentLang = localStorage.getItem('wd-lang') || 'th';
+
+function t(key){
+  return (I18N[currentLang] && I18N[currentLang][key]) || (I18N.th[key] || key);
+}
+
+function applyStaticI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.getAttribute('data-i18n');
+    el.textContent = t(key);
+  });
+  document.querySelectorAll('.lang-btn').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.lang === currentLang);
+  });
+  document.documentElement.lang = currentLang;
+}
+
+function setLanguage(lang){
+  currentLang = lang;
+  localStorage.setItem('wd-lang', lang);
+  applyStaticI18n();
+  // เรนเดอร์การ์ดข่าวใหม่เพื่ออัปเดตป้ายหมวด/ข้อความปุ่มให้เป็นภาษาที่เลือก
+  if(typeof renderedItems !== 'undefined' && renderedItems.length){
+    renderBoard(renderedItems);
+    applyFilter(currentFilter);
+  }
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=> setLanguage(btn.dataset.lang));
+});
+
+/* ========================================================
+   ตัวนับจำนวนผู้เข้าชม — ใช้บริการฟรี CountAPI (ไม่ต้องสมัคร
+   ไม่มีค่าใช้จ่าย) นับจำนวนครั้งที่มีคนเปิดหน้านี้
+   หมายเหตุ: เปลี่ยน 'YOUR-NAMESPACE' เป็นชื่อเฉพาะของเว็บคุณ
+   (เช่น username GitHub ของคุณ) เพื่อไม่ให้ตัวนับไปชนกับเว็บอื่น
+   ======================================================== */
+async function loadVisitorCount(){
+  const el = document.getElementById('visitorCount');
+  try{
+    const res = await fetch('https://api.countapi.xyz/hit/world-dispatch-nutsume1122/visits');
+    const data = await res.json();
+    el.textContent = data.value.toLocaleString();
+  }catch(err){
+    console.warn('โหลดตัวนับผู้เข้าชมไม่สำเร็จ:', err);
+    el.textContent = '—';
+  }
+}
+
 /* ========================================================
    ข้อมูลข่าว (snapshot วันที่ 14 ก.ค. 2569)
    โครงสร้างนี้ออกแบบให้ต่อยอดกับ API ข่าวจริงได้ง่าย —
@@ -263,8 +379,8 @@ function updateSnapshotNote(isoDate){
   const note = document.querySelector('.snapshot-note');
   if(!note || !isoDate) return;
   const d = new Date(isoDate);
-  const formatted = d.toLocaleString('th-TH', {dateStyle:'long', timeStyle:'short'});
-  note.innerHTML = `<span class="dot"></span> อัปเดตข่าวล่าสุดโดยอัตโนมัติ: ${formatted}`;
+  const formatted = d.toLocaleString(currentLang === 'th' ? 'th-TH' : 'en-US', {dateStyle:'long', timeStyle:'short'});
+  note.innerHTML = `<span class="dot"></span> ${t('updatedPrefix')} ${formatted}`;
 }
 
 const board = document.getElementById('board');
@@ -281,7 +397,7 @@ function renderBoard(items){
     row.className = 'row';
     row.dataset.category = d.category;
     row.dataset.idx = i; // ผูกแถวกับข้อมูลชิ้นนี้โดยตรง ป้องกันคลิกแล้วขึ้นรายละเอียดผิดข่าว
-    const catLabel = d.category === 'world' ? 'โลก' : d.category === 'economy' ? 'เศรษฐกิจ' : 'เทคโนโลยี';
+    const catLabel = d.category === 'world' ? t('catWorld') : d.category === 'economy' ? t('catEconomy') : t('catTech');
     row.innerHTML = `
       <div class="col-time mono">${d.time}</div>
       <div class="col-region"><span class="flag">${d.flag}</span>${d.region}</div>
@@ -289,9 +405,9 @@ function renderBoard(items){
       <div class="col-headline">
         <h3>${d.headline}</h3>
         <div class="detail"><div class="detail-inner"><p>${d.detail}</p></div></div>
-        <span class="toggle-hint mono">แตะเพื่อดูรายละเอียด</span>
+        <span class="toggle-hint mono">${t('toggleClosed')}</span>
       </div>
-      <div class="col-source">${d.source}<br><a href="${d.url}" target="_blank" rel="noopener">อ่านต้นฉบับ ↗</a></div>
+      <div class="col-source">${d.source}<br><a href="${d.url}" target="_blank" rel="noopener">${t('readOriginal')}</a></div>
     `;
     board.appendChild(row);
   });
@@ -310,10 +426,10 @@ board.addEventListener('click', (e)=>{
   if(!wasOpen){
     row.classList.add('open');
     const hint = row.querySelector('.toggle-hint');
-    if(hint) hint.textContent = 'แตะเพื่อย่อรายละเอียด';
+    if(hint) hint.textContent = t('toggleOpen');
   }
   document.querySelectorAll('.row:not(.open) .toggle-hint').forEach(h=>{
-    h.textContent = 'แตะเพื่อดูรายละเอียด';
+    h.textContent = t('toggleClosed');
   });
 });
 
@@ -343,6 +459,8 @@ renderClock();
 setInterval(renderClock, 1000);
 
 // init
+applyStaticI18n();
+loadVisitorCount();
 fetchLiveDispatches().then(items=>{
   renderBoard(items);
   applyFilter('all');
