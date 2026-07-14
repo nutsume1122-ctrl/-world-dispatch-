@@ -95,6 +95,31 @@ def find_text(item, *names) -> str:
     return ""
 
 
+def find_image(item, description: str) -> str:
+    """หา URL รูปภาพประกอบข่าว ลองหลายรูปแบบที่ RSS feed นิยมใช้เรียงตามลำดับ"""
+    # 1) media:thumbnail หรือ media:content ที่มี attribute url และเป็นรูปภาพ
+    for child in item:
+        tag = local_tag(child)
+        if tag in ("thumbnail", "content") and child.get("url"):
+            medium = (child.get("medium") or "").lower()
+            mtype = (child.get("type") or "").lower()
+            if not medium and not mtype:
+                return child.get("url")
+            if "image" in medium or "image" in mtype:
+                return child.get("url")
+    # 2) enclosure ที่ระบุว่าเป็นรูปภาพ
+    for child in item:
+        if local_tag(child) == "enclosure" and child.get("url"):
+            if "image" in (child.get("type") or "").lower():
+                return child.get("url")
+    # 3) ดึงจากแท็ก <img> ที่ฝังอยู่ใน description/content HTML ของข่าว
+    if description:
+        m = re.search(r'<img[^>]+src="([^"]+)"', description)
+        if m:
+            return m.group(1)
+    return ""
+
+
 def parse_items(root: ET.Element, source_name: str, flag: str, category: str):
     results = []
     for item in find_items(root)[:ITEMS_PER_FEED]:
@@ -120,6 +145,7 @@ def parse_items(root: ET.Element, source_name: str, flag: str, category: str):
             "category": category,
             "headline": title,
             "detail": strip_html(desc) or "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+            "image": find_image(item, desc),
             "source": source_name,
             "url": link,
         })
