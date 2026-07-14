@@ -14,23 +14,33 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 # ---------------------------------------------------------------
-# ตั้งค่าแหล่งข่าว RSS ฟรี แยกตามหมวด (เพิ่ม/ลบ/แก้ URL ได้ตามชอบ)
+# ตั้งค่าแหล่งข่าว RSS ฟรี แยกตามหมวด ครอบคลุมหลายภูมิภาคทั่วโลก
+# (เพิ่ม/ลบ/แก้ URL ได้ตามชอบ)
 # ---------------------------------------------------------------
 FEEDS = {
     "world": [
         ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml", "🌐"),
         ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", "🌍"),
+        ("The Guardian World", "https://www.theguardian.com/world/rss", "🇬🇧"),
+        ("DW (Germany)", "https://rss.dw.com/xml/rss-en-all", "🇩🇪"),
+        ("France24", "https://www.france24.com/en/rss", "🇫🇷"),
+        ("NHK World Japan", "https://www3.nhk.or.jp/nhkworld/en/news/all.xml", "🇯🇵"),
+        ("Channel News Asia", "https://www.channelnewsasia.com/rssfeeds/8395986", "🇸🇬"),
+        ("AllAfrica", "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf", "🌍"),
     ],
     "economy": [
         ("BBC Business", "http://feeds.bbci.co.uk/news/business/rss.xml", "💰"),
+        ("The Guardian Business", "https://www.theguardian.com/business/rss", "💰"),
     ],
     "tech": [
         ("BBC Technology", "http://feeds.bbci.co.uk/news/technology/rss.xml", "💻"),
         ("TechCrunch", "https://techcrunch.com/feed/", "💻"),
+        ("The Verge", "https://www.theverge.com/rss/index.xml", "💻"),
+        ("Ars Technica", "http://feeds.arstechnica.com/arstechnica/index", "💻"),
     ],
 }
 
-ITEMS_PER_FEED = 4          # ดึงกี่ข่าวต่อ 1 แหล่ง
+ITEMS_PER_FEED = 6          # ดึงกี่ข่าวต่อ 1 แหล่ง (เพิ่มจากเดิมเพื่อให้มีข่าวพอสำหรับแบ่งหน้า)
 MAX_DETAIL_LEN = 220        # ตัดความยาวคำอธิบายข่าว (ตัวอักษร)
 
 THAI_MONTHS = ["", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.",
@@ -56,16 +66,35 @@ def fetch_feed(url: str) -> ET.Element:
         return ET.fromstring(resp.read())
 
 
+def local_tag(elem) -> str:
+    """เอาชื่อแท็กออกมาโดยตัด namespace ออก เช่น '{http://...}item' -> 'item'"""
+    return elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
+
+
+def find_items(root: ET.Element):
+    """หา <item> ทุกตัวในไฟล์ ไม่ว่าจะมี namespace (RDF/RSS1.0) หรือไม่ก็ตาม"""
+    return [el for el in root.iter() if local_tag(el) == "item"]
+
+
+def find_text(item, *names) -> str:
+    """หาเนื้อหาข้อความจากแท็กลูกที่ชื่อตรงกับ names ใดก็ได้ (namespace-agnostic)"""
+    for child in item:
+        if local_tag(child) in names and child.text:
+            return child.text
+    return ""
+
+
 def parse_items(root: ET.Element, source_name: str, flag: str, category: str):
     results = []
-    for item in root.findall(".//item")[:ITEMS_PER_FEED]:
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        desc = item.findtext("description") or item.findtext(
-            "{http://purl.org/rss/1.0/modules/content/}encoded") or ""
-        pub_raw = item.findtext("pubDate")
+    for item in find_items(root)[:ITEMS_PER_FEED]:
+        title = find_text(item, "title").strip()
+        link = find_text(item, "link").strip()
+        desc = find_text(item, "description", "encoded", "summary")
+        pub_raw = find_text(item, "pubDate", "date")
         try:
             pub_dt = parsedate_to_datetime(pub_raw) if pub_raw else datetime.now(timezone.utc)
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
         except Exception:
             pub_dt = datetime.now(timezone.utc)
 
