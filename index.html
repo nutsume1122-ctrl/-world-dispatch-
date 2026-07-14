@@ -358,6 +358,61 @@
     .col-source{text-align:left;}
   }
 
+  /* ===== ปรับให้ใช้งานบนมือถือลื่นขึ้น (พื้นหลังลูกโลกไม่แตะต้อง) ===== */
+  @media (max-width:640px){
+    header{ padding:16px 14px 12px; }
+    .header-top{
+      flex-direction:column;
+      align-items:flex-start;
+      gap:12px;
+    }
+    .brand h1{ font-size:1.5rem; }
+    .brand .eyebrow{ font-size:0.62rem; letter-spacing:0.18em; }
+
+    .header-controls{
+      width:100%;
+      flex-wrap:wrap;
+      gap:8px;
+      justify-content:flex-start;
+    }
+    .rates-btn{ font-size:0.68rem; padding:7px 10px; }
+    .visitor-counter{ font-size:0.66rem; padding:7px 10px; gap:5px; }
+    .visitor-counter img{ height:16px; }
+    .lang-btn{ padding:7px 10px; font-size:0.68rem; }
+    .clock-label{ font-size:0.6rem; }
+    .flap-digit{ width:20px; height:28px; font-size:0.92rem; }
+
+    .snapshot-note{ font-size:0.66rem; line-height:1.5; }
+
+    /* แท็บหมวดข่าว: เลื่อนแนวนอนแบบแอปมือถือ แทนการหักบรรทัด */
+    .tabs{
+      flex-wrap:nowrap;
+      overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+      scrollbar-width:none;
+      padding-bottom:2px;
+    }
+    .tabs::-webkit-scrollbar{ display:none; }
+    .tab{ flex:none; white-space:nowrap; font-size:0.68rem; padding:7px 12px; }
+
+    .search-input{ font-size:0.8rem; padding:11px 36px; }
+
+    /* การ์ดหุ้น: เรียงเต็มความกว้างทีละอัน อ่านตัวเลขง่ายขึ้น */
+    .market-card{ min-width:100%; padding:12px 14px; }
+    .mc-price{ font-size:0.95rem; }
+
+    main{ padding:20px 14px 60px; }
+    .col-headline h3{ font-size:0.94rem; }
+
+    .rates-modal-head h2{ font-size:1rem; }
+    .rates-modal{ max-height:88vh; }
+  }
+
+  @media (max-width:380px){
+    .visitor-counter span:not(.eye){ display:none; } /* จอเล็กมาก: เหลือแค่ไอคอน+ตัวเลข */
+    .rates-btn{ font-size:0.64rem; }
+  }
+
   footer{
     text-align:center; padding:40px 20px 60px;
     font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--text-faint);
