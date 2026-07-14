@@ -42,6 +42,7 @@ FEEDS = {
         ("Dot Esports", "https://dotesports.com/feed", "🎮"),
         ("Esports Insider", "https://esportsinsider.com/feed", "🎮"),
         ("ESPN Esports", "https://www.espn.com/espn/rss/esports/news", "🎮"),
+        ("Google News: Esports", "https://news.google.com/rss/search?q=esports&hl=en-US&gl=US&ceid=US:en", "🎮"),
     ],
 }
 
