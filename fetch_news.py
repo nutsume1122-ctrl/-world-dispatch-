@@ -38,6 +38,11 @@ FEEDS = {
         ("The Verge", "https://www.theverge.com/rss/index.xml", "💻"),
         ("Ars Technica", "http://feeds.arstechnica.com/arstechnica/index", "💻"),
     ],
+    "esports": [
+        ("Dot Esports", "https://dotesports.com/feed", "🎮"),
+        ("Esports Insider", "https://esportsinsider.com/feed", "🎮"),
+        ("ESPN Esports", "https://www.espn.com/espn/rss/esports/news", "🎮"),
+    ],
 }
 
 ITEMS_PER_FEED = 6          # ดึงกี่ข่าวต่อ 1 แหล่ง (เพิ่มจากเดิมเพื่อให้มีข่าวพอสำหรับแบ่งหน้า)
