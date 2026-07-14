@@ -24,14 +24,17 @@ jobs:
       - name: รันสคริปต์ดึงข่าว
         run: python fetch_news.py
 
+      - name: รันสคริปต์ดึงอัตราแลกเปลี่ยน
+        run: python fetch_rates.py
+
       - name: Commit และ push ถ้ามีข่าวใหม่
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add news.json
+          git add news.json rates.json
           if git diff --staged --quiet; then
-            echo "ไม่มีข่าวใหม่ ข้ามการ commit"
+            echo "ไม่มีข้อมูลใหม่ ข้ามการ commit"
           else
-            git commit -m "อัปเดตข่าวอัตโนมัติ $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "อัปเดตข่าวและอัตราแลกเปลี่ยนอัตโนมัติ $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
