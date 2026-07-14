@@ -18,6 +18,8 @@
     --violet:#b892ff;
     --pink:#ff5f96;
     --lime:#9ade5c;
+    --up:#4ade80;
+    --down:#ff6b6b;
     --text:#eae7dd;
     --text-dim:#868d94;
     --text-faint:#565d63;
@@ -171,6 +173,32 @@
     font-family:'IBM Plex Mono', monospace; font-size:0.85rem; color:var(--text-faint);
   }
 
+  /* ===== ตัวเลขหุ้น NASDAQ / S&P 500 ===== */
+  .market-ticker{
+    max-width:1100px; margin:14px auto 0;
+    display:flex; gap:10px; flex-wrap:wrap;
+  }
+  .market-card{
+    flex:1; min-width:200px;
+    display:flex; align-items:center; justify-content:space-between;
+    background:var(--panel); border:1px solid var(--line); border-radius:4px;
+    padding:10px 16px;
+  }
+  .mc-name{ display:flex; flex-direction:column; gap:2px; }
+  .mc-label{ font-family:'Space Grotesk', sans-serif; font-size:0.8rem; font-weight:700; color:var(--text); }
+  .mc-proxy-note{ font-size:0.62rem; color:var(--text-faint); }
+  .mc-values{ text-align:right; }
+  .mc-price{ font-family:'IBM Plex Mono', monospace; font-size:1rem; font-weight:700; }
+  .mc-change{ font-family:'IBM Plex Mono', monospace; font-size:0.72rem; }
+  .mc-change.up{ color:var(--up); }
+  .mc-change.down{ color:var(--down); }
+  .mc-price.up{ color:var(--up); }
+  .mc-price.down{ color:var(--down); }
+  .market-note{
+    max-width:1100px; margin:6px auto 0;
+    font-family:'IBM Plex Mono', monospace; font-size:0.64rem; color:var(--text-faint);
+  }
+
   .rates-overlay{
     position:fixed; inset:0; z-index:200;
     background:rgba(6,8,10,0.78);
@@ -299,6 +327,7 @@
   .badge.economy{color:var(--teal); border:1px solid var(--teal); background:rgba(22,191,168,0.08);}
   .badge.tech{color:var(--violet); border:1px solid var(--violet); background:rgba(184,146,255,0.08);}
   .badge.esports{color:var(--pink); border:1px solid var(--pink); background:rgba(255,95,150,0.08);}
+  .badge.sports{color:var(--lime); border:1px solid var(--lime); background:rgba(154,222,92,0.08);}
 
   .col-headline h3{
     font-family:'Space Grotesk', sans-serif;
@@ -418,12 +447,15 @@
     <button class="tab" data-filter="economy" data-i18n="tabEconomy">เศรษฐกิจ</button>
     <button class="tab" data-filter="tech" data-i18n="tabTech">เทคโนโลยี</button>
     <button class="tab" data-filter="esports" data-i18n="tabEsports">อีสปอร์ต</button>
+    <button class="tab" data-filter="sports" data-i18n="tabSports">กีฬา</button>
   </div>
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
     <input type="text" id="searchInput" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="ค้นหาข่าวหรือคำย่อ เช่น VCT, Fed, CS2...">
     <button class="search-clear" id="searchClear" title="ล้างคำค้นหา">✕</button>
   </div>
+  <div class="market-ticker" id="marketTicker"></div>
+  <div class="market-note" id="marketNote"></div>
 </header>
 
 <main>
@@ -460,8 +492,8 @@ const I18N = {
     eyebrow: 'สรุปข่าวรอบโลก',
     visitors: 'ผู้เข้าชม',
     localTime: 'เวลาท้องถิ่นของคุณ',
-    tabAll: 'ทั้งหมด', tabWorld: 'โลก', tabEconomy: 'เศรษฐกิจ', tabTech: 'เทคโนโลยี', tabEsports: 'อีสปอร์ต',
-    catWorld: 'โลก', catEconomy: 'เศรษฐกิจ', catTech: 'เทคโนโลยี', catEsports: 'อีสปอร์ต',
+    tabAll: 'ทั้งหมด', tabWorld: 'โลก', tabEconomy: 'เศรษฐกิจ', tabTech: 'เทคโนโลยี', tabEsports: 'อีสปอร์ต', tabSports: 'กีฬา',
+    catWorld: 'โลก', catEconomy: 'เศรษฐกิจ', catTech: 'เทคโนโลยี', catEsports: 'อีสปอร์ต', catSports: 'กีฬา',
     readOriginal: 'อ่านต้นฉบับ ↗',
     toggleOpen: 'แตะเพื่อย่อรายละเอียด',
     toggleClosed: 'แตะเพื่อดูรายละเอียด',
@@ -477,13 +509,18 @@ const I18N = {
     ratesSourcePrefix: 'ข้อมูลจาก',
     searchPlaceholder: 'ค้นหาข่าวหรือคำย่อ เช่น VCT, Fed, CS2...',
     searchNoResults: 'ไม่พบข่าวที่ตรงกับคำค้นหา',
+    marketUpdatedPrefix: 'อัปเดต:',
+    marketProxyLabel: '(ประมาณค่าจาก ETF)',
+    marketClosed: 'ตลาดปิด',
+    marketOpen: 'ตลาดเปิด',
+    marketUnavailable: 'ยังไม่มีข้อมูลตลาดหุ้น (รอ API key)',
   },
   en: {
     eyebrow: 'Global newsroom snapshot',
     visitors: 'Visitors',
     localTime: 'Your local time',
-    tabAll: 'All', tabWorld: 'World', tabEconomy: 'Economy', tabTech: 'Technology', tabEsports: 'Esports',
-    catWorld: 'World', catEconomy: 'Economy', catTech: 'Technology', catEsports: 'Esports',
+    tabAll: 'All', tabWorld: 'World', tabEconomy: 'Economy', tabTech: 'Technology', tabEsports: 'Esports', tabSports: 'Sports',
+    catWorld: 'World', catEconomy: 'Economy', catTech: 'Technology', catEsports: 'Esports', catSports: 'Sports',
     readOriginal: 'Read original ↗',
     toggleOpen: 'Tap to collapse',
     toggleClosed: 'Tap for details',
@@ -499,6 +536,11 @@ const I18N = {
     ratesSourcePrefix: 'Data from',
     searchPlaceholder: 'Search news or abbreviations e.g. VCT, Fed, CS2...',
     searchNoResults: 'No news matches your search',
+    marketUpdatedPrefix: 'Updated:',
+    marketProxyLabel: '(approximated via ETF)',
+    marketClosed: 'Market closed',
+    marketOpen: 'Market open',
+    marketUnavailable: 'Market data not available yet (waiting for API key)',
   }
 };
 
@@ -533,6 +575,9 @@ function setLanguage(lang){
   }
   if(ratesOverlay && ratesOverlay.classList.contains('open')){
     renderRates();
+  }
+  if(marketData){
+    renderMarketTicker();
   }
 }
 
@@ -679,6 +724,78 @@ document.addEventListener('keydown', (e)=>{
 });
 
 /* ========================================================
+   Ticker NASDAQ / S&P 500 — โหลดจาก market.json ซึ่งอัปเดต
+   ทุก ~15 นาทีโดย GitHub Actions แยกต่างหาก (ดู fetch_market.py
+   และ .github/workflows/update-market.yml) ต้องตั้งค่า
+   TWELVE_DATA_API_KEY เป็น GitHub Secret ก่อนถึงจะมีข้อมูลจริง
+   นี่คือข้อมูล "ใกล้เคียงเรียลไทม์" ไม่ใช่ tick-by-tick แบบเสียเงิน
+   ======================================================== */
+// snapshot สำรอง (ราคาปิด 13 ก.ค. 2569) ใช้ก่อนมี market.json จริง
+const FALLBACK_MARKET = {
+  updated_at:'2026-07-13T20:00:00Z',
+  indices:[
+    {key:'sp500', label_th:'S&P 500', label_en:'S&P 500', symbol:'SPX', is_proxy:false,
+     proxy_note_th:'', proxy_note_en:'', price:7515.34, change:-60.05, percent_change:-0.79, is_market_open:false},
+    {key:'nasdaq', label_th:'NASDAQ Composite', label_en:'NASDAQ Composite', symbol:'IXIC', is_proxy:false,
+     proxy_note_th:'', proxy_note_en:'', price:25873.18, change:-408.43, percent_change:-1.55, is_market_open:false},
+  ]
+};
+
+let marketData = null;
+
+async function loadMarket(){
+  try{
+    const res = await fetch('market.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('market.json not found');
+    const data = await res.json();
+    if(data && Array.isArray(data.indices) && data.indices.length){
+      marketData = data;
+    }else{
+      throw new Error('market.json ว่างเปล่า');
+    }
+  }catch(err){
+    console.warn('โหลด market.json ไม่สำเร็จ ใช้ snapshot สำรองแทน:', err);
+    marketData = FALLBACK_MARKET;
+  }
+  renderMarketTicker();
+}
+
+function renderMarketTicker(){
+  const el = document.getElementById('marketTicker');
+  const noteEl = document.getElementById('marketNote');
+  if(!marketData){
+    el.innerHTML = `<div class="market-note">${t('marketUnavailable')}</div>`;
+    noteEl.textContent = '';
+    return;
+  }
+
+  el.innerHTML = marketData.indices.map(idx=>{
+    const label = currentLang === 'th' ? idx.label_th : idx.label_en;
+    const proxyNote = idx.is_proxy ? (currentLang === 'th' ? idx.proxy_note_th : idx.proxy_note_en) : '';
+    const dir = idx.change >= 0 ? 'up' : 'down';
+    const arrow = idx.change >= 0 ? '▲' : '▼';
+    const priceStr = idx.price.toLocaleString(undefined, {maximumFractionDigits:2});
+    const changeStr = `${arrow} ${Math.abs(idx.change).toLocaleString(undefined,{maximumFractionDigits:2})} (${idx.percent_change >= 0 ? '+' : ''}${idx.percent_change.toFixed(2)}%)`;
+    return `
+      <div class="market-card">
+        <div class="mc-name">
+          <div class="mc-label">${label}</div>
+          ${proxyNote ? `<div class="mc-proxy-note">${proxyNote}</div>` : ''}
+        </div>
+        <div class="mc-values">
+          <div class="mc-price ${dir}">${priceStr}</div>
+          <div class="mc-change ${dir}">${changeStr}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  const d = new Date(marketData.updated_at);
+  const formatted = d.toLocaleString(currentLang === 'th' ? 'th-TH' : 'en-US', {dateStyle:'medium', timeStyle:'short'});
+  noteEl.textContent = `${t('marketUpdatedPrefix')} ${formatted}`;
+}
+
+/* ========================================================
    ข้อมูลข่าว (snapshot วันที่ 14 ก.ค. 2569)
    โครงสร้างนี้ออกแบบให้ต่อยอดกับ API ข่าวจริงได้ง่าย —
    ดูฟังก์ชัน fetchLiveDispatches() ด้านล่างสำหรับจุดเชื่อมต่อ
@@ -768,7 +885,7 @@ function getFilteredItems(){
   return items;
 }
 
-const CAT_LABEL_KEYS = { world:'catWorld', economy:'catEconomy', tech:'catTech', esports:'catEsports' };
+const CAT_LABEL_KEYS = { world:'catWorld', economy:'catEconomy', tech:'catTech', esports:'catEsports', sports:'catSports' };
 function getCatLabel(category){
   return t(CAT_LABEL_KEYS[category] || category);
 }
@@ -921,6 +1038,8 @@ setInterval(renderClock, 1000);
 // init
 applyStaticI18n();
 loadRates();
+loadMarket();
+setInterval(loadMarket, 5 * 60 * 1000); // รีเฟรชตัวเลขหุ้นทุก 5 นาทีระหว่างเปิดหน้าเว็บค้างไว้
 fetchLiveDispatches().then(items=>{
   allItems = items;
   applyFilter('all');
