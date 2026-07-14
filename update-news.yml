@@ -27,7 +27,7 @@ jobs:
       - name: รันสคริปต์ดึงอัตราแลกเปลี่ยน
         run: python fetch_rates.py
 
-      - name: Commit และ push ถ้ามีข่าวใหม่
+      - name: Commit และ push ถ้ามีข้อมูลใหม่
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
@@ -36,8 +36,11 @@ jobs:
             echo "ไม่มีข้อมูลใหม่ ข้ามการ commit"
           else
             git commit -m "อัปเดตข่าวและอัตราแลกเปลี่ยนอัตโนมัติ $(date -u +'%Y-%m-%d %H:%M UTC')"
-            # ดึงการเปลี่ยนแปลงล่าสุดจาก remote มา rebase ก่อน กันกรณีมีคน
-            # commit ไฟล์อื่น (เช่นแก้ index.html) พร้อมกันตอน workflow กำลังรัน
-            git pull --rebase origin main
-            git push
+            # ดึงการเปลี่ยนแปลงล่าสุดจาก remote มา rebase ก่อนแล้วลอง push ซ้ำได้ถึง 3 ครั้ง
+            # กันปัญหา push ถูกปฏิเสธเพราะมีการอัปโหลดไฟล์อื่นพร้อมกันตอน workflow รันอยู่
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push ครั้งที่ $i ไม่สำเร็จ ลองใหม่..."
+              sleep 3
+            done
           fi
