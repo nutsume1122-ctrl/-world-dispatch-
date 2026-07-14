@@ -31,6 +31,37 @@
   .mono{font-family:'IBM Plex Mono', monospace;}
   .disp{font-family:'Space Grotesk', sans-serif;}
 
+  /* ===== พื้นหลังลูกโลก (wireframe globe) ===== */
+  .bg-globe{
+    position:fixed;
+    top:50%; right:-8%;
+    transform:translateY(-50%);
+    width:min(900px, 100vw);
+    height:min(900px, 100vw);
+    z-index:0;
+    pointer-events:none;
+    opacity:0.09;
+  }
+  .bg-globe svg{
+    width:100%; height:100%;
+    animation:spin-globe 140s linear infinite;
+    transform-origin:50% 50%;
+  }
+  .bg-globe svg *{
+    fill:none;
+    stroke:var(--amber);
+    stroke-width:1;
+  }
+  .bg-globe svg .node{ fill:var(--amber); stroke:none; }
+  .bg-globe svg .link{ stroke:var(--teal); stroke-width:0.6; opacity:0.7; }
+  @keyframes spin-globe{
+    from{ transform:rotate(0deg); }
+    to{ transform:rotate(360deg); }
+  }
+  @media (max-width:760px){
+    .bg-globe{ opacity:0.06; right:-30%; width:600px; height:600px; }
+  }
+
   /* ===== HEADER ===== */
   header{
     border-bottom:1px solid var(--line);
@@ -219,6 +250,39 @@
 </style>
 </head>
 <body>
+
+<div class="bg-globe" aria-hidden="true">
+  <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- เส้นรอบลูกโลก -->
+    <circle cx="200" cy="200" r="180"/>
+    <!-- เส้นแวง (meridians) -->
+    <ellipse cx="200" cy="200" rx="156" ry="180"/>
+    <ellipse cx="200" cy="200" rx="90" ry="180"/>
+    <line x1="200" y1="20" x2="200" y2="380"/>
+    <!-- เส้นรุ้ง (parallels) -->
+    <ellipse cx="200" cy="200" rx="180" ry="60"/>
+    <ellipse cx="200" cy="110" rx="150" ry="30"/>
+    <ellipse cx="200" cy="290" rx="150" ry="30"/>
+    <ellipse cx="200" cy="55" rx="90" ry="14"/>
+    <ellipse cx="200" cy="345" rx="90" ry="14"/>
+    <!-- โหนดเมือง/จุดข้อมูล -->
+    <circle class="node" cx="150" cy="130" r="3.5"/>
+    <circle class="node" cx="260" cy="100" r="3"/>
+    <circle class="node" cx="90" cy="210" r="3"/>
+    <circle class="node" cx="310" cy="230" r="3.5"/>
+    <circle class="node" cx="220" cy="290" r="3"/>
+    <circle class="node" cx="150" cy="320" r="3"/>
+    <circle class="node" cx="270" cy="330" r="2.5"/>
+    <circle class="node" cx="120" cy="80" r="2.5"/>
+    <!-- เส้นเชื่อมโหนด (global network) -->
+    <path class="link" d="M150,130 Q200,60 260,100"/>
+    <path class="link" d="M90,210 Q150,180 150,130"/>
+    <path class="link" d="M260,100 Q320,170 310,230"/>
+    <path class="link" d="M310,230 Q260,270 220,290"/>
+    <path class="link" d="M150,320 Q190,300 220,290"/>
+    <path class="link" d="M90,210 Q120,280 150,320"/>
+  </svg>
+</div>
 
 <header>
   <div class="header-top">
