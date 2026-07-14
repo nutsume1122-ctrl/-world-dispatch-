@@ -73,6 +73,30 @@
     position:sticky; top:0; z-index:20;
     background:rgba(10,12,14,0.94);
     backdrop-filter:blur(6px);
+    transition:padding 0.25s ease;
+  }
+  .header-collapsible{
+    max-height:700px;
+    opacity:1;
+    overflow:hidden;
+    transition:max-height 0.3s ease, opacity 0.2s ease, margin 0.3s ease;
+  }
+  .compact-title{
+    display:none;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:700; font-size:1.05rem; letter-spacing:0.01em;
+    color:var(--text);
+    max-width:1100px; margin:0 auto;
+    padding-bottom:10px;
+  }
+  /* โหมดย่อ (เฉพาะจอมือถือ): ตอนเลื่อนดูข่าวลงมา ซ่อนส่วนหัวใหญ่
+     เหลือแค่ชื่อย่อ + แท็บ + ช่องค้นหา ให้เห็นข่าวได้เต็มจอมากขึ้น */
+  @media (max-width:760px){
+    header.compact{ padding-top:12px; padding-bottom:10px; }
+    header.compact .header-collapsible{
+      max-height:0; opacity:0; margin:0; pointer-events:none;
+    }
+    header.compact .compact-title{ display:block; }
   }
   .header-top{
     max-width:1100px; margin:0 auto;
@@ -360,13 +384,13 @@
 
   /* ===== ปรับให้ใช้งานบนมือถือลื่นขึ้น (พื้นหลังลูกโลกไม่แตะต้อง) ===== */
   @media (max-width:640px){
-    header{ padding:16px 14px 12px; }
+    header{ padding:16px 14px 12px; transition:padding 0.25s ease; }
     .header-top{
       flex-direction:column;
       align-items:flex-start;
       gap:12px;
     }
-    .brand h1{ font-size:1.5rem; }
+    .brand h1{ font-size:1.5rem; transition:font-size 0.25s ease; }
     .brand .eyebrow{ font-size:0.62rem; letter-spacing:0.18em; }
 
     .header-controls{
@@ -406,6 +430,31 @@
 
     .rates-modal-head h2{ font-size:1rem; }
     .rates-modal{ max-height:88vh; }
+
+    /* ----- โหมดหดเล็กตอนเลื่อนดูข่าว (คุมด้วย JS ผ่านคลาส .compact) ----- */
+    .brand .eyebrow,
+    .clock-block,
+    .snapshot-note,
+    .market-ticker,
+    .market-note{
+      transition:max-height 0.25s ease, opacity 0.2s ease, margin 0.25s ease;
+      max-height:200px; opacity:1; overflow:hidden;
+    }
+    .visitor-counter span:not(.eye){
+      transition:max-width 0.2s ease, opacity 0.2s ease;
+      max-width:80px; opacity:1; overflow:hidden; display:inline-block; white-space:nowrap;
+    }
+
+    header.compact{ padding-top:10px; padding-bottom:8px; }
+    header.compact .brand h1{ font-size:1.15rem; }
+    header.compact .brand .eyebrow{ max-height:0; opacity:0; margin:0; }
+    header.compact .clock-block{ max-height:0; opacity:0; }
+    header.compact .snapshot-note{ max-height:0; opacity:0; margin-top:0; }
+    header.compact .market-ticker{ max-height:0; opacity:0; margin-top:0; }
+    header.compact .market-note{ max-height:0; opacity:0; margin-top:0; }
+    header.compact .tabs{ margin-top:10px; }
+    header.compact .visitor-counter span:not(.eye){ max-width:0; opacity:0; }
+    header.compact .header-controls{ gap:6px; }
   }
 
   @media (max-width:380px){
@@ -473,29 +522,34 @@
 </div>
 
 <header>
-  <div class="header-top">
-    <div class="brand">
-      <div class="eyebrow" data-i18n="eyebrow">Global newsroom snapshot</div>
-      <h1>WORLD DISPATCH</h1>
+  <div class="header-collapsible" id="headerCollapsible">
+    <div class="header-top">
+      <div class="brand">
+        <div class="eyebrow" data-i18n="eyebrow">Global newsroom snapshot</div>
+        <h1>WORLD DISPATCH</h1>
+      </div>
+      <div class="header-controls">
+        <button class="rates-btn" id="ratesBtn">💱 <span id="ratesBtnRate">1 USD = … THB</span></button>
+        <div class="visitor-counter">
+          <span class="eye">◉</span>
+          <span data-i18n="visitors">ผู้เข้าชม</span>
+          <img id="visitorBadge" alt="visitor count" src="https://visitor-badge.laobi.icu/badge?page_id=world-dispatch-nutsume1122&left_color=grey&right_color=%23f2a900">
+        </div>
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="th">TH</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <div class="clock-block">
+          <div class="clock-label" data-i18n="localTime">เวลาท้องถิ่นของคุณ</div>
+          <div class="clock" id="clock"></div>
+        </div>
+      </div>
     </div>
-    <div class="header-controls">
-      <button class="rates-btn" id="ratesBtn">💱 <span id="ratesBtnRate">1 USD = … THB</span></button>
-      <div class="visitor-counter">
-        <span class="eye">◉</span>
-        <span data-i18n="visitors">ผู้เข้าชม</span>
-        <img id="visitorBadge" alt="visitor count" src="https://visitor-badge.laobi.icu/badge?page_id=world-dispatch-nutsume1122&left_color=grey&right_color=%23f2a900">
-      </div>
-      <div class="lang-toggle">
-        <button class="lang-btn active" data-lang="th">TH</button>
-        <button class="lang-btn" data-lang="en">EN</button>
-      </div>
-      <div>
-        <div class="clock-label" data-i18n="localTime">เวลาท้องถิ่นของคุณ</div>
-        <div class="clock" id="clock"></div>
-      </div>
-    </div>
+    <div class="snapshot-note" id="snapshotNote"><span class="dot"></span> <span data-i18n="snapshotDefault">ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด — ดูหมายเหตุด้านล่างสำหรับการต่อยอด)</span></div>
+    <div class="market-ticker" id="marketTicker"></div>
+    <div class="market-note" id="marketNote"></div>
   </div>
-  <div class="snapshot-note" id="snapshotNote"><span class="dot"></span> <span data-i18n="snapshotDefault">ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด — ดูหมายเหตุด้านล่างสำหรับการต่อยอด)</span></div>
+  <div class="compact-title" id="compactTitle">WORLD DISPATCH</div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-filter="all" data-i18n="tabAll">ทั้งหมด</button>
     <button class="tab" data-filter="world" data-i18n="tabWorld">โลก</button>
@@ -509,8 +563,6 @@
     <input type="text" id="searchInput" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="ค้นหาข่าวหรือคำย่อ เช่น VCT, Fed, CS2...">
     <button class="search-clear" id="searchClear" title="ล้างคำค้นหา">✕</button>
   </div>
-  <div class="market-ticker" id="marketTicker"></div>
-  <div class="market-note" id="marketNote"></div>
 </header>
 
 <main>
@@ -1090,6 +1142,18 @@ function renderClock(){
 renderClock();
 setInterval(renderClock, 1000);
 
+// ===== ย่อส่วนหัวอัตโนมัติตอนเลื่อนดูข่าวบนมือถือ =====
+const headerEl = document.querySelector('header');
+let compactState = false;
+function updateHeaderCompact(){
+  const shouldCompact = window.scrollY > 48;
+  if(shouldCompact !== compactState){
+    compactState = shouldCompact;
+    headerEl.classList.toggle('compact', shouldCompact);
+  }
+}
+window.addEventListener('scroll', updateHeaderCompact, {passive:true});
+
 // init
 applyStaticI18n();
 loadRates();
@@ -1099,6 +1163,29 @@ fetchLiveDispatches().then(items=>{
   allItems = items;
   applyFilter('all');
 });
+
+// ===== หดส่วนหัวให้เล็กลงอัตโนมัติตอนเลื่อนดูข่าว (มือถือ) =====
+const siteHeader = document.querySelector('header');
+let lastScrollY = window.scrollY;
+let scrollTicking = false;
+
+function updateHeaderCompact(){
+  const y = window.scrollY;
+  if(y > 48){
+    siteHeader.classList.add('compact');
+  }else if(y < 12){
+    siteHeader.classList.remove('compact');
+  }
+  lastScrollY = y;
+  scrollTicking = false;
+}
+
+window.addEventListener('scroll', ()=>{
+  if(!scrollTicking){
+    requestAnimationFrame(updateHeaderCompact);
+    scrollTicking = true;
+  }
+}, {passive:true});
 </script>
 </body>
 </html>
