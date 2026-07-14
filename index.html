@@ -358,6 +358,21 @@
     font-size:1rem; font-weight:600;
     margin:0; color:var(--text);
   }
+  .headline-flex{
+    display:flex; gap:12px; align-items:flex-start;
+  }
+  .headline-text{ flex:1; min-width:0; }
+  .thumb{
+    flex:none;
+    width:64px; height:64px;
+    object-fit:cover;
+    border-radius:4px;
+    border:1px solid var(--line);
+    background:var(--row-alt);
+  }
+  @media (max-width:480px){
+    .thumb{ width:52px; height:52px; }
+  }
   .detail{
     display:grid; grid-template-rows:0fr;
     transition:grid-template-rows 0.3s ease;
@@ -1012,14 +1027,22 @@ function renderBoard(items){
     row.dataset.category = d.category;
     row.dataset.idx = i; // ผูกแถวกับข้อมูลชิ้นนี้โดยตรง ป้องกันคลิกแล้วขึ้นรายละเอียดผิดข่าว
     const catLabel = getCatLabel(d.category);
+    const thumbHtml = d.image
+      ? `<img class="thumb" src="${d.image}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+      : '';
     row.innerHTML = `
       <div class="col-time mono">${d.time}</div>
       <div class="col-region"><span class="flag">${d.flag}</span>${d.region}</div>
       <div class="col-code"><span class="badge ${d.category}">${catLabel}</span></div>
       <div class="col-headline">
-        <h3>${d.headline}</h3>
-        <div class="detail"><div class="detail-inner"><p>${d.detail}</p></div></div>
-        <span class="toggle-hint mono">${t('toggleClosed')}</span>
+        <div class="headline-flex">
+          ${thumbHtml}
+          <div class="headline-text">
+            <h3>${d.headline}</h3>
+            <div class="detail"><div class="detail-inner"><p>${d.detail}</p></div></div>
+            <span class="toggle-hint mono">${t('toggleClosed')}</span>
+          </div>
+        </div>
       </div>
       <div class="col-source">${d.source}<br><a href="${d.url}" target="_blank" rel="noopener">${t('readOriginal')}</a></div>
     `;
