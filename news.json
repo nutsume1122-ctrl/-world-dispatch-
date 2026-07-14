@@ -1,45 +1,245 @@
 {
-  "updated_at": "2026-07-14T07:48:10.116084+00:00",
+  "updated_at": "2026-07-14T10:26:27.138312+00:00",
   "items": [
     {
       "time": "14 ก.ค.",
+      "region": "BBC Business",
+      "flag": "💰",
+      "category": "economy",
+      "headline": "California leads lawsuit to block Paramount Warner Bros mega merger",
+      "detail": "The state, where both studios have headquarters, has joined 11 others to halt the deal.",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cgev34lvgp4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
       "region": "Channel News Asia",
       "flag": "🇸🇬",
       "category": "world",
-      "headline": "Samsung explores potential US listing via ADRs, Bloomberg News reports",
+      "headline": "Rahm plans cautious approach in firm conditions at Birkdale",
       "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
       "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/samsung-explores-potential-us-listing-adrs-bloomberg-news-reports-6252916"
+      "url": "https://www.channelnewsasia.com/sport/rahm-plans-cautious-approach-in-firm-conditions-birkdale-6253226"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Business",
+      "flag": "💰",
+      "category": "economy",
+      "headline": "South East Water must pay £30.5m for supply failures",
+      "detail": "Regulator Ofwat confirms this penalty follows three investigations into the water company.",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/cevlvxgggxyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "WNBA games today: Schedule, times, how to watch for July 14 - USA Today",
+      "detail": "WNBA games today: Schedule, times, how to watch for July 14&nbsp;&nbsp;USA Today",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3Nfcm50TllSclNNTHVpejkzZDlHMXRrQjJkSHhUVU5hcVlfWWF2QTFybV84LXdsbldYUURaR3ZvOUlOaXpIVmRyQ3ZMYzYzaXNQZkp5Q2czbWxHRjFERmEyc1c0RjFCNVN5WHk1V0pmZ3FFSS1pX08tOTMtTi1xY3ZQSDhYYW5ENGtqaFBpV1BZU3JsZnUzNFRJOVVjVTJBU2o0TnlPVTVuYnFvNTFV?oc=5"
     },
     {
       "time": "14 ก.ค.",
       "region": "Channel News Asia",
       "flag": "🇸🇬",
       "category": "world",
-      "headline": "Mediacorp Tamil drama Must Date The Playboy! surpasses 100 million views, fans can meet cast on Jul 18",
-      "detail": "Adapted from Imma Delos Santos' Wattpad novel, the drama follows a&nbsp;university student who enters a fake relationship with the notorious campus \"playboy\" to protect her best friend Kaushi from heartbreak.",
+      "headline": "Tower Semiconductor to invest $3 billion in Japan, backed by government grants",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
       "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/entertainment/must-date-playboy-cast-meet-greet-jul-18-6252806"
+      "url": "https://www.channelnewsasia.com/business/tower-semiconductor-invest-3-billion-in-japan-backed-government-grants-6253211"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Brighton sign Vuskovic from Spurs for club record £46m",
+      "detail": "Brighton sign Croatia defender Luka Vuskovic from Tottenham for a club record fee of £46m on a five-year contract, with an option for a further year.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cy7370x2yp7o?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
       "region": "Channel News Asia",
       "flag": "🇸🇬",
       "category": "world",
-      "headline": "Johor government calls for probe into startup community based in Forest City over alleged Israeli links",
-      "detail": "The Network School brands itself as a physical co-living and co-learning community for tech founders, remote workers, and content creators located “on a Malaysian island off the coast of Singapore”.",
+      "headline": "Pollution from Musk’s unpermitted xAI power project hits hardest in Black communities",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
       "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/asia/johor-israel-network-school-forest-city-onn-hafiz-6252686"
+      "url": "https://www.channelnewsasia.com/business/pollution-musks-unpermitted-xai-power-project-hits-hardest-in-black-communities-6253196"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Yemen's Houthis launch missiles at Saudi Arabia after strikes on Sanaa airport",
+      "detail": "The Iran-backed Houthis blame Saudi Arabia for the attack in Yemen's capital and say they targeted Abha airport in response.",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cp9ldle3d3xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever - WSJ",
+      "detail": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever&nbsp;&nbsp;WSJ",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcjg2QVVJQ2VhZ2tsVWN2WXQ5MnNOUUZOd05ITlU3bVI0emltMXVpVU9CNW05a1Y4cndHRW9IOElxMDQyRDBmM3JGWkRaRGs1VE9OS0w4LWdkY2d6UmRwcjVINndjdFk4ck80d0RyR0stdnpvSllSbExkLW9OLVFPNzVab184Zw?oc=5"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Bastille Day: France holds parade with Ukraine in focus",
+      "detail": "The celebrations features troops and warplanes from around Europe in a show of support for Ukraine, as it fends off Russia's ongoing invasion. It is Emmanuel Macron's last Bastille Day as France's president.",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/bastille-day-france-holds-parade-with-ukraine-in-focus/a-77945107?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Two are elected to the other colleges wing of the L.A. Times Sports Hall of Fame - Los Angeles Times",
+      "detail": "Two are elected to the other colleges wing of the L.A. Times Sports Hall of Fame&nbsp;&nbsp;Los Angeles Times",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWlpLUW9CUTFvM3NsZ1pCX3RJQU9DaUI0WHc0c0ppVmpHMTlXUVhkWFNjakpfNmlDeG5FTmtFNm1OMndPajVaLV9kckFZVndhYWVzelV2RjRLaEk3OVo4a1l5NFpxbXZIclFocnhEbjJmeElwa0ZoaGNCLWZ3WWpRektFcjA5Wms?oc=5"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Argentina war vets urge focus on football for England World Cup semifinal",
+      "detail": "One of sport&#039;s great rivalries sees Argentina face England in an ever feisty encounter in the 2026 edition&#039;s semifinal.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/14/argentina-war-vets-urge-focus-on-football-for-england-world-cup-semifinal?traffic_source=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "EU approves €659 million in German aid for four chip plants",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/business/eu-approves-eu659-million-in-german-aid-four-chip-plants-6253151"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "'If we die, we die together': Wife of man nearly sucked out of Ryanair plane speaks of ordeal",
+      "detail": "Svetlana Grković told Serbian media that her husband is \"seriously injured and in shock\".",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "ICE kills 26-year-old in Maine: What happened, and who else has ICE killed?",
+      "detail": "More than 60 people have died in ICE shootings or while in detention since Donald Trump returned to power.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/ice-kills-26-year-old-in-maine-what-happened-and-who-else-has-ice-killed?traffic_source=rss"
     },
     {
       "time": "14 ก.ค.",
       "region": "France24",
       "flag": "🇫🇷",
       "category": "world",
-      "headline": "World Cup 2026: France aim for third consecutive final against Spain",
-      "detail": "The French team are taking on Spain in Dallas in the World Cup semi-final. Les Bleus are hoping to become the second nation to reach three consecutive World Cup finals.",
+      "headline": "Gilgit-Baltistan: Pakistan's tourist jewel tested by development and climate change",
+      "detail": "In just a few decades, the Hunza Valley in Gilgit-Baltistan, a remote mountainous region of northern Pakistan, has undergone a dramatic transformation. Expanded access to education, improved healthcare and strong local…",
       "source": "France24",
-      "url": "https://www.france24.com/en/tv-shows/sports/20260714-world-cup-2026-france-aim-third-consecutive-final-against-spain"
+      "url": "https://www.france24.com/en/tv-shows/focus/20260714-gilgit-baltistan-pakistan-s-tourist-jewel-tested-by-development-and-climate-change"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Emir of Qatar receives condolences on the death of the Father Emir",
+      "detail": "Condolences from several government leaders, who expressed their sincere sympathy to Qatar, its leadership and people.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/emir-of-qatar-receives-condolences-on-the-death-of-the-father-emir?traffic_source=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Kyiv claims drone attacks on 11 Russian tankers in Sea of Azov",
+      "detail": "Ukrainian drones hit several Russian vessels in the Sea of ​Azov ‌overnight on Tuesday, Kyiv's ‌drone forces commander said, as the Kremlin denied that repeated Ukrainian attacks on the major export route would impact…",
+      "source": "France24",
+      "url": "https://www.france24.com/en/europe/20260714-kyiv-claims-drone-attacks-11-russian-tankers-in-sea-of-azov"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Police investigate Jayden Adam's death after he was found in CapeTown property",
+      "detail": "The South African international football player Jayden Adams has died at the age of 25. He was in all three ​of his side's group stage games in the World Cup. No cause of death has been given. A police investigation is…",
+      "source": "France24",
+      "url": "https://www.france24.com/en/police-investigate-jayden-adam-s-death-after-he-was-found-in-capetown-property"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Senegal football coach sacked after World Cup defeat",
+      "detail": "In Senegal, the controversial elimination of the Lions of Teranga from the 2026 World Cup is having consequences. The Senegalese Football Federation, which parted ways with national team manager Pape Thiaw, addressed…",
+      "source": "France24",
+      "url": "https://www.france24.com/en/senegal-football-coach-sacked-after-world-cup-defeat"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "New York becomes the first state to impose a data center moratorium",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/business/new-york-becomes-first-state-impose-data-center-moratorium-6253071"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "ECB picks 36 payment firms for digital euro pilot",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/business/ecb-picks-36-payment-firms-digital-euro-pilot-6253076"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "FIFA World Cup brackets: Semifinal schedule, France vs Spain prediction",
+      "detail": "France face Spain in the first World Cup semifinal, as Argentina prepare to renew their rivalry with England.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/14/fifa-world-cup-brackets-semifinal-schedule-france-vs-spain-prediction?traffic_source=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "A winner and true friend - Bartoli on France boss Deschamps",
+      "detail": "Former Wimbledon champion Marion Bartoli speaks about her friendship with France boss Didier Deschamps.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c77y2151e4go?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -53,53 +253,113 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
+      "region": "The Guardian World",
+      "flag": "🇬🇧",
       "category": "world",
-      "headline": "Global investors turn most bullish since February, BofA survey shows",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/global-investors-turn-most-bullish-february-bofa-survey-shows-6252911"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "India's AI training boom draws professionals seeking an edge, but questions remain over quality",
-      "detail": "In the first of a two-part series on how India is preparing for an AI-powered future, CNA examines the growing business of artificial intelligence upskilling and the questions surrounding the value of these programmes.",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/asia/india-artificial-intelligence-upskilling-boom-working-professionals-6252671"
+      "headline": "‘God is punishing the politicians’: anger at earthquake response grows in Venezuela",
+      "detail": "Threat of social unrest rises as public indignation at lack of disaster aid comes on top of fallout from US military intervention• A revolution in ruins: fury amid the rubble of a housing project in quake-hit…",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela"
     },
     {
       "time": "14 ก.ค.",
       "region": "DW (Germany)",
       "flag": "🇩🇪",
       "category": "world",
-      "headline": "Five years after deadly floods, a German valley prepares for the next one",
-      "detail": "New walls, redesigned bridges and restored floodplains: towns in a small German valley are testing how they can survive the next extreme flood.",
+      "headline": "Germany news: Military conscientious objections spike",
+      "detail": "The number of people applying for conscientious objection to military service has risen sharply and there were around 5,100 heat-related deaths recorded in June alone. DW has more.",
       "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/five-years-after-deadly-floods-a-german-valley-prepares-for-the-next-one/a-77810916?maca=en-rss-en-all-1573-xml-mrss"
+      "url": "https://www.dw.com/en/germany-news-military-conscientious-objections-spike/live-77945300?maca=en-rss-en-all-1573-xml-mrss"
     },
     {
       "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Pinwheel launches a retro-inspired landline phone for kids",
+      "detail": "Kid-friendly tech company Pinwheel announced the launch of a new landline phone designed to let children stay connected without the distractions of a smartphone.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids/"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
       "category": "world",
-      "headline": "Google probed by Swiss regulator over Android default search feature",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/google-probed-swiss-regulator-over-android-default-search-feature-6252866"
+      "headline": "Community complains of toxic flammable gas leaks in Nigeria's Niger Delta",
+      "detail": "In Nigeria, residents in the Niger Delta town of Billé have taken to the streets to demand government action over catastrophic pollution. For several months, the community has complained of toxic, flammable gas leaking…",
+      "source": "France24",
+      "url": "https://www.france24.com/en/community-complains-of-toxic-flammable-gas-leaks-in-nigeria-s-niger-delta"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Sudanese court sentences Hemedti to death in absentia",
+      "detail": "In Sudan, the courts have just sentenced General Hemetti, the commander of the Rapid Support Forces, to death in absentia. According to the court, he is responsible for war crimes, crimes against humanity and genocide,…",
+      "source": "France24",
+      "url": "https://www.france24.com/en/sudanese-court-sentences-hemedti-to-death-in-absentia"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "US bombs Iran again, Tehran strikes Gulf, tankers: What’s the latest?",
+      "detail": "While Trump has threatened to hit targets in Iran including Pickaxe Mountain, he has said a deal is possible.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/14/us-bombs-iran-again-tehran-strikes-gulf-tankers-whats-the-latest?traffic_source=rss"
     },
     {
       "time": "14 ก.ค.",
       "region": "Google News: Sports",
       "flag": "⚽",
       "category": "sports",
-      "headline": "The Top Fantasy Football Tight End Sleepers for 2026 Drafts - Yahoo Sports",
-      "detail": "The Top Fantasy Football Tight End Sleepers for 2026 Drafts&nbsp;&nbsp;Yahoo Sports",
+      "headline": "Folarin Balogun joins LeBron James' Klutch Sports agency after breakout World Cup - ESPN",
+      "detail": "Folarin Balogun joins LeBron James' Klutch Sports agency after breakout World Cup&nbsp;&nbsp;ESPN",
       "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa25GYWE5OEF0VVJacFMxZVVhbHg1SHNtendGcDhfemo3Um9nOXVPRFNzcWExTTI5ZklXSTJ3S0xDZVVfRndEQXBacXlfTEJReTBySE1CTXRfLTdQdTlfWWVnSjhoRjlyX1BzaEJJTm8wTWktQlFZWEIxOXpwc0ZSNTRBYnB6UQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQek1MdDkwUFI1TXVOV3dlZHJmeWc4dlMxVEpROWN0Z09kaFg2Xzk0MVF6NlFnOExpa1lNSGMxQUZ5QWdPU1Q0dnBhc3N4cHcwSDZMSV9XUWpEcHFtVVdpNV9WMmFGMHhjX3hLUk5JZkV0SHZsWXdiczVYcVFEMnhKNEJhWHBnNWQ1YzJEWHlWZzZWWGVYZTQteEczeklFMDJvb1VIeWxadWZMU3hlTklBaC00N3IwVEdfOWpPODJIbw?oc=5"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "France arrests arson suspects amid Fontainebleau forest fire",
+      "detail": "Firefighters are attempting to tackle a major fire burning since Sunday in the much-visited Fontainebleau forest, near France's capital Paris. Two people have been arrested for suspected arson.",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/france-arrests-arson-suspects-amid-fontainebleau-forest-fire/a-77946073?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Photos: Wildfires ravage historic forest near Paris",
+      "detail": "Wildfires near Paris scorch 1,300 hectares as France endures its third heatwave in three months.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/7/14/photos-wildfires-ravage-historic-forest-near-paris?traffic_source=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Why it's time for The Open to crown an English winner",
+      "detail": "It is nearly 60 years since Tony Jacklin became the last Englishman to win The Open on English soil but there's every chance that drought may be broken this week, writes Iain Carter.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/golf/articles/cpd3wwxp94vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Germany's Ahr Valley: Rebuilding better after deadly flood",
+      "detail": "New walls, redesigned bridges and restored floodplains: Towns in a small German valley are testing how they can survive the next extreme flood.",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/germany-s-ahr-valley-rebuilding-better-after-deadly-flood/a-77810916?maca=en-rss-en-all-1573-xml-mrss"
     },
     {
       "time": "14 ก.ค.",
@@ -113,13 +373,13 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "2026 Home Run Derby Payouts Revealed - Yahoo Sports",
-      "detail": "2026 Home Run Derby Payouts Revealed&nbsp;&nbsp;Yahoo Sports",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNm1vb1JOc2syVm40SkNXMW1TRDhPS1FFZnV4SnAtdkZ3UmREbUxHaHJyclBxRWhZc0lKQW1IM3J1dTZnQlN0VzNsRTdtMllBV21MOXEzdmVsNnNRRHpmYzRPWFZZcDVRbkIySHdJbUJadlB5RlJ4Umk4SW12YnIzVFhn?oc=5"
+      "region": "The Guardian Business",
+      "flag": "💰",
+      "category": "economy",
+      "headline": "US refunds $81bn in Trump tariffs after supreme court ruled them illegal",
+      "detail": "Government has been forced to pay back duties to companies that imported goods into the US that were hit by Trump’s tariffsBusiness live – latest updatesThe US government has already paid back tens of billions of…",
+      "source": "The Guardian Business",
+      "url": "https://www.theguardian.com/us-news/2026/jul/14/trump-tariffs-us-refunds"
     },
     {
       "time": "14 ก.ค.",
@@ -139,7 +399,7 @@
       "headline": "Africa: All of Africa Today - July 14, 2026",
       "detail": "[allAfrica]",
       "source": "AllAfrica",
-      "url": "https://allAfrica.com/stories/202607140076.html"
+      "url": "https://allafrica.com/stories/202607140076.html"
     },
     {
       "time": "14 ก.ค.",
@@ -149,7 +409,7 @@
       "headline": "Nigeria: 6,009 Called to the Nigerian Bar, Body of Benchers Cautions Against Misuse of 'Barrister'",
       "detail": "[Premium Times] The chairperson of the Body of Benchers, Albert Akpomudje, cautioned against the improper use of 'Barrister' as a prefix before names, noting that it is not a professional title to be used in that manner.",
       "source": "AllAfrica",
-      "url": "https://allAfrica.com/stories/202607140071.html"
+      "url": "https://allafrica.com/stories/202607140071.html"
     },
     {
       "time": "14 ก.ค.",
@@ -159,17 +419,7 @@
       "headline": "Nigeria: One Year After Death, Buhari's Life Still 'Speaks' to Nigerians - Tinubu",
       "detail": "[Premium Times] President Tinubu says Mr Buhari's transformation from military ruler to civilian democrat marked him out as a rare figure in the nation's history.",
       "source": "AllAfrica",
-      "url": "https://allAfrica.com/stories/202607140072.html"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "With US-Iran trust broken again, can Pakistan bring them back to talks?",
-      "detail": "Islamabad is still urging dialogue, but analysts say it has few tools to halt the latest round of US-Iran escalation.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/with-us-iran-trust-broken-again-can-pakistan-bring-them-back-to-talks?traffic_source=rss"
+      "url": "https://allafrica.com/stories/202607140072.html"
     },
     {
       "time": "14 ก.ค.",
@@ -179,7 +429,7 @@
       "headline": "Malawi: Hundreds of People Still Stranded Outside Malawian Consulate",
       "detail": "[GroundUp] A psychologist working with the MSF team identified people requiring mental health support due to trauma",
       "source": "AllAfrica",
-      "url": "https://allAfrica.com/stories/202607140067.html"
+      "url": "https://allafrica.com/stories/202607140067.html"
     },
     {
       "time": "14 ก.ค.",
@@ -193,13 +443,13 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "🔴 More than 1,900 hectares of Fontainebleau forest near Paris destroyed by wildfires",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "France24",
-      "url": "https://www.france24.com/en/france/20260714-more-than-1-900-hectares-fontainebleau-forest-near-paris-destroyed-by-wildfires"
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Zeus is the first player to win First Stand, MSI, Worlds, Asian Games, and Esports World Cup - sheepesports.com",
+      "detail": "Zeus is the first player to win First Stand, MSI, Worlds, Asian Games, and Esports World Cup&nbsp;&nbsp;sheepesports.com",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR3NHWFQ2MkkxeUVYNEhldnNhbzd6QzhXeTZsTG9FM3RKS1E5cHNMRHZES1J1V3BwNG82LVZJOHBVeEFmcjBjMDN6ekx1SENJNEtrcW5nMHdLVkJXVEFnMDlwbThhcVdySXREeTZPN1BWcFFFNWExTnppLTU0eUxvLXpVXzdMall4RmdnczdBZzlsem0yMXp4OXBRSzNOOVNtSklUdDEyVXM2ZXozekdwaFBOQzY1TzNvOEFpSGJIUnZpYWN4YWtYbXBRVmlUVUJCd1I3ZFA2UQ?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -213,43 +463,13 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Watch live: France's Bastille Day parade to showcase European support for Ukraine",
-      "detail": "France's annual July 14 military parade will feature aircraft from 11 European countries and around 500 troops from the Coalition of the Willing allies that have pledged to help with Ukraine’s post-war security in a…",
-      "source": "France24",
-      "url": "https://www.france24.com/en/france/20260714-france-bastille-day-parade-showcase-european-support-ukraine"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "AllAfrica",
       "flag": "🌍",
       "category": "world",
       "headline": "South Africa: Illegal Initiation Schools Under Fire - South African News Briefs - July 14, 2026",
       "detail": "[allAfrica]",
       "source": "AllAfrica",
-      "url": "https://allAfrica.com/stories/202607140051.html"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "CJ McCollum Shares Honest Thoughts on Knicks Winning NBA Championship - Yahoo Sports",
-      "detail": "CJ McCollum Shares Honest Thoughts on Knicks Winning NBA Championship&nbsp;&nbsp;Yahoo Sports",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTkdSakFDdU5TRHpQeVp1RTVHYWxVeDYyNXJuNkJJbm83TTZ5Q0l6anJMZmZ3ZUs2TXNVVTQ2RjJ2bmRXWnlBejZvZHVTZVFzaG4yb0JWNktZdEZoRmZETTZsWF9RQjVVM000cTZCQ1ctUFV1amQxRk91UjJJWS11al80NFF2aS12TGt3?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "More than 1,900 hectares of Fontainebleau forest near Paris destroyed by wildfires",
-      "detail": "French firefighters on Tuesday are still fighting two wildfires that have so far ravaged more than 1,900 hectares of Fontainebleau forest, a UNESCO biosphere reserve near Paris. Police on Monday arrested two people…",
-      "source": "France24",
-      "url": "https://www.france24.com/en/france/20260714-more-than-1-900-hectares-fontainebleau-forest-near-paris-destroyed-by-wildfires"
+      "url": "https://allafrica.com/stories/202607140051.html"
     },
     {
       "time": "14 ก.ค.",
@@ -263,46 +483,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Why is India blocking film on a man who counted Punjab insurgency killings?",
-      "detail": "Satluj, based on life and murder of rights activist Jaswant Singh Khalra, is still finding its audience despite the ban.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/why-is-india-blocking-film-on-a-man-who-counted-punjab-insurgency-killings?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Trump threatens to attack ‘Pickaxe Mountain’ a nuclear facility inside Ira",
-      "detail": "US President Donald Trump is threatening to attack a heavily-fortified underground nuclear facility in Iran",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/trump-threatens-to-attack-pickaxe-mountain-a-nuclear-facility-inside-ira?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "‘Beijing is laughing’ at US-Mexico-Canada stalled trade talks",
-      "detail": "A US trade expert says the US, Mexico, and Canada need to hold trilateral talks to get a cross-border trade deal signed.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/beijing-is-laughing-at-us-mexico-canada-stalled-trade-talks?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "How US commerce secretary's Epstein links were uncovered by British whistleblower",
-      "detail": "Simon Andriesz made the discovery about Howard Lutnick in publicly released Epstein files.",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c9q28dlyxrzo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
@@ -313,63 +493,13 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "World Cup 2026: Ahead of France-Spain, in Dallas, supporters are confident",
-      "detail": "Ahead of the World Cup semi-final between France and Spain on Tuesday, July 14, French supporters (and others) are feeling confident about the outcome of the match.",
-      "source": "France24",
-      "url": "https://www.france24.com/en/world-cup-2026-ahead-of-france-spain-in-dallas-supporters-are-confident"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Birthday present for Spain’s Yamal? World Cup semifinal win over France",
-      "detail": "Yamal wants to celebrate his 19th birthday by taking Spain to the World Cup final in New York.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/14/birthday-present-for-spains-yamal-world-cup-semifinal-win-over-france?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Mexico’s Sheinbaum announces criminal charges request in US over ICE deaths",
-      "detail": "Mexico to formally ask prosecutors to file cases in US courts over its citizens&#039; deaths in immigration operations.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/mexicos-sheinbaum-announces-criminal-charges-request-in-us-over-ice-deaths?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "BBC World",
       "flag": "🌐",
       "category": "world",
-      "headline": "Death toll from Bangkok bar fire rises to 30 as police probe safety lapses",
+      "headline": "Bangkok fire investigation finds locked doors and flammable decor as deaths climb to 30",
       "detail": "Survivors and first responders reported locked doors and a lack of signage marking emergency exits.",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "US: 12 states challenge Paramount's buyout of Warner",
-      "detail": "The states have filed a lawsuit arguing that a merger of Hollywood giant studios Paramount and Warner would \"extinguish competition\" and increase consumer prices.",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/us-12-states-challenge-paramount-s-buyout-of-warner/a-77943078?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "LoL Esports - LoL Esports",
-      "detail": "LoL Esports&nbsp;&nbsp;LoL Esports",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zMC1vYkgxV1lJUXFHMEtuWmQ2X3hjUDdweGZKUE1LQ1pDSlJxSU1zX3QtclpFdlF5X3RXWjB0amdsMUJoLWRfaEhjZ1RQcl9RYjNJeGtfN3I4UkU?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -383,16 +513,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "BBC Business",
-      "flag": "💰",
-      "category": "economy",
-      "headline": "US burrito giant Chipotle opening first outlet in Mexico",
-      "detail": "Other US fast food brands have struggled to succeed in the countries their dishes originated.",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c0ryr89gp09o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "BBC World",
       "flag": "🌐",
       "category": "world",
@@ -400,36 +520,6 @@
       "detail": "Police hope the images could jog memories that will help them find the body of Peter Falconio.",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/crlwln0gkzlo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Nine foreign nationals, including French woman, among 13 victims of Spain's deadly wildfire",
-      "detail": "At least thirteen people, including five Britons, three Belgians and one national each from France and Spain, were confirmed killed in one of Spain's deadliest wildfires in recent years, authorities said Monday. The…",
-      "source": "France24",
-      "url": "https://www.france24.com/en/europe/20260714-several-foreign-nationals-among-victims-deadly-spain-wildfire"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Colombian national killed by ICE agent during operation in Maine",
-      "detail": "It comes less than a week after an undocumented migrant was fatally shot in Houston by an immigration agent.",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c2ly580kxnko?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Identity of Sydney daycare worker facing 329 child abuse offences revealed",
-      "detail": "Hamish Tait is accused of abusing 136 children at five childcare facilities over a 16-year period.",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c5yzy0lpello?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -493,16 +583,6 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Iran war: US continues strikes as Trump reinstates blockade",
-      "detail": "The US has carried out a third consecutive night of strikes on Iran. Donald Trump says Washington is reinstating a naval blockade and warns Tehran will be “hit hard” as tensions continue to escalate. DW has more.",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/iran-war-us-continues-strikes-as-trump-reinstates-blockade/live-77942892?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "13 ก.ค.",
       "region": "Google News: Esports",
       "flag": "🎮",
       "category": "esports",
@@ -520,16 +600,6 @@
       "detail": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
-    },
-    {
-      "time": "13 ก.ค.",
-      "region": "BBC Business",
-      "flag": "💰",
-      "category": "economy",
-      "headline": "California leads lawsuit to block Paramount Warner Bros mega merger",
-      "detail": "The state, where the both studios have headquarters, has joined 11 others to halt the deal.",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/cgev34lvgp4o?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "13 ก.ค.",
@@ -556,7 +626,7 @@
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
-      "headline": "'I don't want to seem tight': How much should you give to the year-end teacher collection?",
+      "headline": "How to navigate the awkward year-end teacher 'thank you' collection",
       "detail": "Collecting money for a joint present might overcome the competitive gift-giving, but it can still cause friction.",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/ckg8x4vk04vo?at_medium=RSS&at_campaign=rss"
@@ -573,16 +643,6 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
-      "detail": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "13 ก.ค.",
       "region": "Ars Technica",
       "flag": "💻",
       "category": "tech",
@@ -590,26 +650,6 @@
       "detail": "The man is said to be doing well in a Frankfurt hospital.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/"
-    },
-    {
-      "time": "13 ก.ค.",
-      "region": "The Guardian World",
-      "flag": "🇬🇧",
-      "category": "world",
-      "headline": "Mexico to file criminal complaints over migrants killed by ICE in US",
-      "detail": "Claudia Sheinbaum says Mexicans ‘outraged’ over killing last week of Lorenzo Salgado Araujo by agents in HoustonClaudia Sheinbaum announced on Monday that Mexico would be filing criminal complaints in the US for the…",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths"
-    },
-    {
-      "time": "13 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "England to make late call on Rice for World Cup semi-final",
-      "detail": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina.",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "13 ก.ค.",
@@ -623,16 +663,6 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Satya Nadella has issued a shocking warning to companies using AI",
-      "detail": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow…",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/"
-    },
-    {
-      "time": "13 ก.ค.",
       "region": "Ars Technica",
       "flag": "💻",
       "category": "tech",
@@ -643,13 +673,13 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "100T Asuna: \"The tournament just showed us that once we can make it to the international, we're competing for the title\" - sheepesports.com",
-      "detail": "100T Asuna: \"The tournament just showed us that once we can make it to the international, we're competing for the title\"&nbsp;&nbsp;sheepesports.com",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTFcxX1pJQlI2cDNLOXdJSnkyX0VHbTVFMGtfeDBTZXQ2RF85WGVWY1Fncm5paWxKM3JnbDRnUXd1dmV1UTNrQWxDTTFJSXVQcWp1WWM3Wmp6UkZBZDd4WHJfNjBCSThLR2NXVUZKXy15b0RUc0pYZk1EcG85bjVyNzJrVHdqUTQ4OTNjcHVkdFhTZ1BURlZuSlV6blNGZ1VUVFFmUmtqX2ZxbXI1a0Q3Ykw3WllRc0E5ZWZLTjRCXzJBTkdpanFRWTdrY0sxdEI4Nk1VN2dGRQ?oc=5"
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Hungary parliament votes to remove president from office",
+      "detail": "Tamás Sulyok was widely seen as a loyalist of former prime minister Viktor Orbán, who lost power in April after 16 years.",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "13 ก.ค.",
@@ -660,16 +690,6 @@
       "detail": "There's a separate $1,750 rebate for used EVs, but both rebates have a price cap.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/cars/2026/07/first-time-ev-buyers-in-california-can-now-claim-a-new-rebate/"
-    },
-    {
-      "time": "13 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Hungary: Lawmakers pass law to oust Orban ally president",
-      "detail": "The Hungarian parliament continued its attempts to leave the Viktor Orban era behind the country by moving to oust President Tamas Sulyok.",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/hungary-lawmakers-pass-law-to-oust-orban-ally-president/a-77941734?maca=en-rss-en-all-1573-xml-mrss"
     },
     {
       "time": "13 ก.ค.",
@@ -693,16 +713,6 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Timing took me to Chelsea rather than Liverpool - Alonso",
-      "detail": "Chelsea manager Xabi Alonso says his arrival at Stamford Bridge instead of Liverpool was \"about timings\".",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/czj8rzxrp88o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "13 ก.ค.",
       "region": "BBC World",
       "flag": "🌐",
       "category": "world",
@@ -719,7 +729,7 @@
       "headline": "Nigeria: U.S. Backs Nigeria to Prosecute Terrorism-Related Offences",
       "detail": "[Leadership] The United States of America has thrown its weight behind Nigeria in the efforts to combat terrorism by ensuring a system that will effectively prosecute terrorism-related offences in the country as well as…",
       "source": "AllAfrica",
-      "url": "https://allAfrica.com/stories/202607130871.html"
+      "url": "https://allafrica.com/stories/202607130871.html"
     },
     {
       "time": "13 ก.ค.",
@@ -730,16 +740,6 @@
       "detail": "Bipartisan group argue in lawsuit that $110bn merger would hurt competition and lead to thousands of job lossesA dozen US state attorneys general are seeking to block the $110bn merger of Paramount Skydance and Warner…",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/media/2026/jul/13/paramount-warner-bros-merger-lawsuit"
-    },
-    {
-      "time": "13 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "ESPN will end syndicated version of Good Morning Football - NBC Sports",
-      "detail": "ESPN will end syndicated version of Good Morning Football&nbsp;&nbsp;NBC Sports",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTDJWWnlVTjVjdkM1MjRJeDFnQlFvQmp6V3RzX0FCNm5jcHRrUmw3c1NWQkZsNnBVMHRxLTF6bnRwVWd0a2poT2RDdEVLLTdqSHk2WkZ5Zm5YSlNoSENJSWlLRk5oVnA1SmdoQzE5cnAyQWl5eTlYd1VLQjZpSlU0VDdCRTRKaGphd1ZyVGF4bnB2ZklfaU10QTFxVlJIc1hFZXEwV0ZPd2JURjV5LWRHRllNdEVGWnhZZkcw?oc=5"
     },
     {
       "time": "13 ก.ค.",
@@ -806,10 +806,10 @@
       "region": "Google News: Sports",
       "flag": "⚽",
       "category": "sports",
-      "headline": "Group of 11 athletes challenge new NCAA eligibility rules in suit - ESPN",
-      "detail": "Group of 11 athletes challenge new NCAA eligibility rules in suit&nbsp;&nbsp;ESPN",
+      "headline": "College Football Playoff contenders by tier: Frontrunners, dark horses, up-and-comers in 2026 - CBS Sports",
+      "detail": "College Football Playoff contenders by tier: Frontrunners, dark horses, up-and-comers in 2026&nbsp;&nbsp;CBS Sports",
       "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbkViajNCMVM1WVJkQnFWb3l1NnFBajNWQ0k0eXR4Q05oQV9zaWdqLUFjSGZmSWhIZ1pYMjNJNEpGOUFJSld2U1FHVXJXXzN2bGRzeUZSUGg5Qld4b3pQUE44WHBJd3pPMFNUSU5RSm9pS2ozdmFiWGROOWliTWMzU243TjFuYnF1NVJ6b0tpTUZfcUk0a3ZqbnBfaXliN2tHOWxDdmhtS2FBMVhkZV9kaks2OWFaQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObFJPMUNmR2xVby1YSEszckFqcG1VNmhvVmU4Z3dhbThrRFRhQ3I5WjR4dlZLeGs5S0IxQnNwdWh3dlIwS21PbzFtRXAxTC10NDZ3b1ltWks2NV9sb2pZaFFTVWU0cUNFUXlPUldqcDJTZzM0dUNOLTV6clBNUl9NZ1BwOUlCX010OWhZd2FyZDVfblVfSWloUU9n?oc=5"
     },
     {
       "time": "13 ก.ค.",
@@ -923,6 +923,16 @@
     },
     {
       "time": "12 ก.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "PARIVISION and Team Yandex secure Playoff berths as Dota 2 Esports World Cup Group Stage concludes - GosuGamers",
+      "detail": "PARIVISION and Team Yandex secure Playoff berths as Dota 2 Esports World Cup Group Stage concludes&nbsp;&nbsp;GosuGamers",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYzF0clQydk5KT2dTbjZCeHktNTdzTllGM21Pb2J5TTJjUzdkb0FMYThvUGdRb3dxWmhlN1FLQnNrYlBxenBGZGRYRTAxQUJBVTZSY1R3WHVzdG1jbHBfcDlidXB0NWktd3Nna29uMUF1N0NDdll6dnhHSjVpeXFYM1hEYTYtTmxGdmJvcTNBbU9UaW9jZ2NDT0cweUlNM3hRVFdwbXliX0VxZnZLbEVBaF9sdFJfZ0RadHJRd2dfQjdRY2RLQUZKS1VnUnJueWFZajk3R1JLQlRjUQ?oc=5"
+    },
+    {
+      "time": "12 ก.ค.",
       "region": "Google News: Sports",
       "flag": "⚽",
       "category": "sports",
@@ -1020,16 +1030,6 @@
       "detail": "Last week, tournament organizer BLAST announced changes to its Dota 2 series, the BLAST Slam, revealing that they’re cutting the prize pool down from $1 million to $750,000. And to be completely honest, this wasn’t a…",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/dota-2-tier-1-tourneys-stale-solution"
-    },
-    {
-      "time": "10 ก.ค.",
-      "region": "The Guardian Business",
-      "flag": "💰",
-      "category": "economy",
-      "headline": "New York City moves to adopt ban of deceptive subscription practices",
-      "detail": "Mamdani administration seeks to ban companies from trapping customers into paying recurring charges and ‘junk fees’New York City has adopted a rule that bans companies from using deceptive subscriptions to trap…",
-      "source": "The Guardian Business",
-      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban"
     },
     {
       "time": "10 ก.ค.",
