@@ -17,6 +17,7 @@
     --teal:#16bfa8;
     --violet:#b892ff;
     --pink:#ff5f96;
+    --lime:#9ade5c;
     --text:#eae7dd;
     --text-dim:#868d94;
     --text-faint:#565d63;
@@ -126,6 +127,74 @@
   }
   .visitor-counter .eye{color:var(--teal);}
   .visitor-counter img{height:18px; display:block;}
+
+  /* ===== ปุ่ม/แผงอัตราแลกเปลี่ยน ===== */
+  .rates-btn{
+    display:flex; align-items:center; gap:6px;
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem; font-weight:600;
+    color:var(--lime); background:rgba(154,222,92,0.08);
+    border:1px solid var(--lime); border-radius:4px; padding:6px 12px;
+    cursor:pointer; transition:all 0.2s ease;
+  }
+  .rates-btn:hover{ background:rgba(154,222,92,0.18); }
+
+  .rates-overlay{
+    position:fixed; inset:0; z-index:200;
+    background:rgba(6,8,10,0.78);
+    backdrop-filter:blur(3px);
+    display:none;
+    align-items:center; justify-content:center;
+    padding:20px;
+  }
+  .rates-overlay.open{ display:flex; }
+
+  .rates-modal{
+    width:100%; max-width:520px; max-height:82vh;
+    background:var(--panel); border:1px solid var(--line); border-radius:6px;
+    display:flex; flex-direction:column;
+    overflow:hidden;
+  }
+  .rates-modal-head{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 20px; border-bottom:1px solid var(--line);
+  }
+  .rates-modal-head h2{
+    font-family:'Space Grotesk', sans-serif; font-size:1.15rem; font-weight:700; margin:0;
+  }
+  .rates-close{
+    background:none; border:1px solid var(--line); border-radius:4px;
+    color:var(--text-dim); width:30px; height:30px; cursor:pointer; font-size:1rem;
+    transition:all 0.2s ease;
+  }
+  .rates-close:hover{ color:var(--text); border-color:var(--amber); }
+
+  .rates-updated{
+    padding:10px 20px; font-family:'IBM Plex Mono', monospace; font-size:0.7rem;
+    color:var(--text-faint); border-bottom:1px dashed var(--line);
+  }
+
+  .rates-body{ overflow-y:auto; }
+  .rates-row{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px 20px; border-bottom:1px solid var(--line);
+  }
+  .rates-row:last-child{ border-bottom:none; }
+  .rates-row.base-row{ background:rgba(242,169,0,0.06); }
+  .rates-row.highlight{ background:rgba(154,222,92,0.07); }
+  .rc-name{ display:flex; align-items:center; gap:10px; }
+  .rc-flag{ font-size:1.3rem; }
+  .rc-code{ font-family:'IBM Plex Mono', monospace; font-size:0.78rem; color:var(--text); font-weight:600; }
+  .rc-label{ font-size:0.72rem; color:var(--text-dim); }
+  .rc-value{
+    font-family:'IBM Plex Mono', monospace; font-size:0.92rem; font-weight:600; color:var(--lime);
+  }
+  .rates-source{
+    padding:12px 20px; font-family:'IBM Plex Mono', monospace; font-size:0.66rem;
+    color:var(--text-faint); border-top:1px solid var(--line); text-align:center;
+  }
+  @media (max-width:480px){
+    .rc-label{ display:none; }
+  }
 
   .snapshot-note{
     max-width:1100px; margin:14px auto 0;
@@ -293,6 +362,7 @@
       <h1>WORLD DISPATCH</h1>
     </div>
     <div class="header-controls">
+      <button class="rates-btn" id="ratesBtn">💱 <span data-i18n="ratesBtnLabel">อัตราแลกเปลี่ยน</span></button>
       <div class="visitor-counter">
         <span class="eye">◉</span>
         <span data-i18n="visitors">ผู้เข้าชม</span>
@@ -323,6 +393,18 @@
   <div class="pagination" id="pagination"></div>
 </main>
 
+<div class="rates-overlay" id="ratesOverlay">
+  <div class="rates-modal">
+    <div class="rates-modal-head">
+      <h2 data-i18n="ratesTitle">อัตราแลกเปลี่ยน (อิง 1 USD)</h2>
+      <button class="rates-close" id="ratesClose">✕</button>
+    </div>
+    <div class="rates-updated" id="ratesUpdated"></div>
+    <div class="rates-body" id="ratesBody"></div>
+    <div class="rates-source" id="ratesSource"></div>
+  </div>
+</div>
+
 <footer>
   <span data-i18n="footer">WORLD DISPATCH — สรุปข่าวจากสำนักข่าวต้นทางหลายแห่ง เพื่อการอ้างอิงเบื้องต้น กรุณาอ่านฉบับเต็มจากลิงก์แหล่งข่าว</span>
 </footer>
@@ -349,6 +431,12 @@ const I18N = {
     updatedPrefix: 'อัปเดตข่าวล่าสุดโดยอัตโนมัติ:',
     snapshotDefault: 'ข้อมูลข่าว ณ วันที่ 14 กรกฎาคม 2569 (ภาพรวมข่าวจริง ไม่ใช่ฟีดสด)',
     prevPage: '← ก่อนหน้า', nextPage: 'ถัดไป →', pageInfo: 'หน้า {current} จาก {total}',
+    ratesBtnLabel: 'อัตราแลกเปลี่ยน',
+    ratesTitle: 'อัตราแลกเปลี่ยน (อิง 1 USD)',
+    ratesUpdatedPrefix: 'อัปเดตล่าสุด:',
+    ratesLoading: 'กำลังโหลดอัตราแลกเปลี่ยน…',
+    ratesFailed: 'โหลดอัตราแลกเปลี่ยนไม่สำเร็จ ลองใหม่ภายหลัง',
+    ratesSourcePrefix: 'ข้อมูลจาก',
   },
   en: {
     eyebrow: 'Global newsroom snapshot',
@@ -363,6 +451,12 @@ const I18N = {
     updatedPrefix: 'News last auto-updated:',
     snapshotDefault: 'News snapshot as of July 14, 2026 (real headlines, not a live feed).',
     prevPage: '← Previous', nextPage: 'Next →', pageInfo: 'Page {current} of {total}',
+    ratesBtnLabel: 'Exchange Rates',
+    ratesTitle: 'Exchange Rates (per 1 USD)',
+    ratesUpdatedPrefix: 'Last updated:',
+    ratesLoading: 'Loading exchange rates…',
+    ratesFailed: 'Could not load exchange rates. Try again later.',
+    ratesSourcePrefix: 'Data from',
   }
 };
 
@@ -391,6 +485,9 @@ function setLanguage(lang){
   if(allItems.length){
     renderPage();
   }
+  if(ratesOverlay && ratesOverlay.classList.contains('open')){
+    renderRates();
+  }
 }
 
 document.querySelectorAll('.lang-btn').forEach(btn=>{
@@ -402,6 +499,124 @@ document.querySelectorAll('.lang-btn').forEach(btn=>{
    รูปภาพ <img> ในหน้า HTML โดยตรง (ดูใน <header>) ไม่ต้องพึ่ง
    JavaScript เรียก API เอง จึงไม่มีจุดที่พังจากสคริปต์ฝั่งเรา
    ======================================================== */
+
+/* ========================================================
+   แผงอัตราแลกเปลี่ยน — โหลดจาก rates.json ซึ่งอัปเดตอัตโนมัติ
+   ทุกวันโดย GitHub Actions (ดู fetch_rates.py) กดปุ่มในหัวเว็บ
+   เพื่อเปิดดูได้ทันทีโดยไม่ต้องออกจากหน้านี้
+   ======================================================== */
+const CURRENCY_META = {
+  THB:{flag:'🇹🇭', th:'บาทไทย', en:'Thai Baht'},
+  USD:{flag:'🇺🇸', th:'ดอลลาร์สหรัฐ', en:'US Dollar'},
+  EUR:{flag:'🇪🇺', th:'ยูโร', en:'Euro'},
+  GBP:{flag:'🇬🇧', th:'ปอนด์สเตอร์ลิง', en:'British Pound'},
+  JPY:{flag:'🇯🇵', th:'เยนญี่ปุ่น', en:'Japanese Yen'},
+  CNY:{flag:'🇨🇳', th:'หยวนจีน', en:'Chinese Yuan'},
+  KRW:{flag:'🇰🇷', th:'วอนเกาหลีใต้', en:'South Korean Won'},
+  SGD:{flag:'🇸🇬', th:'ดอลลาร์สิงคโปร์', en:'Singapore Dollar'},
+  AUD:{flag:'🇦🇺', th:'ดอลลาร์ออสเตรเลีย', en:'Australian Dollar'},
+  CAD:{flag:'🇨🇦', th:'ดอลลาร์แคนาดา', en:'Canadian Dollar'},
+  CHF:{flag:'🇨🇭', th:'ฟรังก์สวิส', en:'Swiss Franc'},
+  HKD:{flag:'🇭🇰', th:'ดอลลาร์ฮ่องกง', en:'Hong Kong Dollar'},
+  INR:{flag:'🇮🇳', th:'รูปีอินเดีย', en:'Indian Rupee'},
+  MYR:{flag:'🇲🇾', th:'ริงกิตมาเลเซีย', en:'Malaysian Ringgit'},
+  PHP:{flag:'🇵🇭', th:'เปโซฟิลิปปินส์', en:'Philippine Peso'},
+  IDR:{flag:'🇮🇩', th:'รูเปียห์อินโดนีเซีย', en:'Indonesian Rupiah'},
+  VND:{flag:'🇻🇳', th:'ดองเวียดนาม', en:'Vietnamese Dong'},
+  TWD:{flag:'🇹🇼', th:'ดอลลาร์ไต้หวัน', en:'Taiwan Dollar'},
+};
+
+// snapshot สำรอง (ณ 13 ก.ค. 2569) ใช้กรณี rates.json ยังโหลดไม่ได้ (เช่น ก่อนรอบอัตโนมัติแรก)
+const FALLBACK_RATES = {
+  base:'USD', source:'snapshot ในตัวเว็บ (ไม่ใช่ข้อมูลสด)', updated_at:'2026-07-13T00:00:00Z',
+  rates:{ THB:33.34, EUR:0.92, GBP:0.79, JPY:148, CNY:7.15, KRW:1385, SGD:1.29, AUD:1.51,
+          CAD:1.36, CHF:0.81, HKD:7.82, INR:85.5, MYR:4.35, PHP:55.8, IDR:15900, VND:25400, TWD:29.6 }
+};
+
+let ratesData = null; // เก็บผลลัพธ์จาก rates.json ไว้ใช้ตอนสลับภาษา/เปิดแผงซ้ำ
+
+async function loadRates(){
+  try{
+    const res = await fetch('rates.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('rates.json not found');
+    const data = await res.json();
+    if(data && data.rates && Object.keys(data.rates).length){
+      ratesData = data;
+      return;
+    }
+    throw new Error('rates.json ว่างเปล่า');
+  }catch(err){
+    console.warn('โหลด rates.json ไม่สำเร็จ ใช้ snapshot สำรองแทน:', err);
+    ratesData = FALLBACK_RATES;
+  }
+}
+
+function formatRate(value){
+  if(value >= 100) return value.toLocaleString(undefined, {maximumFractionDigits:0});
+  if(value >= 1) return value.toLocaleString(undefined, {maximumFractionDigits:2});
+  return value.toLocaleString(undefined, {maximumFractionDigits:4});
+}
+
+function renderRates(){
+  const body = document.getElementById('ratesBody');
+  const updatedEl = document.getElementById('ratesUpdated');
+  const sourceEl = document.getElementById('ratesSource');
+
+  if(!ratesData){
+    body.innerHTML = `<div class="rates-row">${t('ratesFailed')}</div>`;
+    updatedEl.textContent = '';
+    sourceEl.textContent = '';
+    return;
+  }
+
+  const d = new Date(ratesData.updated_at);
+  const formatted = d.toLocaleString(currentLang === 'th' ? 'th-TH' : 'en-US', {dateStyle:'medium', timeStyle:'short'});
+  updatedEl.textContent = `${t('ratesUpdatedPrefix')} ${formatted}`;
+
+  const rows = [];
+  // แถวฐาน USD = 1 เสมอ อยู่บนสุด
+  rows.push({code:'USD', value:1, isBase:true});
+  Object.keys(ratesData.rates).forEach(code=>{
+    if(code === 'USD') return;
+    rows.push({code, value:ratesData.rates[code], isBase:false});
+  });
+
+  body.innerHTML = rows.map(r=>{
+    const meta = CURRENCY_META[r.code] || {flag:'💱', th:r.code, en:r.code};
+    const label = currentLang === 'th' ? meta.th : meta.en;
+    const rowClass = r.isBase ? 'base-row' : (r.code === 'THB' ? 'highlight' : '');
+    return `
+      <div class="rates-row ${rowClass}">
+        <div class="rc-name">
+          <span class="rc-flag">${meta.flag}</span>
+          <div>
+            <div class="rc-code">${r.code}</div>
+            <div class="rc-label">${label}</div>
+          </div>
+        </div>
+        <div class="rc-value">${formatRate(r.value)}</div>
+      </div>
+    `;
+  }).join('');
+
+  sourceEl.textContent = ratesData.source ? `${t('ratesSourcePrefix')}: ${ratesData.source}` : '';
+}
+
+const ratesBtn = document.getElementById('ratesBtn');
+const ratesOverlay = document.getElementById('ratesOverlay');
+const ratesClose = document.getElementById('ratesClose');
+
+ratesBtn.addEventListener('click', ()=>{
+  ratesOverlay.classList.add('open');
+  renderRates();
+});
+ratesClose.addEventListener('click', ()=> ratesOverlay.classList.remove('open'));
+ratesOverlay.addEventListener('click', (e)=>{
+  if(e.target === ratesOverlay) ratesOverlay.classList.remove('open');
+});
+document.addEventListener('keydown', (e)=>{
+  if(e.key === 'Escape') ratesOverlay.classList.remove('open');
+});
 
 /* ========================================================
    ข้อมูลข่าว (snapshot วันที่ 14 ก.ค. 2569)
@@ -609,6 +824,7 @@ setInterval(renderClock, 1000);
 
 // init
 applyStaticI18n();
+loadRates();
 fetchLiveDispatches().then(items=>{
   allItems = items;
   applyFilter('all');
