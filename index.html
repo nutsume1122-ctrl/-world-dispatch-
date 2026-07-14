@@ -93,7 +93,7 @@
     border:1px solid var(--line); border-radius:4px; padding:6px 12px;
   }
   .visitor-counter .eye{color:var(--teal);}
-  .visitor-counter .count{color:var(--amber); font-weight:600;}
+  .visitor-counter img{height:18px; display:block;}
 
   .snapshot-note{
     max-width:1100px; margin:14px auto 0;
@@ -212,7 +212,7 @@
       <div class="visitor-counter">
         <span class="eye">◉</span>
         <span data-i18n="visitors">ผู้เข้าชม</span>
-        <span class="count" id="visitorCount">…</span>
+        <img id="visitorBadge" alt="visitor count" src="https://visitor-badge.laobi.icu/badge?page_id=world-dispatch-nutsume1122&left_color=grey&right_color=%23f2a900">
       </div>
       <div class="lang-toggle">
         <button class="lang-btn active" data-lang="th">TH</button>
@@ -311,22 +311,10 @@ document.querySelectorAll('.lang-btn').forEach(btn=>{
 });
 
 /* ========================================================
-   ตัวนับจำนวนผู้เข้าชม — ใช้บริการฟรี CountAPI (ไม่ต้องสมัคร
-   ไม่มีค่าใช้จ่าย) นับจำนวนครั้งที่มีคนเปิดหน้านี้
-   หมายเหตุ: เปลี่ยน 'YOUR-NAMESPACE' เป็นชื่อเฉพาะของเว็บคุณ
-   (เช่น username GitHub ของคุณ) เพื่อไม่ให้ตัวนับไปชนกับเว็บอื่น
+   ตัวนับผู้เข้าชม: ใช้บริการ visitor-badge.laobi.icu ผ่าน
+   รูปภาพ <img> ในหน้า HTML โดยตรง (ดูใน <header>) ไม่ต้องพึ่ง
+   JavaScript เรียก API เอง จึงไม่มีจุดที่พังจากสคริปต์ฝั่งเรา
    ======================================================== */
-async function loadVisitorCount(){
-  const el = document.getElementById('visitorCount');
-  try{
-    const res = await fetch('https://api.countapi.xyz/hit/world-dispatch-nutsume1122/visits');
-    const data = await res.json();
-    el.textContent = data.value.toLocaleString();
-  }catch(err){
-    console.warn('โหลดตัวนับผู้เข้าชมไม่สำเร็จ:', err);
-    el.textContent = '—';
-  }
-}
 
 /* ========================================================
    ข้อมูลข่าว (snapshot วันที่ 14 ก.ค. 2569)
@@ -460,7 +448,6 @@ setInterval(renderClock, 1000);
 
 // init
 applyStaticI18n();
-loadVisitorCount();
 fetchLiveDispatches().then(items=>{
   renderBoard(items);
   applyFilter('all');
