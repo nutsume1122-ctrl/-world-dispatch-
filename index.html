@@ -89,15 +89,14 @@
     max-width:1100px; margin:0 auto;
     padding-bottom:10px;
   }
-  /* โหมดย่อ (เฉพาะจอมือถือ): ตอนเลื่อนดูข่าวลงมา ซ่อนส่วนหัวใหญ่
-     เหลือแค่ชื่อย่อ + แท็บ + ช่องค้นหา ให้เห็นข่าวได้เต็มจอมากขึ้น */
-  @media (max-width:760px){
-    header.compact{ padding-top:12px; padding-bottom:10px; }
-    header.compact .header-collapsible{
-      max-height:0; opacity:0; margin:0; pointer-events:none;
-    }
-    header.compact .compact-title{ display:block; }
+  /* โหมดย่อ: ตอนเลื่อนดูข่าว ซ่อนส่วนหัวใหญ่ เหลือแค่ชื่อย่อ + แท็บ +
+     ช่องค้นหา ให้เห็นข่าวได้มากขึ้น และไม่บังข่าวแรกตอนเปลี่ยนหน้า
+     (ใช้ได้ทั้งบนคอมและมือถือ) */
+  header.compact{ padding-top:12px; padding-bottom:10px; }
+  header.compact .header-collapsible{
+    max-height:0; opacity:0; margin:0; pointer-events:none;
   }
+  header.compact .compact-title{ display:block; }
   .header-top{
     max-width:1100px; margin:0 auto;
     display:flex; justify-content:space-between; align-items:flex-end;
@@ -1104,7 +1103,23 @@ function renderPage(){
 function goToPage(n){
   currentPage = n;
   renderPage();
-  board.scrollIntoView({behavior:'smooth', block:'start'});
+
+  // เลื่อนไปที่ข่าวแรกของหน้าใหม่ โดยเผื่อความสูงของหัวเว็บที่ค้างอยู่ด้านบน (sticky)
+  // ไม่งั้นข่าวแรกจะโดนหัวเว็บบังจนต้องเลื่อนขึ้นหาเอง
+  requestAnimationFrame(()=>{
+    const header = document.querySelector('header');
+    // ตอนเลื่อนแล้วหัวเว็บจะย่อลง จึงใช้ความสูงของโหมดย่อในการคำนวณ
+    const wasCompact = header.classList.contains('compact');
+    if(!wasCompact) header.classList.add('compact');
+    const headerHeight = header.offsetHeight;
+    if(!wasCompact) header.classList.remove('compact');
+
+    const boardTop = board.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({
+      top: Math.max(0, boardTop - headerHeight - 12),
+      behavior: 'smooth'
+    });
+  });
 }
 
 // ใช้ event delegation ที่ระดับ board แทนการผูก listener ทีละแถว
@@ -1132,6 +1147,10 @@ function applyFilter(filter){
   currentPage = 1;
   tabs.forEach(tb=>tb.classList.toggle('active', tb.dataset.filter === filter));
   renderPage();
+  // ถ้าเลื่อนลงมาอยู่แล้ว ให้กลับไปที่ข่าวแรกของหมวดใหม่ (ไม่ค้างอยู่กลางรายการเดิม)
+  if(window.scrollY > 100){
+    goToPage(1);
+  }
 }
 
 tabs.forEach(tab=>{
