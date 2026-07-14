@@ -1,6 +1,126 @@
 {
-  "updated_at": "2026-07-14T07:07:46.820156+00:00",
+  "updated_at": "2026-07-14T07:48:10.116084+00:00",
   "items": [
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Samsung explores potential US listing via ADRs, Bloomberg News reports",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/business/samsung-explores-potential-us-listing-adrs-bloomberg-news-reports-6252916"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Mediacorp Tamil drama Must Date The Playboy! surpasses 100 million views, fans can meet cast on Jul 18",
+      "detail": "Adapted from Imma Delos Santos' Wattpad novel, the drama follows a&nbsp;university student who enters a fake relationship with the notorious campus \"playboy\" to protect her best friend Kaushi from heartbreak.",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/entertainment/must-date-playboy-cast-meet-greet-jul-18-6252806"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Johor government calls for probe into startup community based in Forest City over alleged Israeli links",
+      "detail": "The Network School brands itself as a physical co-living and co-learning community for tech founders, remote workers, and content creators located “on a Malaysian island off the coast of Singapore”.",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/asia/johor-israel-network-school-forest-city-onn-hafiz-6252686"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "World Cup 2026: France aim for third consecutive final against Spain",
+      "detail": "The French team are taking on Spain in Dallas in the World Cup semi-final. Les Bleus are hoping to become the second nation to reach three consecutive World Cup finals.",
+      "source": "France24",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260714-world-cup-2026-france-aim-third-consecutive-final-against-spain"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Could it work if Verstappen wanted to go to McLaren? F1 Q&A",
+      "detail": "BBC Sport F1 correspondent Andrew Benson answers your latest questions before the Belgian Grand Prix at Spa-Francorchamps.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/c872v408y2xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Global investors turn most bullish since February, BofA survey shows",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/business/global-investors-turn-most-bullish-february-bofa-survey-shows-6252911"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "India's AI training boom draws professionals seeking an edge, but questions remain over quality",
+      "detail": "In the first of a two-part series on how India is preparing for an AI-powered future, CNA examines the growing business of artificial intelligence upskilling and the questions surrounding the value of these programmes.",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/asia/india-artificial-intelligence-upskilling-boom-working-professionals-6252671"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Five years after deadly floods, a German valley prepares for the next one",
+      "detail": "New walls, redesigned bridges and restored floodplains: towns in a small German valley are testing how they can survive the next extreme flood.",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/five-years-after-deadly-floods-a-german-valley-prepares-for-the-next-one/a-77810916?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Google probed by Swiss regulator over Android default search feature",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/business/google-probed-swiss-regulator-over-android-default-search-feature-6252866"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "The Top Fantasy Football Tight End Sleepers for 2026 Drafts - Yahoo Sports",
+      "detail": "The Top Fantasy Football Tight End Sleepers for 2026 Drafts&nbsp;&nbsp;Yahoo Sports",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa25GYWE5OEF0VVJacFMxZVVhbHg1SHNtendGcDhfemo3Um9nOXVPRFNzcWExTTI5ZklXSTJ3S0xDZVVfRndEQXBacXlfTEJReTBySE1CTXRfLTdQdTlfWWVnSjhoRjlyX1BzaEJJTm8wTWktQlFZWEIxOXpwc0ZSNTRBYnB6UQ?oc=5"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Increased security for England v Argentina tie in Atlanta",
+      "detail": "Authorities say there will be increased security measures in place for Wednesday's World Cup semi-final between England and Argentina in Atlanta.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/clyey5glv4ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "2026 Home Run Derby Payouts Revealed - Yahoo Sports",
+      "detail": "2026 Home Run Derby Payouts Revealed&nbsp;&nbsp;Yahoo Sports",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNm1vb1JOc2syVm40SkNXMW1TRDhPS1FFZnV4SnAtdkZ3UmREbUxHaHJyclBxRWhZc0lKQW1IM3J1dTZnQlN0VzNsRTdtMllBV21MOXEzdmVsNnNRRHpmYzRPWFZZcDVRbkIySHdJbUJadlB5RlJ4Umk4SW12YnIzVFhn?oc=5"
+    },
     {
       "time": "14 ก.ค.",
       "region": "DW (Germany)",
@@ -19,7 +139,7 @@
       "headline": "Africa: All of Africa Today - July 14, 2026",
       "detail": "[allAfrica]",
       "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140076.html"
+      "url": "https://allAfrica.com/stories/202607140076.html"
     },
     {
       "time": "14 ก.ค.",
@@ -29,7 +149,7 @@
       "headline": "Nigeria: 6,009 Called to the Nigerian Bar, Body of Benchers Cautions Against Misuse of 'Barrister'",
       "detail": "[Premium Times] The chairperson of the Body of Benchers, Albert Akpomudje, cautioned against the improper use of 'Barrister' as a prefix before names, noting that it is not a professional title to be used in that manner.",
       "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140071.html"
+      "url": "https://allAfrica.com/stories/202607140071.html"
     },
     {
       "time": "14 ก.ค.",
@@ -39,7 +159,7 @@
       "headline": "Nigeria: One Year After Death, Buhari's Life Still 'Speaks' to Nigerians - Tinubu",
       "detail": "[Premium Times] President Tinubu says Mr Buhari's transformation from military ruler to civilian democrat marked him out as a rare figure in the nation's history.",
       "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140072.html"
+      "url": "https://allAfrica.com/stories/202607140072.html"
     },
     {
       "time": "14 ก.ค.",
@@ -59,7 +179,7 @@
       "headline": "Malawi: Hundreds of People Still Stranded Outside Malawian Consulate",
       "detail": "[GroundUp] A psychologist working with the MSF team identified people requiring mental health support due to trauma",
       "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140067.html"
+      "url": "https://allAfrica.com/stories/202607140067.html"
     },
     {
       "time": "14 ก.ค.",
@@ -83,16 +203,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "More than 260,000 evacuated in China as Typhoon Bavi brings severe floods",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/east-asia/typhoon-bavi-china-floods-people-evacuated-6252536"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "Dot Esports",
       "flag": "🎮",
       "category": "esports",
@@ -106,60 +216,10 @@
       "region": "France24",
       "flag": "🇫🇷",
       "category": "world",
-      "headline": "France's Bastille Day parade to showcase European support for Ukraine",
-      "detail": "France's annual July 14 military parade will feature aircraft from 11 European countries and around 500 troops from the ″Coalition of the Willing″ allies that have pledged to help with Ukraine’s post-war security in a…",
+      "headline": "Watch live: France's Bastille Day parade to showcase European support for Ukraine",
+      "detail": "France's annual July 14 military parade will feature aircraft from 11 European countries and around 500 troops from the Coalition of the Willing allies that have pledged to help with Ukraine’s post-war security in a…",
       "source": "France24",
       "url": "https://www.france24.com/en/france/20260714-france-bastille-day-parade-showcase-european-support-ukraine"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "India's LTM expects AI revenue to outpace traditional services, CEO says",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/indias-ltm-expects-ai-revenue-outpace-traditional-services-ceo-says-6252781"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Egg-free school meals scramble politics in India",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/asia/egg-free-school-meals-west-bengal-politics-india-6252756"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Veteran Hong Kong film producer Nansun Shi dies at 75",
-      "detail": "The renowned film producer co-founded Film Workshop with filmmaker Tsui Hark and helped produce several Hong Kong classics, including A Better Tomorrow and Infernal Affairs.",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/entertainment/nansun-shi-dies-hong-kong-film-producer-better-tomorrow-6252656"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Sacked McCullum apologises for England's test results",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/sport/sacked-mccullum-apologises-englands-test-results-6252766"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Changi Airport says Terminal 5 capacity remains on track despite global uncertainties",
-      "detail": "Executive vice-president of air hub and cargo development&nbsp;Lim Ching Kiat also addressed MPs' concerns about longer-range aircraft bypassing the airport.",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/singapore/changi-airport-t5-capacity-lim-ching-kiat-6251246"
     },
     {
       "time": "14 ก.ค.",
@@ -169,7 +229,17 @@
       "headline": "South Africa: Illegal Initiation Schools Under Fire - South African News Briefs - July 14, 2026",
       "detail": "[allAfrica]",
       "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140051.html"
+      "url": "https://allAfrica.com/stories/202607140051.html"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "CJ McCollum Shares Honest Thoughts on Knicks Winning NBA Championship - Yahoo Sports",
+      "detail": "CJ McCollum Shares Honest Thoughts on Knicks Winning NBA Championship&nbsp;&nbsp;Yahoo Sports",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTkdSakFDdU5TRHpQeVp1RTVHYWxVeDYyNXJuNkJJbm83TTZ5Q0l6anJMZmZ3ZUs2TXNVVTQ2RjJ2bmRXWnlBejZvZHVTZVFzaG4yb0JWNktZdEZoRmZETTZsWF9RQjVVM000cTZCQ1ctUFV1amQxRk91UjJJWS11al80NFF2aS12TGt3?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -180,6 +250,16 @@
       "detail": "French firefighters on Tuesday are still fighting two wildfires that have so far ravaged more than 1,900 hectares of Fontainebleau forest, a UNESCO biosphere reserve near Paris. Police on Monday arrested two people…",
       "source": "France24",
       "url": "https://www.france24.com/en/france/20260714-more-than-1-900-hectares-fontainebleau-forest-near-paris-destroyed-by-wildfires"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Who will win the World Cup? The view from the semi-finalists",
+      "detail": "BBC Sport speaks to journalists and fans from the World Cup's four semi-finalists to see who they think will win the tournament.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cjrgew3wv4xo?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -267,7 +347,7 @@
       "flag": "🌐",
       "category": "world",
       "headline": "Death toll from Bangkok bar fire rises to 30 as police probe safety lapses",
-      "detail": "Survivors and first reporters reported doors being locked and the lack of signage marking emergency exits.",
+      "detail": "Survivors and first responders reported locked doors and a lack of signage marking emergency exits.",
       "source": "BBC World",
       "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o?at_medium=RSS&at_campaign=rss"
     },
@@ -443,16 +523,6 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Middle East live: US strikes Iran for third night as Trump says deal still 'possible'",
-      "detail": "The United States launched a fresh salvo of strikes against Iran early Tuesday, marking a new escalation in the resumption of hostilities, even as US President Donald Trump said a deal with Tehran was still possible.…",
-      "source": "France24",
-      "url": "https://www.france24.com/en/middle-east/20260713-middle-east-live-us-strikes-iran-for-third-night-as-trump-says-deal-still-possible"
-    },
-    {
-      "time": "13 ก.ค.",
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
@@ -496,10 +566,20 @@
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
-      "headline": "The secretive crypto firm backed by Farage's biggest donor",
+      "headline": "The mysterious crypto firm backed by Farage's biggest donor",
       "detail": "Tether is a giant in crytocurrency, an industry that Nigel Farage believes the UK should be embracing.",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cg4w6wqye32o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "'Easy to create divisions' - Kane says England are 'completely together'",
+      "detail": "England captain Harry Kane says the squad are \"completely together\" before their World Cup semi-final against Argentina.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c8924433kjyo?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "13 ก.ค.",
@@ -520,6 +600,16 @@
       "detail": "Claudia Sheinbaum says Mexicans ‘outraged’ over killing last week of Lorenzo Salgado Araujo by agents in HoustonClaudia Sheinbaum announced on Monday that Mexico would be filing criminal complaints in the US for the…",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/13/mexico-criminal-complaint-migrant-ice-deaths"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "England to make late call on Rice for World Cup semi-final",
+      "detail": "England will make a late decision on whether Declan Rice is fit to start Wednesday's World Cup semi-final against Argentina.",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ce8m996g9g1o?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "13 ก.ค.",
@@ -603,6 +693,16 @@
     },
     {
       "time": "13 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Timing took me to Chelsea rather than Liverpool - Alonso",
+      "detail": "Chelsea manager Xabi Alonso says his arrival at Stamford Bridge instead of Liverpool was \"about timings\".",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/czj8rzxrp88o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "13 ก.ค.",
       "region": "BBC World",
       "flag": "🌐",
       "category": "world",
@@ -619,7 +719,7 @@
       "headline": "Nigeria: U.S. Backs Nigeria to Prosecute Terrorism-Related Offences",
       "detail": "[Leadership] The United States of America has thrown its weight behind Nigeria in the efforts to combat terrorism by ensuring a system that will effectively prosecute terrorism-related offences in the country as well as…",
       "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607130871.html"
+      "url": "https://allAfrica.com/stories/202607130871.html"
     },
     {
       "time": "13 ก.ค.",
@@ -633,13 +733,13 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Person killed in ICE-involved shooting in Maine",
-      "detail": "US Immigration and Customs Enforcement agents were involved in a fatal shooting in Biddeford, according to Maine's House speaker. It comes days after ICE allegedly shot a man in Texas during a traffic stop.",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/person-killed-in-ice-involved-shooting-in-maine/a-77941733?maca=en-rss-en-all-1573-xml-mrss"
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "ESPN will end syndicated version of Good Morning Football - NBC Sports",
+      "detail": "ESPN will end syndicated version of Good Morning Football&nbsp;&nbsp;NBC Sports",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTDJWWnlVTjVjdkM1MjRJeDFnQlFvQmp6V3RzX0FCNm5jcHRrUmw3c1NWQkZsNnBVMHRxLTF6bnRwVWd0a2poT2RDdEVLLTdqSHk2WkZ5Zm5YSlNoSENJSWlLRk5oVnA1SmdoQzE5cnAyQWl5eTlYd1VLQjZpSlU0VDdCRTRKaGphd1ZyVGF4bnB2ZklfaU10QTFxVlJIc1hFZXEwV0ZPd2JURjV5LWRHRllNdEVGWnhZZkcw?oc=5"
     },
     {
       "time": "13 ก.ค.",
@@ -650,6 +750,36 @@
       "detail": "Shawn Fain calls allegations ‘bogus’ and says attorney holds a ‘grudge’ against him over union’s ‘anti-war stance’ on GazaThe US Department of Justice is investigating allegations against the United Auto Workers (UAW)…",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/us-news/2026/jul/13/justice-department-uaw-president-investigation"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "‘Knocking you out was a huge joy’: reliving the dramas of England v Argentina in 1998 and 2002",
+      "detail": "How Diego Simeone, Michael Owen and Glenn Hoddle remember the two classic World Cup matches between historical rivalsIn all the acrimony, the wars, the deep history going back to the British invasions of 1806 and 1807,…",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/jul/13/knocking-you-out-was-a-huge-joy-reliving-the-dramas-of-england-v-argentina-in-1998-and-2002"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Former Kansas basketball star Lagerald Vick charged with attempted murder",
+      "detail": "Vick arrested in connection with Memphis shooting29-year-old started on Jayhawks’ 2018 Final Four teamLagerald Vick, a former University of Kansas basketball player and a starter on their 2018 Final Four team, has been…",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/jul/13/lagerald-vick-kansas-basketball-arrest-murder-charge"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Conor McGregor plans to fight again in UFC despite return lasting just 69 seconds",
+      "detail": "Saturday’s bout in Las Vegas finished in first roundIrishman says he will undergo surgery on legConor McGregor says he plans to fight again in UFC despite the fact that his return to competition lasted just 69 seconds…",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/jul/13/conor-mcgregor-plans-to-fight-again-in-ufc-despite-return-lasting-just-69-seconds"
     },
     {
       "time": "13 ก.ค.",
@@ -673,6 +803,16 @@
     },
     {
       "time": "13 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Group of 11 athletes challenge new NCAA eligibility rules in suit - ESPN",
+      "detail": "Group of 11 athletes challenge new NCAA eligibility rules in suit&nbsp;&nbsp;ESPN",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbkViajNCMVM1WVJkQnFWb3l1NnFBajNWQ0k0eXR4Q05oQV9zaWdqLUFjSGZmSWhIZ1pYMjNJNEpGOUFJSld2U1FHVXJXXzN2bGRzeUZSUGg5Qld4b3pQUE44WHBJd3pPMFNUSU5RSm9pS2ozdmFiWGROOWliTWMzU243TjFuYnF1NVJ6b0tpTUZfcUk0a3ZqbnBfaXliN2tHOWxDdmhtS2FBMVhkZV9kaks2OWFaQQ?oc=5"
+    },
+    {
+      "time": "13 ก.ค.",
       "region": "Dot Esports",
       "flag": "🎮",
       "category": "esports",
@@ -683,6 +823,16 @@
     },
     {
       "time": "13 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "How Tadej Pogacar became the new ‘patron’ of the Tour de France peloton | Jeremy Whittle",
+      "detail": "Slovenian’s dominance has drawn admiration and criticism, with some fearing the race is losing its competitive edgeRiding the Tour de France in 40C heat is hard enough without having to race against Tadej Pogacar and…",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/jul/13/how-tadej-pogacar-became-the-new-patron-of-the-tour-de-france-peloton"
+    },
+    {
+      "time": "13 ก.ค.",
       "region": "Dot Esports",
       "flag": "🎮",
       "category": "esports",
@@ -690,6 +840,16 @@
       "detail": "Get yourself an extra pistol.",
       "source": "Dot Esports",
       "url": "https://dotesports.com/assassins-creed/guides/ac-black-flag-resynced-rabbit-pelt"
+    },
+    {
+      "time": "13 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Spain, France, Argentina and England beware: Demons haunt the World Cup semi-finals",
+      "detail": "The World Cup spotlight causes single games to live longer in the memory than any other. The remaining teams at this tournament face defining momentsWorld Cup games mean more. England have only ever played 80 games in…",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/global/2026/jul/13/world-cup-semi-finals-england-argentina-france-spain"
     },
     {
       "time": "13 ก.ค.",
@@ -750,6 +910,26 @@
       "detail": "Michael Steranka, vice president at the mobile game's owner Scopely, says it has always been about bringing people together.",
       "source": "BBC Technology",
       "url": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "12 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "World Cup 2026 power rankings: who leads the pack as semi-finals loom?",
+      "detail": "We assess the teams who played in the last eight as the business end of the tournament approachesDidier Deschamps has seen it all before and certainly does not fear even the lowest of blocks. It is clear everyone is…",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/jul/12/world-cup-2026-power-rankings-france-spain-england-argentina"
+    },
+    {
+      "time": "12 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "World Cup schedule, bracket: Argentina joins England, Spain and France in stacked semifinal field - Yahoo Sports",
+      "detail": "World Cup schedule, bracket: Argentina joins England, Spain and France in stacked semifinal field&nbsp;&nbsp;Yahoo Sports",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUTVwY1cyejlPY2hMeWtranAtX2t1RnhTbGdZWkxFVFZaS2VEY3ZOUHZ3d2hNSGd6OFJxRVJXSEJXMUFobk9ZSDF0Tnh5UWY0YWVCS050QUswTUZlYTQ3dmhnWEpxbHk3a3p6UzI5TjAwTVhaSVIyckcxMDhjVHlncC04VW90eGFaRW5UN0dvWUU1Tm5FYVhERWpnWlh6WFFQUE5Ra1FhZkc5cTlaUUcwRXV1TnBlbDhKZXQ4Wg?oc=5"
     },
     {
       "time": "12 ก.ค.",
@@ -900,6 +1080,66 @@
       "detail": "President orders investigation after fictitious body given funding, triggering renewed scrutiny of alleged corruptionA fictitious federal entity that was allocated 1.3bn naira (£700,000) in Nigeria’s 2026 budget has…",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/09/bola-tinubu-under-pressure-fake-nigerian-government-agency-political-storm"
+    },
+    {
+      "time": "24 มี.ค.",
+      "region": "ESPN Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Jackie Robinson joins EA Sports College Football 26 in Record Breakers Vol. 3",
+      "detail": "The Baseball Hall of Famer and trailblazer was a football star at UCLA in the 1930s and '40s, and will join Dwight Freeney and Timmy Chang in the new release.",
+      "source": "ESPN Esports",
+      "url": "https://www.espn.com/gaming/story/_/id/48296534/jackie-robinson-ucla-bruins-ea-college-football-26"
+    },
+    {
+      "time": "13 มี.ค.",
+      "region": "ESPN Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "WWE 2K26 review: Endless possibilities in the squared circle",
+      "detail": "WWE 2K26 doesn't deviate from its predecessors' tried-and-true formula, but does offer enough new features to make for a fresh experience.",
+      "source": "ESPN Esports",
+      "url": "https://www.espn.com/gaming/story/_/id/48184888/wwe-2k26-review"
+    },
+    {
+      "time": "25 ก.พ.",
+      "region": "ESPN Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Resident Evil Requiem review -- Nail-biting horror and action",
+      "detail": "By switching back and forth between characters, Resident Evil Requiem mixes nerve-fraying horror with some of the most intense action sequences in games.",
+      "source": "ESPN Esports",
+      "url": "https://www.espn.com/gaming/story/_/id/48030833/resident-evil-requiem-review"
+    },
+    {
+      "time": "24 ก.พ.",
+      "region": "ESPN Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Shrouded Sky brings new features to ARC Raiders",
+      "detail": "New enemies and locations abound in the latest update to ARC Raiders -- and so do playable pianos.",
+      "source": "ESPN Esports",
+      "url": "https://www.espn.com/gaming/story/_/id/48021664/arc-raiders-shrouded-sky-update"
+    },
+    {
+      "time": "20 ก.พ.",
+      "region": "ESPN Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "NBA 2K26 drops college basketball-themed update this week",
+      "detail": "Season 5 will feature men's and women's programs from Duke, UNC, UConn and more.",
+      "source": "ESPN Esports",
+      "url": "https://www.espn.com/gaming/story/_/id/47974494/nba-2k26-college-basketball-update"
+    },
+    {
+      "time": "18 ก.พ.",
+      "region": "ESPN Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "NBA The Run reveals Flight Club trio: Edwards, Morant and Williamson",
+      "detail": "Another team example has dropped for NBA The Run, the three-on-three basketball game where you mix and match stars to create the perfect trio.",
+      "source": "ESPN Esports",
+      "url": "https://www.espn.com/gaming/story/_/id/47962617/nba-run-flight-club-trio-edwards-morant-williamson"
     }
   ]
 }
