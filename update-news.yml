@@ -2,12 +2,16 @@ name: อัปเดตข่าวอัตโนมัติ
 
 on:
   schedule:
-    # รันทุกวัน เวลา 23:00 UTC = 06:00 น. เวลาไทย (วันถัดไป)
     - cron: "0 23 * * *"
-  workflow_dispatch: {}   # ปุ่มกด "Run workflow" เพื่อรันเองได้ทันทีจากแท็บ Actions
+  workflow_dispatch: {}
 
 permissions:
-  contents: write   # ให้สิทธิ์ commit กลับเข้า repo
+  contents: write
+
+# ยกเลิกการรันซ้อนกัน กันหลาย run แย่งกัน push พร้อมกัน
+concurrency:
+  group: update-news
+  cancel-in-progress: false
 
 jobs:
   update-news:
@@ -31,16 +35,23 @@ jobs:
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
+
+          # เก็บไฟล์ข้อมูลที่เพิ่งสร้างไว้ชั่วคราว
+          cp news.json /tmp/news.json 2>/dev/null || true
+          cp rates.json /tmp/rates.json 2>/dev/null || true
+
+          # ดึงของล่าสุดจาก remote มาก่อนเสมอ (กัน push ชนกัน)
+          git fetch origin main
+          git reset --hard origin/main
+
+          # เอาไฟล์ข้อมูลใหม่กลับมาเขียนทับ
+          cp /tmp/news.json news.json 2>/dev/null || true
+          cp /tmp/rates.json rates.json 2>/dev/null || true
+
           git add news.json rates.json
           if git diff --staged --quiet; then
             echo "ไม่มีข้อมูลใหม่ ข้ามการ commit"
           else
             git commit -m "อัปเดตข่าวและอัตราแลกเปลี่ยนอัตโนมัติ $(date -u +'%Y-%m-%d %H:%M UTC')"
-            # ดึงการเปลี่ยนแปลงล่าสุดจาก remote มา rebase ก่อนแล้วลอง push ซ้ำได้ถึง 3 ครั้ง
-            # กันปัญหา push ถูกปฏิเสธเพราะมีการอัปโหลดไฟล์อื่นพร้อมกันตอน workflow รันอยู่
-            for i in 1 2 3; do
-              git pull --rebase origin main && git push && break
-              echo "push ครั้งที่ $i ไม่สำเร็จ ลองใหม่..."
-              sleep 3
-            done
+            git push origin main
           fi
