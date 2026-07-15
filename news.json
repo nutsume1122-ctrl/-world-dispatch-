@@ -1,118 +1,283 @@
 {
-  "updated_at": "2026-07-15T00:04:43.540790+00:00",
+  "updated_at": "2026-07-15T07:24:25.287367+00:00",
   "items": [
     {
       "time": "15 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Kuroda's negative rate surprise shocked his own BOJ board, minutes show",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "https://dam.mediacorp.sg/image/upload/s--taw8suLW--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-07-14T235401Z_1_LYNXMPEM6D1MM_RTROPTP_3_JAPAN-ECONOMY.JPG?itok=WxHixfXQ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/kurodas-negative-rate-surprise-shocked-his-own-boj-board-minutes-show-6254791"
-    },
-    {
-      "time": "15 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Exclusive-AI cloud company CoreWeave explores Wall Street playbook to hedge memory-chip price risk",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "https://dam.mediacorp.sg/image/upload/s--bMSGEn1C--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-07-14T235016Z_1_LYNXMPEM6D1M3_RTROPTP_3_COREWEAVE-IPO.JPG?itok=GMCw5mzE",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/exclusive-ai-cloud-company-coreweave-explores-wall-street-playbook-hedge-memory-chip-price-risk-6254781"
-    },
-    {
-      "time": "15 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Haiti part ways with coach Migne after World Cup campaign",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/sport/haiti-part-ways-coach-migne-after-world-cup-campaign-6254766"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Thunder's Ajay Mitchell: Progressing in recovery - CBS Sports",
-      "detail": "Thunder's Ajay Mitchell: Progressing in recovery&nbsp;&nbsp;CBS Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYmt3OExtSjdZUXJOSnMxb29yWWNielJzNExLOE5tenFldHNGNWQzTVhIV0w4TEZNSjhQYzlSN1diLXpvX3RQNlRLZ3FXU21oWEZ3X3BXaFhPTUFDS2xHZ1k2VGxPVFJaV0hUbzBteGJtNUFMSTl6Q3NsSHZUZUY1cl9sMzB4bHZ3QXFiX1J6TWxZSndLZHo4OWQ1NVRJQQ?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Chase Daniel 'excited' about the New York Giants in 2026 - Yahoo Sports",
-      "detail": "Chase Daniel 'excited' about the New York Giants in 2026&nbsp;&nbsp;Yahoo Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdHp1dFg4ekdFWFJRM1NVNWRMSGtNakRHZFN0R005LWtaU19CUDNjRjVjaW5PY0pYWnBrVEVFTTJnQ0VfVGRfb2xJWldIWXlqR1JZT19yZ0NKUXd0ZWV4SzE5SlFCSGxHdXlweFVqaExscHlWOGxOV2dIZ21YRzlETHJvY3k3RW8x?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "MLB All-Star Game caps off summer of sports, celebrations in city: \"Philadelphians are the MVPs of this summer\" - CBS News",
-      "detail": "MLB All-Star Game caps off summer of sports, celebrations in city: \"Philadelphians are the MVPs of this summer\"&nbsp;&nbsp;CBS News",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbmNqQ3B5WnF4ZUhMYWdwcWVUazI3d3NjTS1KTFRFb0l3aC1hakttZHZobGJ3NmF1emUyekNobGhDa3EzZW9XQTdVeDB2Q0hDbkV1RFZlUVFXdnFIbEpjd1JLczVFNnlsbFZqcUNCM2V1QTNSSnFibThDU0V0QzRTUl9lYWFabk81TE93VllpUkZtanVWRUE?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Trump: Strikes on Iran to continue until 'I say it's enough'",
-      "detail": "President Donald Trump said Washington held talks with Iran and urged Tehran to make a deal. He warned that US strikes will escalate and target key infrastructure unless negotiations produce results. DW has more.",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/trump-strikes-on-iran-to-continue-until-i-say-it-s-enough/live-77960667?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "15 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "'I want to fight': At 31, this former SIA stewardess is battling the most aggressive form of brain cancer",
-      "detail": "In just over a month, 31-year-old Teresa Hon went from planning her future to undergoing brain surgery for glioblastoma, an incurable brain cancer. As the disease stripped away her independence and changed her appearance, she was almost ready to give up, but her family gave her the strength to keep fighting.",
-      "image": "https://dam.mediacorp.sg/image/upload/s--ASwGNwHI--/c_crop,h_567,w_1008,x_0,y_77/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/07/07/teresa-hon-glioblastoma-brain-cancer.jpg?itok=EwGSxaK3",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/women/glioblastoma-brain-cancer-former-sia-stewardess-6236996"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
       "headline": "Midnight social media curfew proposed for older UK teens",
-      "detail": "Teens will be able to opt out of the restrictions - campaigners have criticised them as being piecemeal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c4/live/12555540-7f8b-11f1-a47a-d94293d2b0e4.jpg",
+      "detail": "The government says it will improve teenagers' lives but campaigners call it a \"missed opportunity\".",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dfe/live/cfa7c2f0-8016-11f1-bee8-53ce494e1abc.jpg",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss"
     },
     {
-      "time": "14 ก.ค.",
-      "region": "BBC Technology",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Midnight social media curfew proposed for older UK teens",
-      "detail": "Teens will be able to opt out of the restrictions - campaigners have criticised them as being piecemeal.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c4/live/12555540-7f8b-11f1-a47a-d94293d2b0e4.jpg",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c982857nlrlo?at_medium=RSS&at_campaign=rss"
+      "time": "15 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Ineligible applicants allocated HDB flats, housing grants due to weaknesses in checks: AGO report",
+      "detail": "HDB may also have overpaid about S$9.7 million to a contractor for car park patrol and enforcement services not performed.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--s9ru4hYr--/c_crop,h_900,w_1600,x_0,y_0/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/06/25/housing_flats_bto_hdb07.jpg?itok=AC-TEnWa",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/singapore/hdb-ago-lapses-season-parking-housing-grant-car-park-6255066"
     },
     {
-      "time": "14 ก.ค.",
+      "time": "15 ก.ค.",
+      "region": "BBC Business",
+      "flag": "💰",
+      "category": "economy",
+      "headline": "Thames Water returns to profit after raising bills",
+      "detail": "The UK's largest water company reported a post-tax profit for the 12 months to the end of March, but its net debt also swelled.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0067/live/694e25f0-800f-11f1-855c-e18bf6105698.jpg",
+      "source": "BBC Business",
+      "url": "https://www.bbc.co.uk/news/articles/c4gygy43103o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Spain recapture 2010 spirit after reaching World Cup final: De la Fuente",
+      "detail": "After a masterclass against France in the semifinals, Spain are just one win from winning their second World Cup.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/15/spain-france-world-cup-semifinal-luis-de-la-fuente-2010-title?traffic_source=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "The Mac Speaks: ‘We’ll Be Back!‘ - Yahoo Sports",
+      "detail": "The Mac Speaks: ‘We’ll Be Back!‘&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xSVRqZzBZZWJfRFg0cllabUFSbkpJNm9oaEZDRUhiZXJLZTViMUFZbnppNU5MUTRxTkRydWhQNV9HSmJYOGZ4Ykd4cFlJQ2QyNkhfbWJtMlNXWUd2eUN3NTg4S08xMGMzSWFlV0tPOGdQRDNJOGc?oc=5"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Waiting for Hassan: Another Gaza doctor held by Israel without charge",
+      "detail": "Hassan Khalil Almukayed is among at least 15 Palestinian doctors from Gaza currently in Israeli detention.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/15/waiting-for-hassan-another-gaza-doctor-held-by-israel-without-charge?traffic_source=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Vietnam probes diamond smuggling ring linked to major jeweller",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "image": "https://dam.mediacorp.sg/image/upload/s--qDst9UtD--/c_crop,h_900,w_1600,x_0,y_22/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/07/15/vietnam_pnj.jpg?itok=rDHAOZ6D",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/asia/vietnam-diamond-smuggling-pnj-jewellery-6255416"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "South Africa: Two Giant Data Centres Secure Initial Green Light From Cape Town Municipal Tribunal",
+      "detail": "[Daily Maverick] The building of two massive water-hungry and energy-hungry data centres next to Cape Town International Airport has cleared the first regulatory hurdle.",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202607150130.html"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Trump threatens to bomb bridges and power plants unless Iran resumes talks",
+      "detail": "Trump's comments aired as the two countries exchanged fire for the fourth day in a row and the US resumed blockading Iranian ports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Nigeria: Withdrawal of Amendment Bill on State Police Paves Way for Security Review",
+      "detail": "[Premium Times] Fresh issues identified in the proposed law require a comprehensive review to ensure the framework aligns with Nigeria's security architecture.",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202607150126.html"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "New Zealand detects H5 bird flu",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "image": "https://dam.mediacorp.sg/image/upload/s--GjHx7eF5--/c_crop,h_449,w_799,x_1,y_14/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2024-12-13t195610z_1_lynxmpekbc0t6_rtroptp_3_health-bird-flu.jpg?itok=0wUL9qqv",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/world/new-zealand-detects-h5-bird-flu-6255406"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Africa: All of Africa Today - July 15, 2026",
+      "detail": "[allAfrica] EU Bans Sudan Gold Imports to Curb War Funding",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202607150120.html"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Volodymyr Zelenskyy pushes for new government in Ukraine",
+      "detail": "Ukrainian Prime Minister Yulia Svyrydenko stepped down after barely a year in office. President Volodymyr Zelenskyy is already in talks with potential successors. What can Ukraine expect from the Cabinet reshuffle?",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/volodymyr-zelenskyy-pushes-for-new-government-in-ukraine/a-77959640?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "How the failed 2016 coup reshaped Turkiye’s civil-military relations",
+      "detail": "Takeover bid 10 years ago sped up efforts to expand civilian oversight, experts say, reducing chances of another coup.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/15/how-failed-2016-coup-reshaped-turkiyes-and-civil-military-relations?traffic_source=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Eagles Biggest Question Has to Do With Jalen Carter Again - Yahoo Sports",
+      "detail": "Eagles Biggest Question Has to Do With Jalen Carter Again&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQS3pHTnJaZTFZMkljUTNkTG9HM1BNbnBjTmpKRjdJUFZQVzBGVVlFRUhJNzdEUUdZeXhtTnU4VUI1YWQ5N3pDVS1RaS1EQzVoTnpxVmNMZC1oSm93RG5HeGh6RlRCYVppRE9sT2Utd3lPSmNodTJjX2ZJWFpmRXdiUTJ1bjFKYWVFTHc?oc=5"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Villa criticized over Visit Rwanda sponsorship deal",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "image": "https://dam.mediacorp.sg/image/upload/s--TLELIBJ6--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-07-15T061949Z_1_LYNXMPEM6E0AU_RTROPTP_3_SOCCER-EUROPA-SCF-AVL.JPG?itok=uC3Fwfu0",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/sport/villa-criticized-over-visit-rwanda-sponsorship-deal-6255381"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "150 years of the Bayreuth Festival: Confronting a troubled legacy",
+      "detail": "Should the past be confronted — or avoided? Why the Wagner festival's handling of its Nazi-era legacy remains a contentious issue in its 150th anniversary year.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/150-years-of-the-bayreuth-festival-confronting-a-troubled-legacy/a-77848272?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "England vs Argentina: FIFA World Cup semifinal – Messi, Kane and prediction",
+      "detail": "England and Argentina renew their World Cup rivalry after 24 years, as Harry Kane and Lionel Messi clash in the semis.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/15/argentina-england-world-cup-semifinal-messi-kane-prediction-time?traffic_source=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Daniel Cormier Explains Why Brock Lesnar Fight Didn’t Happen - Yahoo Sports",
+      "detail": "Daniel Cormier Explains Why Brock Lesnar Fight Didn’t Happen&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON1VUdVQyXzlHa0s5bm1YWEJnM2cxMnVra2VZa0NNQ3BPSGdmZG9iLVkxREVXeU5YOUxLaXZCS09qV1QwQUxxRE5ENDdlb1BxLXhOUzZDbGh3TE95UDNKQVlTblNHQkZqVjhVYmJJMFBfWk00d0s1YlB6OEgxaW5VYnAzQ0dUWVdiRWc?oc=5"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Deadly Russian strike hits Odesa as von der Leyen arrives in Ukraine for defence talks",
+      "detail": "Russia carried out a strike on the port city of Odesa in Ukraine that killed three, a local official reported on Wednesday, as European Commission President Ursula von der Leyen arrived in Kyiv to announce new defence initiatives. Overnight, Ukraine also said it struck 20 Russian vessels in the Black Sea, including gas tankers.",
+      "image": "https://s.france24.com/media/display/1cd445d8-800f-11f1-9383-005056bfb2b6/w:1024/p:16x9/2026-07-14T091321Z-1727819094-RC2LDMA2U8W8-RTRMADP-3-UKRAINE-CRISIS-ATTACK-ODESA.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/europe/20260715-deadly-russian-strike-hits-odesa-as-von-der-leyen-arrives-in-ukraine-with-defence-plans"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "What happened to David Batty, who shook off penalty miss against Argentina?",
+      "detail": "England midfielder David Batty quickly shook off his penalty miss against Argentina in 1998. As the two teams prepare to meet in the World Cup knockout stage again, BBC Sport asks: what happened to him?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5475/live/b8602120-7f8d-11f1-a47a-d94293d2b0e4.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp9jn090kv2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "World Cup: England have ‘not peaked yet’, says Tuchel before semifinal",
+      "detail": "England face Argentina in Wednesday&#039;s semifinal, hoping to reach the World Cup final for the first time since 1966.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/sports/2026/7/15/england-argentina-fifa-world-cup-semifinal-thomas-tuchel?traffic_source=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Shaw Theatres in Singapore will screen The Odyssey on 35mm film, only cinema in Southeast Asia to do so",
+      "detail": "Directed by award-winning filmmaker Christopher Nolan, The Odyssey is also the first movie to be shot entirely on IMAX's 70mm film cameras.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--AiTbssFs--/c_crop,h_561,w_999,x_1,y_53/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Film_Review_-_The_Odyssey_3523_.jpg?itok=BuSnRaac",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/entertainment/odyssey-35mm-film-shaw-theatres-singapore-6255276"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "China's Q2 economic growth cools to 3.5-year low as imbalances worsen",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "image": "https://dam.mediacorp.sg/image/upload/s--yK3TzVsV--/c_crop,h_449,w_799,x_1,y_42/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-06-07T230634Z_1_LYNXMPEM560KH_RTROPTP_3_CHINA-USA.JPG?itok=TJbH7Yji",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/east-asia/china-q2-economy-gdp-growth-35-year-low-6255001"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "How Iran’s southern coast is bearing the brunt of US attacks",
+      "detail": "Donald Trump says the US is going to bomb Iran’s civilian infrastructure if there is no deal by next week.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/15/how-irans-southern-coast-is-bearing-the-brunt-of-us-attacks?traffic_source=rss"
+    },
+    {
+      "time": "15 ก.ค.",
       "region": "BBC Sport",
       "flag": "⚽",
       "category": "sports",
@@ -123,37 +288,279 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/czx5x14v5w2o?at_medium=RSS&at_campaign=rss"
     },
     {
+      "time": "15 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Spain shuts down France and advances to the World Cup final with a 2-0 victory",
+      "detail": "Spain’s defensive prowess and swagger were just too much for an attacking trio led by France great Kylian Mbappé, and just enough to get the 2010 champions into another World Cup final. Spain will play on Sunday against the winner between reigning champion Argentina and England on ⁠Wednesday. France will play in the third-place match on Saturday. FRANCE 24's Selina Sykes reports from the Dallas…",
+      "image": "https://s.france24.com/media/display/00fda732-8005-11f1-bffc-005056a90284/w:1024/p:16x9/NW194426-O-01-20260715-01.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/spain-shuts-down-france-and-advances-to-the-world-cup-final-with-a-2-0-victory"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "World Cup: French dream comes to an end against dominating Spain",
+      "detail": "The French team were defeated by Spain (2–0) in the World Cup semi-final. France’s dream of reaching a third consecutive final – a feat achieved by only two other nations before them – has come to an end.",
+      "image": "https://s.france24.com/media/display/487cdfdc-7fed-11f1-a5a8-005056a97e36/w:1024/p:16x9/J24-france-1-3.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/tv-shows/sports/20260715-world-cup-french-dream-comes-to-an-end-against-dominating-spain"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "South Africa: Health Department Ramps Up Ebola Readiness - South African News Briefs - July 15, 2026",
+      "detail": "[allAfrica]",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202607150090.html"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "China economic growth falls sharply, missing target",
+      "detail": "Weak demand domestically and the impact of the Iran war on oil prices overshadowed the country's strong exports.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8de/live/7e6a3480-7f40-11f1-ba68-9b76167cb04b.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cd959x4edy8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "I still feel pain of '98 but this can be different for England - Shearer",
+      "detail": "England's defeat by Argentina at the 1998 World Cup still burns deep for Alan Shearer, but he explains why this team can take their chance to change their lives forever.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/35b8/live/0c49d520-7fa6-11f1-a5f4-433bb9aa2e5a.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6212j5zw3ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Africa: Global Childhood Immunization Coverage Inches Forward Despite Conflict and Hesitancy - Unicef, WHO",
+      "detail": "[WHO] In 2025, 90% of infants globally - or nearly 116 million - received at least one dose of a diphtheria, tetanus and pertussis (DTP) vaccine, and 85% - or 110 million - completed the full three-dose series, according to the annual WHO-UNICEF Estimates of National Immunization Coverage (WUENIC) released today.",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202607150069.html"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Malawi: Measles Fears Grip Malawi - Get Your Children Jabbed Now, Parents Told",
+      "detail": "[Nyasa Times] Health chiefs have issued an urgent warning to parents across Malawi -- get your children vaccinated against measles NOW, or risk a killer disease tearing through communities.",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202607150062.html"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Hilton fires employee who sent racist message via social media to Aces star Chelsea Gray",
+      "detail": "Hilton says employee violated company policyGray shared racist message on InstagramAbuse follows threats against Alyssa ThomasHilton Grand Vacations has fired an employee who sent a racial slur via social media to Las Vegas Aces guard Chelsea Gray following the team’s 109-75 loss to the Indiana Fever on Sunday.The 33-year-old Gray posted the message she received that included a racial slur on her…",
+      "image": "https://i.guim.co.uk/img/media/e036d6ef9a518ed60b7e85f9e5767e35249d9ac7/190_0_4338_3473/master/4338.jpg?width=140&quality=85&auto=format&fit=max&s=65696c29e96f0201a69334c73ec4e1c1",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/jul/15/hilton-grand-vacations-fires-employee-racist-message-chelsea-gray-las-vegas-aces-wnba"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "American League pitchers combine for first All-Star Game shutout since 2013",
+      "detail": "Cease and bullpen combine for three-hitterBellinger named MVP after two-run singleAL record first All-Star shutout since 2013Dylan Cease struck out the side in the first inning, combining with 10 relievers on a three-hitter in a show of pitching dominance that led the American League to a 4-0 win over the National League in Tuesday night’s All-Star Game.All-Star MVP Cody Bellinger hit a two-run…",
+      "image": "https://i.guim.co.uk/img/media/297b08a7347277d1a7701da6249a8aa196ad89ce/680_0_6800_5440/master/6800.jpg?width=140&quality=85&auto=format&fit=max&s=3a5c35cce80bbd96d28da2ae9b7e504a",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/jul/15/american-league-national-league-2026-all-star-game"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Border controls scrapped between Spain and Gibraltar",
+      "detail": "As the end of border controls took effect, the old chain-link fence between Spain and Gibraltar was taken down. This historic decision allows for greater freedom of movement for people and goods.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/border-controls-scrapped-between-spain-and-gibraltar/a-77961013?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Dot Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "ESIC suspends PTime’s DarkMago, Vintage due to integrity issue at Dota 2 Esports World Cup",
+      "detail": "The integrity investigation is still ongoing.",
+      "image": "https://media.dotesports.com/wp-content/uploads/2026/07/dota-2-darkmago-pgl.jpg",
+      "source": "Dot Esports",
+      "url": "https://dotesports.com/dota-2/news/playtime-darkmago-vintage-esic-suspension-dota-2-ewc"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "China's economic growth slows to weakest pace in over three years",
+      "detail": "Economic reports on Wednesday found that Chinese growth has sunk to the slowest pace in over three years. Despite benefitting from the global AI boom, the country has not managed to offset the slump due to a struggling property sector, drop in domestic spending and trade disruptions caused by the war in Iran.",
+      "image": "https://s.france24.com/media/display/a4d7379a-7ffd-11f1-b8ba-005056bfb2b6/w:1024/p:16x9/2863ab2e49063e5b4fba9f53c3305ab23d550602.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/asia-pacific/20260715-china-s-economic-growth-slows-to-weakest-pace-in-over-three-years"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Spain storms into World Cup final after shutting down France - Yahoo Sports",
+      "detail": "Spain storms into World Cup final after shutting down France&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWjNRYU9RRlA4eHJhcmVILVUxb3RhWER4U20tRExZYmxIOV9YXzhFcTFub19HbmczczhQU3V6NEhmbjQ1dmUtTnNoZ2ZpTDRab040bkFlV1RrYzh2cVA2eDhxS1V1MVBqR0ZjYnBVRG5UcHp5SzVMai0wdnF0STRHTi1lNnFZV0g5YWFWaGdMdEFIOXF3TV9Jc1dISkZFNjNCX3ZMQnJpekpCQkxqa1FxQ1BReFJzLUJBR1VN?oc=5"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Dot Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Dota 2 EWC 2026: Schedule, results, standings, teams, and how to watch",
+      "detail": "Team Spirit seek to defend their Dota 2 EWC title against 23 squads.",
+      "image": "https://media.dotesports.com/wp-content/uploads/2026/07/dota-2-collapse-team-spirit-ewc-2025.jpg",
+      "source": "Dot Esports",
+      "url": "https://dotesports.com/dota-2/guides/dota-2-ewc-2026-schedule-results"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "China detains US scientist who studied North Korea nuclear tests",
+      "detail": "Chen Youlin's family says he has been wrongfully detained for nearly two years on spying charges.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b742/live/a647fbd0-7ff0-11f1-b7c7-fd8fa12609bd.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cqx1xdn3g4eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Middle East live: More than 30 killed in recent US strikes, Iranian government says",
+      "detail": "An Iranian government spokesperson on Wednesday said more than 30 civilians were killed in US air strikes targeting the country’s southern region in “recent days”. Tehran was quick to retaliate with Jordan, Kuwait and Bahrain all reporting attacks. The strike exchanges come as the US naval blockade on Iranian ports resumed. Follow our liveblog for the latest updates.",
+      "image": "https://s.france24.com/media/display/94d3ef56-800b-11f1-aa7b-005056a90284/w:1024/p:16x9/2026-07-15T033652Z-714453238-RC23EMAU5QS7-RTRMADP-3-IRAN-CRISIS-USA.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/middle-east/20260715-middle-east-live-tehran-and-us-exchange-strikes-as-blockade-of-iranian-ports-resumes"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "World Cup 2026: Which team are supporters from eliminated nations rooting for?",
+      "detail": "During the France-Spain semi-final, many supporters at the FIFA fan zone in Dallas were wearing jerseys from nations that got eliminated earlier in the competition. We went to ask them which team they were supporting now.",
+      "image": "https://s.france24.com/media/display/bf056bf6-7fe8-11f1-989f-005056a97e36/w:1024/p:16x9/EN-vignette-jerseys.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/world-cup-2026-which-team-are-supporters-from-eliminated-nations-rooting-for"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Seven Britons among those killed in Spain wildfires",
+      "detail": "Twelve of the 13 victims were foreign nationals, Spanish authorities said on Tuesday.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfc7/live/8d789890-8017-11f1-bee8-53ce494e1abc.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "Dot Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Fortnite unveils David Beckham Skin as World Cup Finals fever hits",
+      "detail": "David Beckham's Fortnite skin could arrive ahead of the World Cup final.",
+      "image": "https://media.dotesports.com/wp-content/uploads/2026/07/DOT-ESPORTS-1.png",
+      "source": "Dot Esports",
+      "url": "https://dotesports.com/fortnite/news/david-beckham-fortnite"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "A special team beats brilliant individuals - how silky Spain flattened France",
+      "detail": "Spain have rather flown under the radar at the 2026 World Cup - but will they go all the way and win it?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/29f5/live/d65d5e30-7fd9-11f1-b73c-6d5c8f5196f7.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cpv3v0gkw9vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "detail": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+    },
+    {
+      "time": "15 ก.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Pressure is on world champions Argentina in semi-final - Guehi",
+      "detail": "England defender Marc Guehi insists the pressure is on Argentina as the Three Lions prepare to face the reigning champions in the World Cup semi-finals.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9e33/live/dc2a4880-7fdb-11f1-9a75-99d0152ee48b.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cp8l87vevj2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Trump threatens strikes on Iranian bridges, power plants",
+      "detail": "President Donald Trump has warned that US strikes will escalate and target key infrastructure if Tehran does not make a deal. The US has reimposed a naval blockade and Iran has said the Strait of Hormuz is closed.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/trump-threatens-strikes-on-iranian-bridges-power-plants/live-77960667?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Trump retreat over Hormuz tolls suggests he is struggling to end Iran war",
+      "detail": "The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87df/live/cb49bc70-7fc8-11f1-82bc-eb96a9eb8087.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&at_campaign=rss"
+    },
+    {
       "time": "14 ก.ค.",
       "region": "TechCrunch",
       "flag": "💻",
       "category": "tech",
-      "headline": "Lorde says AI glasses are “not sexy”",
-      "detail": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said on stage.",
+      "headline": "Lorde says AI glasses are ‘not sexy’",
+      "detail": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
       "image": "",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/"
-    },
-    {
-      "time": "15 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "De la Fuente says Spain have recaptured 2010 spirit after France masterclass",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/sport/de-la-fuente-says-spain-have-recaptured-2010-spirit-after-france-masterclass-6254731"
-    },
-    {
-      "time": "15 ก.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Deschamps' golden France era to end after another heartbreak, but legacy intact",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/sport/deschamps-golden-france-era-end-after-another-heartbreak-legacy-intact-6254726"
     },
     {
       "time": "14 ก.ค.",
@@ -183,32 +590,21 @@
       "flag": "💰",
       "category": "economy",
       "headline": "Heating oil customers to get compensation after price hikes",
-      "detail": "The cost of hearing oil spike following the US-Israel war with Iran which forced up crude prices.",
+      "detail": "The cost of heating oil spiked following the US-Israel war with Iran which forced up crude prices.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6cb5/live/a97b22b0-7f95-11f1-ac71-510b51a60620.jpg",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cy494yypnv3o?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "France's World Cup dream extinguished in chastening semi-final loss to Spain",
-      "detail": "Didier Deschamps' France were hot favourites to lift the famous golden trophy after a string of breathtaking attacking displays at the World Cup. But they met their match in the semi-finals when faced with slick European champions Spain, who outplayed and outsmarted Les Bleus to deny them a third consecutive final.",
-      "image": "https://s.france24.com/media/display/12c10b50-7fd1-11f1-a8ab-005056bfb2b6/w:1024/p:16x9/063-2286113355.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/sport/20260714-france-world-cup-dream-extinguished-chastening-semi-final-loss-to-spain"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "WHO launches first trial of antiviral to prevent Bundibugyo strain of Ebola",
-      "detail": "The World Health Organization launched the first clinical trial on Tuesday to test whether an antiviral drug can prevent infection in people exposed to the Bundibugyo strain of Ebola in the Democratic Republic of Congo, as the outbreak continues to outpace response efforts and spread beyond known chains of transmission.",
-      "image": "https://s.france24.com/media/display/50bb422e-55ea-11f1-b16c-005056a90284/w:1024/p:16x9/AP26142449118387.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/africa/20260714-who-launches-first-trial-of-antiviral-to-prevent-bundibugyo-strain-of-ebola"
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Sources: 76ers' pursuit of LeBron led by Maxey, Embiid, Brown - ESPN",
+      "detail": "Sources: 76ers' pursuit of LeBron led by Maxey, Embiid, Brown&nbsp;&nbsp;ESPN",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcThWd2NfbzZNSDAxREFpbV9tWlNoZkFCR0NnYkJMc0tCVHNHR0pXUXFadTlsODltQU93dU8zY21sLWFzNkQ5UDlxM0prTUZWd3ZabHZwdWtncTBoTlhzTHppSmxuX0lUMEtVYy0zUEp1cmgwOG0wWENuX1k0d2d5dmZGODVQMUlocDJQTE56blQ1ckNZa2g0am81dGZ6N092NDJUTHFDSVV6aTZmTTJRbTZIU3pVS1JkZ0cwMlItcEpVUmJUSHJN?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -231,17 +627,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/computer-start-button-1152x648.jpg",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Outspoken Moroccan rapper Mehdi El Youbi arrested in Casablanca",
-      "detail": "Activists say Moroccan authorities are intensifying repression of critical voices and the Gen Z protest movement.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/14/outspoken-moroccan-rapper-mehdi-el-youbi-arrested-in-casablanca?traffic_source=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -278,28 +663,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Deschamps says France 'devastated' by defeat, questions referee",
-      "detail": "France coach Didier Deschamps said his players were left \"devastated\" by their World Cup semi-final defeat to Spain on Tuesday before aiming a barb at match referee Ivan Barton from El Salvador.",
-      "image": "https://s.france24.com/media/display/66498e08-7fce-11f1-8e78-005056a90284/w:1024/p:16x9/b0c54dc22ab2691bedbfc35348a7ef387b2c53cc.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/sport/20260714-deschamps-says-france-devastated-by-defeat-questions-referee"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Colombian father identified in deadly ICE shooting",
-      "detail": "Colombian father identified in deadly ICE shooting",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/colombian-father-identified-in-deadly-ice-shooting?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "TechCrunch",
       "flag": "💻",
       "category": "tech",
@@ -308,28 +671,6 @@
       "image": "",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Spain storms into World Cup final after shutting down France - Yahoo Sports",
-      "detail": "Spain storms into World Cup final after shutting down France&nbsp;&nbsp;Yahoo SportsAre There Any World Cup Games Today? Semifinal Schedule France vs Spain, England vs Argentina&nbsp;&nbsp;FOX SportsWorld Cup: France coach Didier Deschamps slams referee after semifinal loss to Spain&nbsp;&nbsp;Yahoo Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWjNRYU9RRlA4eHJhcmVILVUxb3RhWER4U20tRExZYmxIOV9YXzhFcTFub19HbmczczhQU3V6NEhmbjQ1dmUtTnNoZ2ZpTDRab040bkFlV1RrYzh2cVA2eDhxS1V1MVBqR0ZjYnBVRG5UcHp5SzVMai0wdnF0STRHTi1lNnFZV0g5YWFWaGdMdEFIOXF3TV9Jc1dISkZFNjNCX3ZMQnJpekpCQkxqa1FxQ1BReFJzLUJBR1VN?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Spain deliver masterclass to beat France 2-0 and reach World Cup final",
-      "detail": "European champions Spain beat France with controlled display to book final against Argentina or England.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/14/spain-deliver-masterclass-to-beat-france-2-0-and-reach-world-cup-final?traffic_source=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -344,105 +685,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Spain into World Cup final after victory over France",
-      "detail": "Spain are into the 2026 World Cup final after goals from Mikel Oyarzabal and Pedro Porro see them convincingly beat France 2-0 in their semi-final in Dallas.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e7da/live/18684770-7fc8-11f1-bee8-53ce494e1abc.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq6160n8y71o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Bundesliga inks $100 million U.S. TV deal to air on USA Network and Fandango - The New York Times",
-      "detail": "Bundesliga inks $100 million U.S. TV deal to air on USA Network and Fandango&nbsp;&nbsp;The New York Times",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQallmdS1KLTJVRFVTMVR4MU9SNHo0Q28xR2lGYjBBVWlKNERGbVFzb0VaN1hTSVF3TnlOU09wRWxzTG5rczBQWGxIczllVnpCWkdBNXFNdm00eDN6MlVjWXNLaDV6azRvcEgxRXE1TEZpVTdqXzdyNzcySUxCUkVtYXAtXzVaWWFldW1EQWJB?oc=5"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Are countries prepared to cope with extreme weather?",
-      "detail": "Severe weather conditions are likely to get worse due to climate change.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/7/14/are-countries-prepared-to-cope-with-extreme-weather?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Who 'came alive' in the semi-final? France v Spain player ratings",
-      "detail": "Spain produce a masterclass to see off France and reach their first World Cup final since 2010 - but who were the stars?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/80d9/live/e5c32230-7fcd-11f1-82bc-eb96a9eb8087.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c1dydqedp73o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "World Cup semifinal: Key players to watch in England vs Argentina clash",
-      "detail": "Lionel Messi, Jude Bellingham and Harry Kane will be among the stars on show during Wednesday&#039;s match in Atlanta.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/7/14/fifa-world-cup-key-players-to-watch-as-england-and-argentina-clash-in-semifinal?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Why the England shirt feels complicated for some fans this World Cup",
-      "detail": "The World Cup has ignited debate in the UK over wearing or displaying the England flag.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/7/14/why-the-england-shirt-feels-complicated-for-some-fans-this-world-cup?traffic_source=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "World Cup 2026: Spain deliver masterclass to knock out favourites France and reach final",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "",
-      "source": "France24",
-      "url": "https://www.france24.com/en/sport/20260714-spain-deliver-masterclass-to-sink-french-armada-and-reach-world-cup-final"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Spain deliver masterclass to sink French Armada and reach World Cup final",
-      "detail": "European champions Spain produced a technical and tactical masterclass to defeat World Cup favourites France at the Dallas Stadium on Tuesday, scoring a goal in each half as they tamed Les Bleus' attacking armada to book a place in the final, where they will face either England or Argentina.",
-      "image": "https://s.france24.com/media/display/5235432c-7fc3-11f1-984c-005056bfb2b6/w:1024/p:16x9/2026-07-14T202927Z-1799614021-UP1EM7E1KOBUZ-RTRMADP-3-SOCCER-WORLDCUP-FRA-ESP.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/sport/20260714-spain-deliver-masterclass-to-sink-french-armada-and-reach-world-cup-final"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Gianni Infantino under fire as viral claims drag European Parliament into FIFA row",
-      "detail": "Viral claims with millions of views falsely claim. the European Parliament has launched a probe into FIFA chief Gianni Infantino. In reality, the move came from a letter by 72 MEPs to EU football associations, urging them to seek a formal FIFA review into the controversial Balogun red card reversal. No probe has been opened, but the episode adds to growing scrutiny around FIFA’s president.",
-      "image": "https://s.france24.com/media/display/fc41c5c0-7fc3-11f1-8edd-005056bf30b7/w:1024/p:16x9/ANGL260714-2045-Live-CS2045.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/infantino-under-fire-as-viral-claims-drag-european-parliament-into-fifa-row-1"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "Esports Insider",
       "flag": "🎮",
       "category": "esports",
@@ -451,28 +693,6 @@
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/combo-contest-smash-tournament"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Henderson & Quansah only England absentees for Argentina",
-      "detail": "Jordan Henderson and Jarell Quansah are set to be the only players unavailable for England's World Cup semi-final against Argentina.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21d5/live/1b3dcc10-7fbc-11f1-9c5f-190f51e64b46.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c20y0gp3p70o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Trump scraps threat of 20% fee on Hormuz cargo as US resumes blockade of Iran ports",
-      "detail": "Trump drops a 24-hour-old vow to charge cargo ships for using the Strait as the US continues its battle to break Iran's hold on the waterway.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6c0/live/e8f90230-7fb4-11f1-926f-c90d1bcfbc84.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -498,17 +718,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Anthropic’s newest ad is creeping people out",
-      "detail": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "Esports Insider",
       "flag": "🎮",
       "category": "esports",
@@ -517,17 +726,6 @@
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/07/msi-2026-gap-between-east-and-west"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "'If we die, we die together': Wife of man nearly sucked out of Ryanair plane speaks of ordeal",
-      "detail": "Svetlana Grković told Serbian media that her husband is \"seriously injured and in shock\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5c6/live/0b7687c0-7f73-11f1-926f-c90d1bcfbc84.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -556,33 +754,22 @@
       "region": "DW (Germany)",
       "flag": "🇩🇪",
       "category": "world",
-      "headline": "How Turkey's 2016 coup attempt changed the country for good",
-      "detail": "Ten years ago, parts of the Turkish military attempted to overthrow the government of President Erdogan. The consequences of the failed coup continue to shape Turkey to this day. A look back.",
+      "headline": "How the 2016 coup attempt changed Turkey for good",
+      "detail": "Ten years ago, parts of the Turkish military attempted to overthrow the government of President Recep Tayyip Erdogan. The consequences of the failed coup continue to shape Turkey to this day. DW looks back.",
       "image": "",
       "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/how-turkey-s-2016-coup-attempt-changed-the-country-for-good/a-77955154?maca=en-rss-en-all-1573-xml-mrss"
+      "url": "https://www.dw.com/en/how-the-2016-coup-attempt-changed-turkey-for-good/a-77955154?maca=en-rss-en-all-1573-xml-mrss"
     },
     {
       "time": "14 ก.ค.",
       "region": "DW (Germany)",
       "flag": "🇩🇪",
       "category": "world",
-      "headline": "US troop withdrawal from Iraq set for September, 30",
-      "detail": "The planned US withdrawal is linked to the disarmament of influential, Iran-backed militias in Iraq.",
+      "headline": "US troop withdrawal from Iraq set for September 30",
+      "detail": "The planned US withdrawal is linked to the disarmament of influential Iran-backed militias in Iraq.",
       "image": "",
       "source": "DW (Germany)",
       "url": "https://www.dw.com/en/us-troop-withdrawal-from-iraq-set-for-september-30/a-77959648?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Iranian newspaper threatens Germany's Chancellor Merz",
-      "detail": "A major Iranian newspaper has published a threat of \"retaliation\" against German Chancellor Friedrich Merz. Politicians have expressed concern, and the German government has issued a cautious response.",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/iranian-newspaper-threatens-germany-s-chancellor-merz/a-77958683?maca=en-rss-en-all-1573-xml-mrss"
     },
     {
       "time": "14 ก.ค.",
@@ -597,47 +784,14 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "‘We’re all going to die’: Scottie Scheffler keeps things in perspective before Open defence",
-      "detail": "World No 1 not interested in his legacy in the gameScheffler missed first cut in 79 events at Scottish OpenSomething about the Open Championship seems to bring out the philosopher in Scottie Scheffler. Last year the world’s best golfer questioned the meaning of life before claiming his fourth major title. This year, though, it was his legacy that was more on his mind.Scheffler was in an ebullient…",
-      "image": "https://i.guim.co.uk/img/media/d06e9c998457cf861262eff5e4e85be1407b4f71/312_0_3718_2975/master/3718.jpg?width=140&quality=85&auto=format&fit=max&s=a59488b1b98808ec9afcf78c46158db6",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/jul/14/were-all-going-to-die-scottie-scheffler-keeps-things-in-perspective-before-open-defence"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "Dot Esports",
       "flag": "🎮",
       "category": "esports",
-      "headline": "Nadeshot Takes a Break From Streaming: “I’ve Just Kind of Fallen Out of Rhythm”",
+      "headline": "Nadeshot takes a break from streaming: ‘I’ve just kind of fallen out of rhythm’",
       "detail": "NadeShot explains his streaming break and confirms an August return.",
       "image": "https://media.dotesports.com/wp-content/uploads/2026/07/nadeshot.png",
       "source": "Dot Esports",
       "url": "https://dotesports.com/streaming/news/nadeshot-streaming-break"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC Business",
-      "flag": "💰",
-      "category": "economy",
-      "headline": "Billionaire Warren Buffett stops donations to Bill Gates charity",
-      "detail": "The investor's decision comes weeks after Gates' appearance before US Congress over his links to Jeffrey Epstein.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee0b/live/574e7da0-7fa1-11f1-a5f4-433bb9aa2e5a.jpg",
-      "source": "BBC Business",
-      "url": "https://www.bbc.co.uk/news/articles/c8x2x549vgdo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "England's one-day woes continue with India defeat",
-      "detail": "Brendon McCullum's reduced role as England's white-ball coach begins with a reminder of how much work there is to do on a one-day team beaten by India.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a407/live/5cbc3eb0-7fa8-11f1-bee8-53ce494e1abc.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/c1kykzjy4lno?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "14 ก.ค.",
@@ -649,6 +803,17 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/07/US-military-drone-boat-attack-on-Iranian-port-1152x648.png",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Blink and you miss it: McIlroy not alone in seeking longer major season to boost golf",
+      "detail": "The Open marks end of the short sweep that began with the Masters, but big names can see benefit of extending its runPerhaps it is not the when but instead the where. Golf’s majors in present form feel far too condensed, too brief. Jon Rahm, a two‑time winner on the biggest stages, has more interest in the fact that three out of four take place in the US than their position on the calendar.“I…",
+      "image": "https://i.guim.co.uk/img/media/d325f8a4c40c5c4ec9216eff66bf5c76e54adfaf/210_0_2492_1993/master/2492.jpg?width=140&quality=85&auto=format&fit=max&s=b7940aa33abc8699a43df5a64611aefe",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/jul/14/the-open-rory-mcilroy-jon-rahm-scottie-scheffler-golf-majors"
     },
     {
       "time": "14 ก.ค.",
@@ -674,39 +839,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "T. rex 'Gus' sells for record-breaking $50.1 million",
-      "detail": "The Tyrannosaurus rex skeleton surpassed its pre-sale estimate and set a new auction record for a dinosaur fossil.",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/t-rex-gus-sells-for-record-breaking-50-1-million/a-77959141?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Israeli strike on police post in north Gaza kills seven, officials say",
-      "detail": "A senior officer in the Hamas-run police force was among those killed in the strike, which Israel's military says targeted \"terrorists\".",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/13bb/live/d7d46710-7f87-11f1-a47a-d94293d2b0e4.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Trump pays writer E Jean Carroll $5m in damages over sexual abuse and defamation",
-      "detail": "The president had sought to delay the payment as he tried to persuade the Supreme Court to overturn the judgement.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a14c/live/efc3d020-7f98-11f1-a5f4-433bb9aa2e5a.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c2dydj1wp93o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "The Guardian Business",
       "flag": "💰",
       "category": "economy",
@@ -715,17 +847,6 @@
       "image": "https://i.guim.co.uk/img/media/73777bbbf4a12fad407f0cc3de044975b225c483/635_0_6292_5031/master/6292.jpg?width=140&quality=85&auto=format&fit=max&s=83f24351873855320fa2bee823340bda",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/business/2026/jul/14/june-cpi-report-inflation-cools-iran-deal"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "‘I have haters’: Pogacar brushes off boos after solo burst extends Tour de France lead",
-      "detail": "Slovenian wins stage 10 on Bastille Day to go further clearEvenepoel finishes second, 32 seconds behind SlovenianTadej Pogacar extended his lead in the Tour de France with another imperious solo victory on the 10th stage to Le Lioran, in the Massif Central. The Slovenian now leads the Tour by more than a three and a half minutes from longtime rival Jonas Vingegaard, who wilted and lost more time…",
-      "image": "https://i.guim.co.uk/img/media/f8f50d1130beb9759ac5822a8af9658f573f167f/252_0_4752_3801/master/4752.jpg?width=140&quality=85&auto=format&fit=max&s=4831964bc62d3ea5b603c539e91890af",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/jul/14/joy-for-tadej-pogacar-on-bastille-day-as-solo-burst-extends-tour-de-france-lead"
     },
     {
       "time": "14 ก.ค.",
@@ -740,28 +861,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "US-Iraq relations: Can Iran-allied militias be disarmed?",
-      "detail": "When Donald Trump meets Iraq's new PM today, they are likely to discuss disarming Iran's allies in Iraq. Some have already pledged to give up their guns. But is that likely? And will it influence the US-Iran war?",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/us-iraq-relations-can-iran-allied-militias-be-disarmed/a-77956078?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Liberia: U.S. Denies Visas to Majority of Liberia National Team Delegation",
-      "detail": "[Liberian Investigator] The United States has denied visas to most members of Liberia's national team delegation, casting doubt on the Lone Star's planned international friendly against Minnesota United II.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140617.html"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "The Guardian Sport",
       "flag": "⚽",
       "category": "sports",
@@ -770,6 +869,17 @@
       "image": "https://i.guim.co.uk/img/media/af38f5ab0e4bcb35a6f13af3ea290d44e582d963/749_0_3745_2996/master/3745.jpg?width=140&quality=85&auto=format&fit=max&s=a6783ff5b1527992ade504a167afc73b",
       "source": "The Guardian Sport",
       "url": "https://www.theguardian.com/football/2026/jul/14/folarin-balogun-ban-usa-world-cup"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Virtus.pro vs Geekay Esports, EU MENA 2026 Stage 1 (14/07/2026) - SiegeGG",
+      "detail": "Virtus.pro vs Geekay Esports, EU MENA 2026 Stage 1 (14/07/2026)&nbsp;&nbsp;SiegeGG",
+      "image": "",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tSU42akJGNlgyQXAwbmw5empXbUhlejRCdkhTM3BmZmQ4azM4eThzWDVGNWZlQzVOUllnSms3WWQxYnNLQzhxMElHRWs3NjZLRnhUbWxQTHJvRUIwWmF1Vi1DRlQ4RXZrUVR0enFGTm1lZw?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -795,105 +905,6 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "Dot Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Twisted Minds adds Americana Foods and Biofit as sponsors heading into EWC 2026",
-      "detail": "The Saudi org lands food and wellness sponsors just as it enters the Esports World Cup 2026 across nine game titles — and pulls in up to $1 million through the Esports Foundation's club program.",
-      "image": "https://media.dotesports.com/wp-content/uploads/2026/07/twisted-minds-adds-americana-foods-and-biofit-as-sponsors-he-1.webp",
-      "source": "Dot Esports",
-      "url": "https://dotesports.com/general/news/twisted-minds-esports-sponsorship-deals-ewc-2026"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Dot Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "VALORANT gives Yoru some power back with Gatecrash and Fakeout changes in Patch 13.01",
-      "detail": "It's a step.",
-      "image": "https://media.dotesports.com/wp-content/uploads/2026/07/valorant-yoru-key-art.jpg",
-      "source": "Dot Esports",
-      "url": "https://dotesports.com/valorant/news/valorant-patch-13-01-yoru-changes"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Africa: As Security Deteriorates, Sahelian Juntas Further Stifle Civilians",
-      "detail": "[ACSS] As militant Islamist insurgencies make unprecedented gains across the Sahel, military junta leaders have focused on restricting independent voices instead of adapting security strategies.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140546.html"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Uganda: Government Warns of Above-Average Temperatures",
-      "detail": "[Nile Post] Kampala -- The government has warned that Uganda is experiencing above-average temperatures with serious implications for food production, agricultural output, household incomes and public health.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140526.html"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Kenya: Opposition Blames Ruto Over Rising Political Violence",
-      "detail": "[Capital FM] Nairobi -- Opposition leaders have accused President William Ruto's administration of presiding over an escalating wave of political violence, warning that the country risks sliding into political intolerance unless state institutions act impartially and uphold the rule of law.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140523.html"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "Dot Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "How to get Excalibur Warframe for free in Fortnite",
-      "detail": "Tenno, Excalibur is free to get in Fortnite.",
-      "image": "https://media.dotesports.com/wp-content/uploads/2026/07/excaliburfortnite.jpg",
-      "source": "Dot Esports",
-      "url": "https://dotesports.com/fortnite/guides/how-to-get-excalibur-warframe-for-free-in-fortnite"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Diamond giant De Beers halts work at flagship South African mine as demand plummets",
-      "detail": "Production will stop for two years at the mine which employs more than 4,000 people.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f33d/live/ecc02f10-7f82-11f1-926f-c90d1bcfbc84.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cjrgr7lr1ejo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Nigeria: Yobe, Adamawa Tighten Security to Curb Illegal Mining",
-      "detail": "[Premium Times] The measures may not be unconnected with the allegations associating solid minerals, such as gold, with banditry and insurgency in some parts of the country",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140470.html"
-    },
-    {
-      "time": "14 ก.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Uganda: Fake Screenshot - Uganda's Military Chief Muhoozi Kainerugaba Has Not Overthrown His Father, President Museveni",
-      "detail": "[Africa Check] IN SHORT: A fabricated screenshot circulating on Facebook falsely claims Uganda's chief of defence forces announced on X that he had overthrown his father, president Yoweri Museveni. There is no trace of the post on his verified account, and no credible media outlet has reported such a coup.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202607140468.html"
-    },
-    {
-      "time": "14 ก.ค.",
       "region": "The Guardian World",
       "flag": "🇬🇧",
       "category": "world",
@@ -916,14 +927,25 @@
     },
     {
       "time": "14 ก.ค.",
-      "region": "The Guardian Sport",
+      "region": "Google News: Sports",
       "flag": "⚽",
       "category": "sports",
-      "headline": "MLB storylines at the All-Star break: summer surges, the woeful Mets and the first-place White Sox",
-      "detail": "As the Home Run Derby and All-Star Game take over Philadelphia, we take a spin around the majors with an awards watch, an Ohtani update and lots in betweenWith more than half of the MLB season in the books, the baseball world has convened in Philadelphia for the annual All-Star festivities. What better time for owners and players to engage in Brotherly Love and figure out how to avoid the widely…",
-      "image": "https://i.guim.co.uk/img/media/343290f82e9bf0c940c780dcc484ce62defbfe54/0_0_4724_3780/master/4724.jpg?width=140&quality=85&auto=format&fit=max&s=295f9dbd6891c33e2a7807cea0b573eb",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/jul/14/mlb-storylines-all-star-break-mets-white-sox-yankees-rays"
+      "headline": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever - WSJ",
+      "detail": "The Greatest Rivalry in Sports Braces for Its Biggest Game Ever&nbsp;&nbsp;WSJ",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcjg2QVVJQ2VhZ2tsVWN2WXQ5MnNOUUZOd05ITlU3bVI0emltMXVpVU9CNW05a1Y4cndHRW9IOElxMDQyRDBmM3JGWkRaRGs1VE9OS0w4LWdkY2d6UmRwcjVINndjdFk4ck80d0RyR0stdnpvSllSbExkLW9OLVFPNzVab184Zw?oc=5"
+    },
+    {
+      "time": "14 ก.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "MWI at EWC 26 Survival Guide - Esports World Cup",
+      "detail": "MWI at EWC 26 Survival Guide&nbsp;&nbsp;Esports World Cup",
+      "image": "",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0Y1ZqdnhOWHpuVHpQeHRKUl9NYnpvQ1I0SzRiQ1JBOEoxbHhXY1RodjFfUDJhZ3QtRjhxUXJLWFNTMjVEd19McHhaTVF1VEpNOWx1MWk3YzdXdmZIR0pCTXdjeUpnd3pTUUV0RDl3?oc=5"
     },
     {
       "time": "14 ก.ค.",
@@ -1004,17 +1026,6 @@
     },
     {
       "time": "13 ก.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Even though Old School RuneScape was 'not built to have a LAN setup at all,' it just had a live esports tournament with 4,000 attendees: 'We were doubting at times whether we actually can pull it off' - PC Gamer",
-      "detail": "Even though Old School RuneScape was 'not built to have a LAN setup at all,' it just had a live esports tournament with 4,000 attendees: 'We were doubting at times whether we actually can pull it off'&nbsp;&nbsp;PC Gamer",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOTDBMb1Fib0VYYXI4ZmdzRnR4emRlcjhEX01fVlNWRDJ3QlFFeXZQVjF5RDdrM2Zqcno0NFhLZFR4ellOSVE1dzZEcjNXdGY3RFVzRWp6MDNZRHU3TXVtSFdXYW9JV2V0RE9ocldldnNWSlZldG1EcGZkMkR3UkRaSVZaeG9vSzV6U2lMdXRkZ3ozdXVvUTVQbGQwNjRwUnNYN19yWXFsSUJ4aVFOMkhXSFVJOWZXWEU4NVY3WmU0dnRVeHZZekVuSVVkcVEzb2ZQRnNpdUxCaGRtS2R5TldPUTFlR0xhbGE1Mjk3QWVQdEcyenZLSzhLNWRWVGVsd24xWEdHMUo1Z0gzcmlEN1pSZms3azNjQldqcGVPX0l5WmtkR1MtbUNaNGNFd1NpT1UxY1lQUS1MdmljNFpfUDFlRVRsXzg2aWpLVjdRSGF3?oc=5"
-    },
-    {
-      "time": "13 ก.ค.",
       "region": "The Guardian World",
       "flag": "🇬🇧",
       "category": "world",
@@ -1023,17 +1034,6 @@
       "image": "https://i.guim.co.uk/img/media/47ef4bc525153f24a51b0a766a45d2e43394da0e/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=d12d700c3d52be73980da7797e7807fa",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/jul/13/del-monte-pineapple-farm-kenya-deaths-g4s"
-    },
-    {
-      "time": "13 ก.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Mark Madden: Fans keep paying for sports’ biggest bait-and-switch - TribLIVE.com",
-      "detail": "Mark Madden: Fans keep paying for sports’ biggest bait-and-switch&nbsp;&nbsp;TribLIVE.com",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcWsweFZGQ2FyTDdtbUE3eVo0UUMxd3Q2TzNCOGJXY1VZMHhhOHNKZjVWd0swUEdoa3k3VVlVcUMxbnZTbWt4SWtPU2lTNldSeTNzRWFzQ3BQY0pKbTc5b25SWjFMc3gtUDc2bG00TnhDVFhRZVJNTk5HSFl5bGptWFJqVUlqUElsaVNodUVmdlRXNkZnbmlJ?oc=5"
     },
     {
       "time": "13 ก.ค.",
@@ -1056,17 +1056,6 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c312/live/88ec5440-7be6-11f1-9010-bd4e2d0a26e0.png",
       "source": "BBC Technology",
       "url": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "12 ก.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "MSI 2026 Grand Final falls short of T1 vs G2 viewership peak - Esports Charts",
-      "detail": "MSI 2026 Grand Final falls short of T1 vs G2 viewership peak&nbsp;&nbsp;Esports Charts",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpT1I4UXJCcWVaZmo4XzFDVXVyOGw5VUdRVF9GbVJOQVJoakRoSERETlg1dlp0akRnTXg2d1JidVZOOXFIQ0tZbko5OERpVncyeTlHSU1OQ2p1OHdKRldKcFluSktLRXNpNzln?oc=5"
     },
     {
       "time": "12 ก.ค.",
@@ -1180,6 +1169,17 @@
     },
     {
       "time": "10 ก.ค.",
+      "region": "BBC Technology",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Big tech must deal with scam ads under Ofcom proposals",
+      "detail": "Ofcom says more than half of UK adults have encountered potentially fraudulent ads online.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f656/live/df041af0-7c42-11f1-8ccc-df652c9169a7.jpg",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c9q2rznjqwwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "10 ก.ค.",
       "region": "The Guardian World",
       "flag": "🇬🇧",
       "category": "world",
@@ -1188,72 +1188,6 @@
       "image": "https://i.guim.co.uk/img/media/1f3499a36b13998727100bda701915513e4c6156/149_0_1890_1512/master/1890.jpg?width=140&quality=85&auto=format&fit=max&s=3a9965c4a40c281dd153f2e8e18170a6",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/global-development/2026/jul/10/developing-countries-spend-more-foreign-debt-education-aid-cuts-unesco"
-    },
-    {
-      "time": "24 มี.ค.",
-      "region": "ESPN Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Jackie Robinson joins EA Sports College Football 26 in Record Breakers Vol. 3",
-      "detail": "The Baseball Hall of Famer and trailblazer was a football star at UCLA in the 1930s and '40s, and will join Dwight Freeney and Timmy Chang in the new release.",
-      "image": "",
-      "source": "ESPN Esports",
-      "url": "https://www.espn.com/gaming/story/_/id/48296534/jackie-robinson-ucla-bruins-ea-college-football-26"
-    },
-    {
-      "time": "13 มี.ค.",
-      "region": "ESPN Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "WWE 2K26 review: Endless possibilities in the squared circle",
-      "detail": "WWE 2K26 doesn't deviate from its predecessors' tried-and-true formula, but does offer enough new features to make for a fresh experience.",
-      "image": "",
-      "source": "ESPN Esports",
-      "url": "https://www.espn.com/gaming/story/_/id/48184888/wwe-2k26-review"
-    },
-    {
-      "time": "25 ก.พ.",
-      "region": "ESPN Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Resident Evil Requiem review -- Nail-biting horror and action",
-      "detail": "By switching back and forth between characters, Resident Evil Requiem mixes nerve-fraying horror with some of the most intense action sequences in games.",
-      "image": "",
-      "source": "ESPN Esports",
-      "url": "https://www.espn.com/gaming/story/_/id/48030833/resident-evil-requiem-review"
-    },
-    {
-      "time": "24 ก.พ.",
-      "region": "ESPN Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Shrouded Sky brings new features to ARC Raiders",
-      "detail": "New enemies and locations abound in the latest update to ARC Raiders -- and so do playable pianos.",
-      "image": "",
-      "source": "ESPN Esports",
-      "url": "https://www.espn.com/gaming/story/_/id/48021664/arc-raiders-shrouded-sky-update"
-    },
-    {
-      "time": "20 ก.พ.",
-      "region": "ESPN Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "NBA 2K26 drops college basketball-themed update this week",
-      "detail": "Season 5 will feature men's and women's programs from Duke, UNC, UConn and more.",
-      "image": "",
-      "source": "ESPN Esports",
-      "url": "https://www.espn.com/gaming/story/_/id/47974494/nba-2k26-college-basketball-update"
-    },
-    {
-      "time": "18 ก.พ.",
-      "region": "ESPN Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "NBA The Run reveals Flight Club trio: Edwards, Morant and Williamson",
-      "detail": "Another team example has dropped for NBA The Run, the three-on-three basketball game where you mix and match stars to create the perfect trio.",
-      "image": "",
-      "source": "ESPN Esports",
-      "url": "https://www.espn.com/gaming/story/_/id/47962617/nba-run-flight-club-trio-edwards-morant-williamson"
     }
   ]
 }
