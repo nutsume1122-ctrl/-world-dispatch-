@@ -1,60 +1,225 @@
 {
-  "updated_at": "2026-10-17T01:12:53.825101+00:00",
+  "updated_at": "2026-10-18T00:47:47.575730+00:00",
   "items": [
     {
-      "time": "17 ต.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
+      "time": "18 ต.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "UAlbany football rips Golden Apple Trophy away from Stony Brook - Yahoo Sports",
+      "detail": "UAlbany football rips Golden Apple Trophy away from Stony Brook&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM3lzd3VNUVMxNHBpTnBjcWxwX2hoRjkzdFNvVEUwVjkzNzBQUHJ5RjB2NnBES3FaZDNwT0ctT2pZeXUxdi0wVzZJZHFFR0p3bG43Mm03bGhfS0l3RTk4SG1IbTg1dFJiTGVtT2VQTTNRT2VjNEpyZm85dGZmbW56dzNvdVp6MEVTSzZF?oc=5"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "North Carolina 24, Duke 20: Five Key Plays - Yahoo Sports",
+      "detail": "North Carolina 24, Duke 20: Five Key Plays&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HOW9qakxMT1U4MGpkR2RZVi1KNFJHM3lscXVaVF9xdjJHMXU0NGlSWTFqSGpGNkQ1WElJLXE2UkRHRko1dmdSM28weThOdEZtVlVMZFQxZkxZajF6bG1EblRiYmhlSGJzX2JtcmthbHFMX3NKOEF2NUd6TVBmRFk?oc=5"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "🚨 Breaking: Barça stranded in Seville - Yahoo Sports",
+      "detail": "🚨 Breaking: Barça stranded in Seville&nbsp;&nbsp;Yahoo Sports",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOGdnaHZ2ZnNGaHk0a1RFRk9aLURwNUxfLXFyWE5xU0UxVEFPNkhSejloZXJVY0t3OUtOQXNQaTN2X3JEQ3pxVEtpcVczUjRYOHVaWXpEczVSdmI0cWNGbk1RT2FOQTNXNEpLeEVyR0E2ZE9COTd0VnpqbjdQdTFRLUMtN08?oc=5"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
       "category": "world",
-      "headline": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "https://dam.mediacorp.sg/image/upload/s--GWID8Zr---/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-17T010109Z_2_LYNXMPEM9G012_RTROPTP_3_AI-SAFETY-EVALUATORS.JPG?itok=9Ynb-1ky",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/anthropic-offers-blackstone-double-digit-yield-in-chip-financing-deal-ft-reports-6467711"
+      "headline": "Iran war live: Tankers hit in Hormuz; Israeli settlers attack EU diplomats",
+      "detail": "Fires reported on three tankers as masked settlers attack European politicians in the occupied West Bank.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tankers-hit-in-hormuz-israeli-settlers-attack-eu-diplomats?traffic_source=rss"
     },
     {
       "time": "17 ต.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Bruins vs. Ducks Score, Live Updates, Highlights From NHL Game - Yahoo Sports",
-      "detail": "Bruins vs. Ducks Score, Live Updates, Highlights From NHL Game&nbsp;&nbsp;Yahoo Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTUhfQU9lTWJFbUVoUlpXeTNGSkdWTlItdTViZDktc1AyQnU5VVdsQl9qU1o2LWNXS3JfUGNiRG9GY1prWE43MVZ4M2RxOHBVeFJwVmFmaU1TSWFNMjZvaHMzdUlYN21ZbndEZ3BIUkdLRGl0SFZVQjk0YVN5VEJ6MQ?oc=5"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "New York Jets: Geno Smith Appreciation Post - Yahoo Sports",
-      "detail": "New York Jets: Geno Smith Appreciation Post&nbsp;&nbsp;Yahoo Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXJoX3BPSExLMFFQN2NWeU8tRGJkYTZnTkZFN282X0hvY1ZpSkJodmRpeUlVX1BWYXh2Q0Q1RWg4NmZCVWlMR2tHbTdKTmFxbVgzR1d0c0RrM3lIYnBhZ29HNjV1SkFvYTZnME5HbS1DR2xDaktHOGJMRC1xZXZ1VTk0N3ZscDZTR1E?oc=5"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Patrick Mahomes removed from injury report - Yahoo Sports",
-      "detail": "Patrick Mahomes removed from injury report&nbsp;&nbsp;Yahoo Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcDlwTmZLTlR1Z3FLS09rYV9FOU8xS1dCRWIxWV93eVljb0lQR0lGelk4RGFNN3dBTGQtei1qMlhQbXA1UHZsdkRpcVNkejlGSE1USVRTbUd3RldnZVBhMk5ZVlQwMXJTUDNLSHF0UTRMZVZfTkRsOHd1c3BLaUktUTJUaHJwVGJwWXZnVUJxZw?oc=5"
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "European diplomats attacked by Israeli settlers in West Bank",
+      "detail": "The Israeli military condemns the violence but the prime minister's office says it is part of a \"smear\" campaign.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15c7/live/4f318350-ca52-11f1-852c-2b93a8fc4799.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "17 ต.ค.",
       "region": "Al Jazeera",
       "flag": "🌍",
       "category": "world",
-      "headline": "Oregon school shooter was former special needs student, police say",
-      "detail": "A teacher fought teenage shooter and a parent shot him dead, police say on Friday, a day after four people were killed.",
+      "headline": "US ambassador urges Israel to prosecute attackers of American journalist",
+      "detail": "Trump-appointed Ambassador Mike Huckabee calls attack in occupied West Bank a &#039;despicable act of terror&#039;.",
       "image": "",
       "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/17/oregon-school-shooter-was-former-special-needs-student-police-say?traffic_source=rss"
+      "url": "https://www.aljazeera.com/news/2026/10/17/us-ambassador-calls-on-israel-to-prosecute-settlers-over-journalist-attack?traffic_source=rss"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Singapore haze: Air quality remains very unhealthy in west, unhealthy in other regions",
+      "detail": "At 8am, the 24-hour PSI in the west stood at 228.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--0PiZKGip--/c_crop,h_1125,w_2000,x_0,y_31/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/17/69613.jpg?itok=fi255mgY",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/singapore/haze-oct-18-psi-west-remains-very-unhealthy-6468376"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Saudi-led coalition intercepts drones as Egypt weighs sending help",
+      "detail": "Forces intercepted and destroyed four drones over Saudi Arabia&#039;s Riyadh, Eastern Province and southern region.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/17/saudi-led-coalition-intercepts-drones-as-egypt-weighs-sending-help?traffic_source=rss"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "BigBang XX: Cosmos in Singapore – a triumphant return for the K-pop legends",
+      "detail": "BigBang staged their first concert in Singapore in a decade on Saturday (Oct 17). Here’s how it went down.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--lrlsZQ3v--/c_crop,h_1123,w_1997,x_1,y_146/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/18/851328137_1525077522990212_3597957243946473865_n.jpg?itok=LZROW0b1",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-2026-concert-review-6468981"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "5 gastrointestinal symptoms you should never ignore, according to doctors",
+      "detail": "Experts say these warning signs should always prompt a chat with a doctor.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--4049sKyB--/c_crop,h_1125,w_2000,x_0,y_230/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/11/sci_digestive_system_issues-0.jpg?itok=FJlHl5X1",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "I visited Salzburg's new Sound Of Music museum and cycled on a bike named Julie Andrews",
+      "detail": "More than 60 years on, Salzburg has finally given The Sound Of Music a museum of its own. I went to the opening, then followed the film up mountains and around the city on a bicycle stencilled with Julie Andrews’ name.",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Tj83u2Ml--/c_crop,h_542,w_963,x_1,y_135/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/12/som.jpg.jpeg?itok=-fDRnGJv",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/travel/sound-music-museum-salzburg-austria-6441126"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Rival ports 'fast catching up': SM Lee warns against complacency, says port workers must not face shift alone",
+      "detail": "Senior Minister Lee Hsien Loong also highlighted the importance of strong tripartism to enable PSA's management team, the unions and the workers to work together in a \"relationship of trust\" to build a \"disciplined and skilled workforce\".",
+      "image": "https://dam.mediacorp.sg/image/upload/s--lRLmJtL9--/c_crop,h_1125,w_2000,x_0,y_181/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/17/mddi_photo2.jpg?itok=BGTseEOD",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-port-workers-union-technology-lee-hsien-loong-6468356"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Jalen Hurts placed on injured reserve after Eagles quarterback diagnosed with blood clot",
+      "detail": "Eagles star sidelined by blood clot in his calfHurts sustained injury against Rams on 4 OctoberSuper Bowl MVP must miss at least four gamesQuarterback Jalen Hurts was placed on injured reserve on Saturday, two days after the Philadelphia Eagles revealed he had a blood clot in his calf.Hurts was initially ruled out on Thursday for the Eagles’ upcoming game against Carolina. The Eagles said at the…",
+      "image": "https://i.guim.co.uk/img/media/0d6c9c28d97cae6b01281fe77fc415463008dfe7/597_0_6581_5265/master/6581.jpg?width=140&quality=85&auto=format&fit=max&s=c12551148207e8e627db448a27ada011",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/jalen-hurts-eagles-injured-reserve-blood-clot-calf"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Daniel Dubois delivers devastating second-round stoppage of Fabio Wardley to retain WBO title",
+      "detail": "Dubois underlines status as Britain’s leading heavyweightWardley’s corner throw in the towel in second roundDaniel Dubois overwhelmed Fabio Wardley in their WBO world title fight on Saturday night as he continued his quest to become the most authoritative heavyweight fighter on the planet with this crushing victory. This was the second time in five months that Dubois has defeated Wardley but,…",
+      "image": "https://i.guim.co.uk/img/media/27adb2c7be78b4a3ce84e18d91869e0cb40fa617/454_0_3659_2928/master/3659.jpg?width=140&quality=85&auto=format&fit=max&s=cccd59759719fdacf9fcb1d1612b057c",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/daniel-dubois-devastating-second-round-stoppage-of-fabio-wardley-retain-wbo-title-boxing"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Dubois destroys Wardley in two rounds to retain title",
+      "detail": "WBO champion Daniel Dubois underlines his status as Britain's leading heavyweight with a devastating second-round stoppage of Fabio Wardley.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b3f/live/ab9ff830-ca78-11f1-aebd-051362f1d912.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/c6gelq3zdy8wo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Gabby Williams lifts Valkyries past Dream in defensive slugfest to open WNBA finals",
+      "detail": "Williams scores 26 as Golden State prevail 68-64Hosts overcome 32% shooting to take 1-0 series leadGray scores 19 in return as Atlanta fall short lateGabby Williams made two free throws with 1:18 remaining to put Golden State ahead, then added two more with 4.1 seconds left to seal a 68-64 victory over the Atlanta Dream in Game 1 of the WNBA finals on Saturday.Williams finished with 26 points…",
+      "image": "https://i.guim.co.uk/img/media/c2f7d57619354defb0d83ae60239151fe9142a57/506_0_5036_4031/master/5036.jpg?width=140&quality=85&auto=format&fit=max&s=3055680cbf882143166861a61a9c2e87",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/gabby-williams-golden-state-valkyries-atlanta-dream-wnba-finals-game-one"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
+      "detail": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a208/live/829d3600-c861-11f1-9a39-31b474234113.png",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "18 ต.ค.",
+      "region": "Channel News Asia",
+      "flag": "🇸🇬",
+      "category": "world",
+      "headline": "Dubois defeats Wardley in short order to retain WBO heavyweight title",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "image": "",
+      "source": "Channel News Asia",
+      "url": "https://www.channelnewsasia.com/sport/dubois-defeats-wardley-in-short-order-retain-wbo-heavyweight-title-6469061"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "2 killed, multiple injured after vehicle drives onto field during soccer game at Wichita sports complex - CNN",
+      "detail": "2 killed, multiple injured after vehicle drives onto field during soccer game at Wichita sports complex&nbsp;&nbsp;CNN",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IOEJ6REVSSGpqUnhpVVlBVFRVbE0yOUtJUVVHS25sNHc0bGNYNUpaQ3pkV3ZqdGlLS3NzZ196ZVZaQTctQkJWb3RCODF2Rmh5UEhPdDQ5emM0T0lVTVZfOThHQ3BWSExEVnl0TmZIWjlKeEhP?oc=5"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Meta removes language that raised scraping and AI training concerns",
+      "detail": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
     },
     {
       "time": "17 ต.ค.",
@@ -65,205 +230,469 @@
       "detail": "Vod&nbsp;&nbsp;LoL Esports",
       "image": "",
       "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50MmJUaWtBU1NuQmRJeXctU0F1UGptdWVzM3VUaUlHeUYyeXNBMEl6anMzVEVUbXpqSG1DX2dXMWgxQm5JRW1Kb0NrdlBxaDZ4cF9sTzcyWTlRZGs?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02ZnJRcThCVVRSa2tDS1E5aW55dzNwWE5zdHlLLTRWSExxcmFfeXVmSkh5TmQtN2tJUHhvQzdnbzZCQ1RLaXJ2OVdhYm1lOVJUcHpjTHVlejFVWkU?oc=5"
     },
     {
       "time": "17 ต.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Iran war live: Trump claims US Navy blockade stops Iranian ships in Hormuz",
-      "detail": "Trump says the US Navy blockade has stopped all Iranian ships from crossing the Strait of Hormuz.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/17/draft-2?traffic_source=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Trump mocks Middle Eastern names with ‘Mohammed’ joke",
-      "detail": "“If you’re in doubt about somebody’s name from the Middle East, just say ‘Mohammed,’” says US President Donald Trump.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/trump-mocks-middle-eastern-names-with-mohammed-joke?traffic_source=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Trump 'completely wrong' to restrict support for Ukraine, Italian minister tells BBC",
-      "detail": "Defence Minister Guido Crosetto tells the BBC the US risks prolonging Russia's full-scale invasion rather than helping to end it.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dddb/live/6a9aa9b0-c97a-11f1-a64c-550be9e3c66b.png",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c64g18ljjd8do?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "New Mummy film gets official title and release date",
-      "detail": "Universal Pictures has announced that the next movie in The Mummy franchise will be titled The Mummy: Book Of The Dead.",
-      "image": "https://dam.mediacorp.sg/image/upload/s--881kLwV7--/c_crop,h_899,w_1598,x_0,y_17/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/02/13/the_mummy_4.png?itok=6r6c4YjQ",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/entertainment/mummy-book-dead-brendan-fraser-rachel-weisz-6467636"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Albanian PM blames ‘foreign hands’ for unrest as student protests intensify",
-      "detail": "Riot police clash with protesters for fourth day, as young Albanians protest corruption and poor university conditions",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/16/albanian-pm-blames-foreign-hands-for-unrest-as-student-protests-intensify?traffic_source=rss"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "What if ADHD isn’t about attention at all? It might be more about motivation and staying engaged",
-      "detail": "Evidence suggests that it really affects what psychiatrists like me call sustained engagement&nbsp;– an important difference in understanding how to think about the condition.",
-      "image": "https://dam.mediacorp.sg/image/upload/s--O_YjxKq1--/c_crop,h_1125,w_2000,x_0,y_438/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/11/sci_adhd_debate-0.jpg?itok=awxFFSYB",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/wellness/adhd-attention-motivation-6439636"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Checking Mount Bromo off the bucket list while also heading off the beaten path? Here's how",
-      "detail": "The writer and his friends wanted to visit the famous Mount Bromo in Indonesia, but also see its lesser-known surrounding towns. They encountered charming cafes, stunning views and fresh farm produce undiscovered by tourists.&nbsp;",
-      "image": "https://dam.mediacorp.sg/image/upload/s--osFQY1Qj--/c_crop,h_710,w_1263,x_1,y_5/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/14/bromo_2.jpg?itok=app8F3qO",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/travel/mount-bromo-batu-malang-travel-6417286"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Singapore haze eases overnight, but air quality remains unhealthy",
-      "detail": "NEA says the transport of smoke haze from Kalimantan to Singapore could ease on Saturday, with shifting winds and showers expected over Singapore and the surrounding region.",
-      "image": "https://dam.mediacorp.sg/image/upload/s--aDmZTix5--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/17/sg_haze_delivery.jpg?itok=F_92oEe5",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-pm25-oct-17-6466816"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Oregon teacher fought school attacker before armed dad shot suspect 'multiple times'",
-      "detail": "The 16-year-old suspect previously attended the primary school and had targeted a special educational needs classroom, police say.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c80/live/72894110-c9b4-11f1-9409-01a8c77950d7.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
-      "category": "world",
-      "headline": "Trial of German steakhouse heiress that sparked a huge spy scandal",
-      "detail": "For 15 months, a high-security courtroom in Hamburg has been hearing the case of Christina Block, accused of ordering the abduction of her children.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f50/live/e57d8d50-c8c1-11f1-bdfb-e3788aeae9ec.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgdn3d656vo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "17 ต.ค.",
-      "region": "Channel News Asia",
-      "flag": "🇸🇬",
-      "category": "world",
-      "headline": "Anthropic signs lease for first Canadian data center",
-      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
-      "image": "https://dam.mediacorp.sg/image/upload/s--8uQgooPG--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-16T230535Z_2_LYNXMPEM9F1XG_RTROPTP_3_AI-ANTHROPIC-JAPAN.JPG?itok=aHzas-C8",
-      "source": "Channel News Asia",
-      "url": "https://www.channelnewsasia.com/business/anthropic-signs-lease-first-canadian-data-center-6467591"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Leeds vs Manchester United: Premier League – teams, prediction, lineups",
-      "detail": "Manchester United are mired in poor form - and Lisandro Martinez&#039;s meltdown - now they face on-the-up rivals Leeds.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/sports/2026/10/16/leeds-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Al Jazeera",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Italy probes Israel’s Katz over abuse, sexual assault of flotilla activists",
-      "detail": "Rome prosecutors also name 12 senior military, police and prison officials over alleged abuse of detained activists.",
-      "image": "",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/16/italy-probes-israels-katz-over-abuse-sexual-assault-of-flotilla-activists?traffic_source=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Brazil: Amazon deforestation lowest in nearly 40 years",
-      "detail": "The latest figures show that 3,335 square kilometers of the Amazon rainforest were cleared in the year ending in July, the lowest level since 1988. The drop has been described as an \"historic achievement.\"",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/brazil-amazon-deforestation-lowest-in-nearly-40-years/a-79684906?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "NRG announces the historic departure of World Championship winning roster - Sheep Esports",
-      "detail": "NRG announces the historic departure of World Championship winning roster&nbsp;&nbsp;Sheep Esports",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeXdUaXhVQWtOM1JWRkxXM1lfVFhlaGp3MC1LLVJBM1ljT1R5Wl9MUnRLVFFUVE1jWHdMTlFOYm00SUZVaVZWbE15Z3F4Z3RBRU5JX1VLdkFldXdXRGdySC0yWEJWNzY3RWN2b1ZObFVLVmU3bGl3MlpkVlRlUExKMjJCZHhNZ2RmOFZteG5kbl9pMlFGLVJHMVpCdWZzU2stWVZtdlZXdUVqdDFRVjlGdjBTWkdGWFdw?oc=5"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Replit is no longer working with Anthropic, CEO says",
-      "detail": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/"
-    },
-    {
-      "time": "16 ต.ค.",
       "region": "BBC Sport",
       "flag": "⚽",
       "category": "sports",
-      "headline": "Ranking the Premier League's all-time greatest super subs",
-      "detail": "Some players are destined to make their biggest impact off the bench, but who are the top 10 Premier League super subs of all time?",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ebe8/live/306d9e20-c946-11f1-94af-5f148d758fe7.jpg",
+      "headline": "Villa's Manzambi shows Newcastle what they missed out on",
+      "detail": "Aston Villa are a side back in form, with Johan Manzambi scoring the winner against a Newcastle team he turned down to move to Villa Park.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e187/live/674bcbf0-ca6e-11f1-a64c-550be9e3c66b.jpg",
       "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqn73xe5eelgo?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck054652mv07o?at_medium=RSS&at_campaign=rss"
     },
     {
-      "time": "16 ต.ค.",
+      "time": "17 ต.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Photos: No Kings rallies in US urge midterm voters to cast ballots early",
+      "detail": "Thousands gathered at events throughout the country on Saturday, building on two years of No Kings marches.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Large emergency response at Stryker Sports Complex after ‘incident’ - KSN-TV",
+      "detail": "Large emergency response at Stryker Sports Complex after ‘incident’&nbsp;&nbsp;KSN-TV",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMTQ3YUpRXzFPTS0ySEd4a1FtaG5tb1ZuMGpBalZNU1JTOVh0NjRTUHE5LTFJWlhTQmZwZDBET0RyT1VOUW9WYV9FYXZ6aEM4SVU4U1hPN2o2dUhLNmVvSFlWSThMU29HXy1mRXZoZjJEd28wUWVZVktQY1B4MjNndDJrOXRtNmRtWFFrc3UyZkRtclo0c0s4TlV4TzQ4d9IBowFBVV95cUxNOW1pYTN5WnNrUmZJYVhyWnEwQmtxcU1wNmU3cnFtM21kNy14ZDZKMzdDYWxRSnZPRjVHMm5PSXF1LVl2dngwdWxhQ0FrMFdlVUhWaFVqUURiaEdaZER4aWNNZEU1WDN1c2ZHbThUb0RCczdkTE5VNUJWekFQSGVCWEdSSWRJSkVBcUxPVlVFUHFlaGVyTnNsOTU5bzU3Rkd0MDZj?oc=5"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Cost of living protests hit Belgium, Italy, Portugal and France",
+      "detail": "Hundreds of thousands took to the streets for separate demonstrations, putting pressure on governments across the EU.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france?traffic_source=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Google News: Sports",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "‘Tragedy’: 1 child, 1 adult killed in ‘mass casualty’ incident at Stryker Sports Complex - KWCH",
+      "detail": "‘Tragedy’: 1 child, 1 adult killed in ‘mass casualty’ incident at Stryker Sports Complex&nbsp;&nbsp;KWCH",
+      "image": "",
+      "source": "Google News: Sports",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLTBqZy15Z2RVWXI3MV80VVNHZzU0djY2MUtYcHNBRDNIUmF6bENISEpmNHktS0FadFlrTk9Obk0wQkdMUGttc3htTlN3dWFhbmw2VEJSM05TMFhZNHY3MEdrWmlteTZnZnhscXBLTGZPZnN3QnM4Y0R3bEd5UWQycWlIVEZWdUtvOFZLYTZn?oc=5"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "TikTok permanently bans ‘Musk’ documentary advertising account",
+      "detail": "A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/"
+    },
+    {
+      "time": "17 ต.ค.",
       "region": "BBC World",
       "flag": "🌐",
       "category": "world",
-      "headline": "Katie Zacharia leaving her White House role less than five days on the job",
-      "detail": "Her public debut as White House press secretary on Tuesday ended with a flurry of media criticism about her credentials and preparedness.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8455/live/c34abe60-c99d-11f1-8844-b58b162b44d4.jpg",
+      "headline": "Anti-government protesters battle with police in Albania",
+      "detail": "There were violent clashes between demonstrators and riot police throughout Saturday in the capital Tirana.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9b85/live/bbc9c4f0-ca6b-11f1-b2e2-233efb1fd43c.jpg",
       "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c32l4ekpvzl8o?at_medium=RSS&at_campaign=rss"
+      "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+      "detail": "Disorder broke out in cities across the country on a day in which more than half a million joined cost of living protests.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8264/live/a6715ba0-ca74-11f1-9ef8-9dedd6ab697d.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Al Jazeera",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Ten killed in fire at beach resort in Bangladesh",
+      "detail": "Ten people, including six members of the same family, were killed in a fire at a beach resort in Bangladesh.",
+      "image": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-sv-coxsbazaar-hotel-blaze-_-bd?traffic_source=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Team Vitality’s gaming café in Paris vandalised during nationwide protests - Sheep Esports",
+      "detail": "Team Vitality’s gaming café in Paris vandalised during nationwide protests&nbsp;&nbsp;Sheep Esports",
+      "image": "",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdlkxc1lVS1ZRcXFkVmVrSnZfR1ZHUWJWVy13TFdQR2lSTGFnMjlPYVlQajBvU0pwam1UODlUTUstemNhRFRqd2pPUlBIaDZEb21XUzhBMmNRN3BlN1dhWjRTWi1CM3NENk90MGtybS1ET0x0M0J1YTVTazMxSS0wa2NNbHpHb0F1RndvemlGM1FyaEwySWhjNVJJRlhzcmt3S1RQaUdxSm9zelhxQlF1SkpDN29yQVNaN0E?oc=5"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC Technology",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "No further action against government adviser's wife over Palestine Action post, police say",
+      "detail": "Sarah Helm, who is married to Jonathan Powell, was responding to a discussion about the author Sally Rooney.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8a4d/live/defb13e0-ca5a-11f1-852c-2b93a8fc4799.jpg",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ez40yz950o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "detail": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Looters seize on massive French protests to raid and vandalise shops",
+      "detail": "Looters on Saturday seized the opportunity to raid and vandalise a host of shops and businesses across France – from bakeries and supermarkets to tech stores – as hundreds of thousands of people took to the streets to protest higher living costs and other grievances.",
+      "image": "https://s.france24.com/media/display/fab94d12-ca51-11f1-a0cb-638c1c1f5fd6/w:1024/p:16x9/cc2ac62c67a25e9ff25aff593865d3fa117e6424.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/france/20261017-looters-seize-massive-french-protests-raid-vandalise-shops-france"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Wirtz delivers but remains Liverpool's conundrum",
+      "detail": "Florian Wirtz is instrumental as Liverpool return to winning ways in the Premier League, but does he remain boss Andoni Iraola's great conundrum?",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dd8e/live/95495ef0-ca64-11f1-a8e8-d5fafa9ef723.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Esports Insider",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Austin to host VCT 2027 Champions for first time",
+      "detail": "The VCT 2027 schedule spans 15 cities, with Austin hosting Champions and open teams receiving financial support across the season. The post Austin to host VCT 2027 Champions for first time appeared first on Esports Insider.",
+      "image": "",
+      "source": "Esports Insider",
+      "url": "https://esportsinsider.com/2026/10/vct-2027-schedule"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+      "detail": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c147/live/f608c860-c9cf-11f1-84c1-fd3c3266bb86.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC World",
+      "flag": "🌐",
+      "category": "world",
+      "headline": "At least 17 dead in crush at Hindu festival event in India",
+      "detail": "Many more have been injured at an event in the Indian city of Kolkata to mark a Hindu festival.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/60d0/live/caaed220-ca5d-11f1-852c-2b93a8fc4799.jpg",
+      "source": "BBC World",
+      "url": "https://www.bbc.co.uk/news/articles/c820vwq7qg2ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Ilhan Omar: The US Democrat targeted by Donald Trump",
+      "detail": "Donald Trump has described her as \"garbage\" and a \"criminal\" who does nothing but \"bitch.\" Congress member Ilhan Omar has long been the target of angry verbal attacks from the US president. But why her?",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/ilhan-omar-the-us-democrat-targeted-by-donald-trump/a-79688445?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Tributes to Andrews before Champions Cup matches",
+      "detail": "Lions and Sale Sharks are among the clubs to pay tribute to Hyron Andrews at their matches on Saturday, following the South African's death aged 31.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f014/live/52f59ef0-ca4c-11f1-a64c-550be9e3c66b.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cq5ynl4nvv5vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "detail": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Boos and bananas on day of defiance at Man City",
+      "detail": "Manchester City fans boo the Premier League anthem before watching their side move six points clear at the top of the table.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ecba/live/d20cec20-ca51-11f1-852c-2b93a8fc4799.png",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9vgr6vj4mnyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Romanian fighter jets shoot down 2 drones over Black Sea",
+      "detail": "Romanian Air Force F-16s shot down drones over Romanian territorial waters. Earlier this week, two chemical tankers were hit by drones near Romania's Black Sea coast.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/romanian-fighter-jets-shoot-down-2-drones-over-black-sea/a-79689156?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "Egypt's Ssisi says he'll defend Saudi Arabia, if asked",
+      "detail": "The Egyptian president said his country was ready to defend Saudi Arabia \"if requested.\" The comments come amid escalating Houthi attacks.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/egypt-s-ssisi-says-he-ll-defend-saudi-arabia-if-asked/a-79689105?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "🔴 Live: Chaotic scenes as organisers of French protests claim 800,000 have taken to streets",
+      "detail": "อ่านรายละเอียดเพิ่มเติมได้ที่ลิงก์ต้นฉบับ",
+      "image": "",
+      "source": "France24",
+      "url": "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "West Bank: Israeli settlers attack EU diplomats, French mayor",
+      "detail": "A group of Israeli settlers attacked vehicles carrying European diplomats in the West Bank, a day after an American photographer was beaten. Belgium and France have condemned the attack.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/west-bank-israeli-settlers-attack-eu-diplomats-french-mayor/a-79688819?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "India: Police crack down on New Delhi protests",
+      "detail": "Student activist Neha Bora, a prominent face of the protests, ‌who was detained on Friday as she tried to reach central Delhi with dozens of supporters, was released on Saturday.",
+      "image": "https://s.france24.com/media/display/847e0698-ca1e-11f1-a4f6-4dd8ac2cf3bf/w:1024/p:16x9/EN-20261017-121203-121358-CS.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/video/20261017-india-police-crack-down-on-new-delhi-protests"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Haaland helps Maresca achieve record start as Manchester City defeat Ipswich",
+      "detail": "There have been few winners in Manchester City’s guilty verdict, except highly paid lawyers and the inflatable fruit industry. The fans have suffered, being forced to question everything they have been told, while being labelled “cheats”, but they were able to forget the cacophony of noise around the club as Enzo Maresca became the first Premier League manager to win his first seven games.Ipswich…",
+      "image": "https://i.guim.co.uk/img/media/dcbea5b8c80b5e9fcc86681d1a40730aea4179d2/203_0_3883_3106/master/3883.jpg?width=140&quality=85&auto=format&fit=max&s=3b30a69c91f2c26d93c6be74965a3dd0",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/football/2026/oct/17/manchester-city-ipswich-premier-league-match-report"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Brazil: Amazon deforestation at 40-year low",
+      "detail": "In Brazil, deforestation in the Amazon has reached its lowest level in 40 years. President Lula is bolstering his environmental record just over a week before the second round of the presidential election, in which he faces Flávio Bolsonaro.",
+      "image": "https://s.france24.com/media/display/7770bf44-ca42-11f1-865c-6313a763b466/w:1024/p:16x9/EN-20261017-142458-142642-CS.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/video/20261017-brazil-amazon-deforestation-at-40-year-low"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "BBC Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Chelsea's Martinez taken to hospital for 'precautionary tests'",
+      "detail": "Goalkeeper Emiliano Martinez was taken to hospital as Chelsea's 2-0 win at Everton on Saturday meant they secured their first clean sheet in nine months.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a3ff/live/157a6f70-ca3c-11f1-9ab2-b325ce61f9d2.jpg",
+      "source": "BBC Sport",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6rryqq00yp4o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Ukraine war: \"Mothers of Kherson\" opera opens in Poland",
+      "detail": "\"Mothers of Kherson\" has opened at Poland's National Opera. The performance was co-produced with New York's Metropolitan Opera and created in close association with Save Ukraine, a group helping to bring back Ukrainian children who remain in Russia. More than four years after Russia's invasion of Ukraine, the opera aims to \"reawaken\" global interest in the war.",
+      "image": "https://s.france24.com/media/display/5f500ace-ca41-11f1-8347-6313a763b466/w:1024/p:16x9/EN-20261017-170858-171041-CS.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/video/20261017-ukraine-war-mothers-of-kherson-opera-opens-in-poland"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "France24",
+      "flag": "🇫🇷",
+      "category": "world",
+      "headline": "Protests in France: \"Two fires broke out in Place de la République\"",
+      "detail": "Police and protesters clashed in Paris and other French cities on Saturday, with smoke from fires and tear gas filling the air at demonstrations nationwide against high prices, ahead of elections to replace President Emmanuel Macron. \"Two fires broke out in Place de la République,\" reports France 24's Antonia Kerrigan from the ground.",
+      "image": "https://s.france24.com/media/display/02bc98c2-ca41-11f1-95d8-4dd8ac2cf3bf/w:1024/p:16x9/EN-20261017-170100-170648-CS.jpg",
+      "source": "France24",
+      "url": "https://www.france24.com/en/video/20261017-protests-in-france-two-fires-broke-out-in-place-de-la-r%C3%A9publique"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
+      "detail": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better/"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "How big is Russia's threat against Germany?",
+      "detail": "Experts believe that, so far, Germany has been ill-prepared — both militarily and mentally — for Russian provocations. They also warn against the idea that ending support for Ukraine would make Germany safer.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/how-big-is-russia-s-threat-against-germany/a-79688426?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "DW (Germany)",
+      "flag": "🇩🇪",
+      "category": "world",
+      "headline": "China's influence in the gaming industry is growing",
+      "detail": "Home to more than 700 million gamers, China is the world's largest gaming market — but it's also one of the most tightly regulated. The effects reach far beyond China, impacting players around the world.",
+      "image": "",
+      "source": "DW (Germany)",
+      "url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-all-1573-xml-mrss"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Ars Technica",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Science says your boss should talk less in meetings",
+      "detail": "Research suggests listening more while talking less. Killing aimless meetings can help, too.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/meetingboredom-1152x648.jpg",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Business",
+      "flag": "💰",
+      "category": "economy",
+      "headline": "US corporate lobbyists mounted ‘blitz’ to dilute landmark EU deforestation law, report finds",
+      "detail": "Environmental watchdog Mighty Earth reveals two-year effort to postpone and weaken EU Deforestation RegulationUS corporate lobbyists launched a two-year “blitz” to postpone and weaken the world’s most progressive legislation to protect forests, according to a new investigation by the environmental watchdog Mighty Earth.Major US firms and trade associations, including Cargill, Bunge, Mondelēz and…",
+      "image": "https://i.guim.co.uk/img/media/df8c85f8eb823746e6c6870d49f885ae6b15be08/831_0_6622_5299/master/6622.jpg?width=140&quality=85&auto=format&fit=max&s=f84ef67156d0ee7bae0416a47f64d940",
+      "source": "The Guardian Business",
+      "url": "https://www.theguardian.com/environment/2026/oct/17/us-corporate-lobbyists-europe-deforestation"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Ars Technica",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Why BioWare's Neverwinter Nights still has thousands of active players",
+      "detail": "The single-player is just OK, but according to the players, that doesn't matter.",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/NWN-header-1152x648.jpg",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "Esports Insider",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "Suspension posts make 2xplayN’s ESIC competition ban permanent",
+      "detail": "The 2xplayN lifetime ban follows posts during his CS2 suspension, while ESIC plans referrals to Valve, government agencies and law enforcement. The post Suspension posts make 2xplayN’s ESIC competition ban permanent appeared first on Esports Insider.",
+      "image": "",
+      "source": "Esports Insider",
+      "url": "https://esportsinsider.com/2026/10/2xplayn-lifetime-ban"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "The ESPN producer who quit over gambling – and the stories she says went untold",
+      "detail": "Nicole Noren says ESPN sidelined investigations into sports betting companies as gambling partnerships reshaped the network’s prioritiesEarlier this week, investigative journalist Nicole Noren did something almost impossible for someone who has spent her career behind the scenes.She made herself the story. Continue reading...",
+      "image": "https://i.guim.co.uk/img/media/9276cb289d60f0bc6fde220e38879f40ef0acf86/334_0_3331_2666/master/3331.jpg?width=140&quality=85&auto=format&fit=max&s=e383bbc02b0e277e7ace1c2258c752a8",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/espn-producer-nicole-noren-sports-betting-gambling-investigations"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian Sport",
+      "flag": "⚽",
+      "category": "sports",
+      "headline": "Houthi conflict casts shadow as Saudi Arabia scales back sporting pipe dreams",
+      "detail": "A match delayed by missile attack warnings is not what Cristiano Ronaldo and co signed up for but it’s the new reality; the Saudi sporting juggernaut is stallingCristiano Ronaldo grabbed the scarf in the colours of the Saudi Arabian flag and waved it at the sparse but enthusiastic crowd, who responded with rapturous cheers. It was a gesture of defiance rather than a victory salute, encapsulating…",
+      "image": "https://i.guim.co.uk/img/media/329a6d1d0aa6565482465daa4370ce076200a1fc/755_99_4475_3580/master/4475.jpg?width=140&quality=85&auto=format&fit=max&s=346cba9551291987021eb3b11f09bb2b",
+      "source": "The Guardian Sport",
+      "url": "https://www.theguardian.com/sport/2026/oct/17/houthi-conflict-casts-shadow-as-saudi-arabia-scales-back-sporting-pipe-dreams"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "The Guardian World",
+      "flag": "🇬🇧",
+      "category": "world",
+      "headline": "Mexican judge sentences three men to 158 years in prison for murders of Australian and US surfers​",
+      "detail": "Australian ​brothers Jake ​and Callum Robinson, and ​their ‌American friend Carter Rhoad, were killed while on a surf trip in Baja California in 2024Get our breaking news email, free app or daily news podcastA Mexican ⁠judge ⁠has sentenced ​three men to 158 years ⁠and nine months in prison each for ⁠the murder of ​two Australian ‌brothers ‌and their American friend during ‌a 2024 surf trip to the…",
+      "image": "https://i.guim.co.uk/img/media/803a6b4b97e168ef99e8d8f6d05ed5c149c09e7f/201_0_2463_1970/master/2463.jpg?width=140&quality=85&auto=format&fit=max&s=63953268ca6673aa7647702fcd6065c4",
+      "source": "The Guardian World",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb"
+    },
+    {
+      "time": "17 ต.ค.",
+      "region": "TechCrunch",
+      "flag": "💻",
+      "category": "tech",
+      "headline": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
+      "detail": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
+      "image": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept/"
     },
     {
       "time": "16 ต.ค.",
@@ -278,28 +707,6 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Zelensky turns to Europe for backing as ties with Trump deteriorate",
-      "detail": "Ukrainian President Volodymyr Zelensky turned to his European allies on Friday, asking Brussels for an additional €70 billion to fund the war against Russia next year. Zelensky's relationship with US President Donald Trump deteriorated after the US eased sanctions on Moscow as part of a diesel-supply deal.",
-      "image": "https://s.france24.com/media/display/c6338998-c99a-11f1-9ea4-6313a763b466/w:1024/p:16x9/000-D3GY8H7.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/europe/20261016-zelensky-turns-to-europe-for-backing-as-ties-with-trump-deteriorate"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "KENYA CONFIRMS THIRD EBOLA CASE",
-      "detail": "In tonight's programme, Kenya confirms a third case of Ebola, a relative of a man who died earlier this month after travelling from DR Congo. Also,Cameroonian journalist Ambe Macmillan is recovering in hospital after being shot in the legs by gunmen in Bamenda. And we meet Ghanaian artist Ibrahim Mahama... And finally, we meet Ghanaian artist Ibrahim Mahama, who digs deep into his country's…",
-      "image": "https://s.france24.com/media/display/a8234156-c99e-11f1-ac97-d1d2c32ebb87/w:1024/p:16x9/capture-d9ec4c85.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/kenya-confirms-third-ebola-case"
-    },
-    {
-      "time": "16 ต.ค.",
       "region": "Ars Technica",
       "flag": "💻",
       "category": "tech",
@@ -308,17 +715,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "'Finish what we started': After student protests, France braces for return of the Yellow Vests",
-      "detail": "An online movement against rising fuel prices has gained momentum ahead of planned nationwide demonstrations on October 17 with former Yellow Vest figures set to join the protests in support of high-school students. Some are drawing parallels between the latest action and the 2018 cost-of-living protests that rattled President Emmanuel Macron's first term in office.",
-      "image": "https://s.france24.com/media/display/7a84b63e-c8a0-11f1-ac1f-638c1c1f5fd6/w:1024/p:16x9/000-1GD2EZ.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/europe/20261016-finish-what-we-started-after-student-protests-france-braces-return-yellow-vests"
     },
     {
       "time": "16 ต.ค.",
@@ -333,28 +729,6 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Clashes grip Tirana as Albanian PM blames 'foreign hands' for mounting unrest",
-      "detail": "Albanian Prime Minister Edi Rama on Friday blamed the involvement of “foreign hands” for escalating protests, which he said are aimed at hindering Albania's bid to join the European Union. Thousands of demonstrators have taken to the streets of Albania's capital since Tuesday, demanding Rama’s resignation and denouncing university conditions and high tuition fees.",
-      "image": "https://s.france24.com/media/display/14fcd6c8-c99c-11f1-9d93-6313a763b466/w:1024/p:16x9/6444105dfca67f7f4b62d440579b190d86972ee5.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/europe/20261016-clashes-grip-tirana-as-albanian-pm-blames-foreign-hands"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
-      "detail": "EU leaders reaffirmed support for Ukraine at the Brussels summit. But souring relations with the US over Russia and Starlink and a big hole in the budget will make for a difficult winter for Ukraine.",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "16 ต.ค.",
       "region": "Ars Technica",
       "flag": "💻",
       "category": "tech",
@@ -363,50 +737,6 @@
       "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Torres-headshot-1152x648.jpg",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Porsche’s electric Macan Turbo is an automotive existential crisis",
-      "detail": "The 2026 Porsche Macan Turbo EV is a two-row crossover with 630 horsepower and a 100-kilowatt-hour battery.",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "The Guardian World",
-      "flag": "🇬🇧",
-      "category": "world",
-      "headline": "Brazilian Amazon deforestation falls to lowest on record as pivotal vote looms",
-      "detail": "Forest clearance at smallest total since records began in 1988 in success for Lula ahead of presidential run-offDeforestation in the Brazilian Amazon has fallen to its lowest level since records began, new government data shows.But whether this globally important success is maintained or reversed is on a knife edge ahead of a presidential election run-off on 25 October between two candidates with…",
-      "image": "https://i.guim.co.uk/img/media/1ab732d5e231b07fef02c8b733fbf39933a3f591/420_0_4200_3360/master/4200.jpg?width=140&quality=85&auto=format&fit=max&s=fbafa9b10ba28b2d75e5b663dd38e53c",
-      "source": "The Guardian World",
-      "url": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "West Bank: US journalist injured by Israeli settlers",
-      "detail": "Washington Post journalist Heidi Levine said she was beaten by Israeli settlers in the occupied West Bank. Reporters Without Borders slammed the attack as \"brazen violence.\"",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/west-bank-us-journalist-injured-by-israeli-settlers/a-79684181?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "Trump Vs Zelensky, From the Screen to the Streets, Gen Z protests from Paris to Dehli",
-      "detail": "In India, the Cockroach movement felt the crushing boot of the state this week. Thousands of Gen Z protesters were rounded up and detained in sports stadiums and community halls turned into makeshift detention centres, while the movement’s founder, Abhijeet Dipke, was arrested on arrival. A mass demonstration over alleged voter fraud was effectively crushed before it could begin.And Abdijeet has…",
-      "image": "https://s.france24.com/media/display/8b4918a4-c993-11f1-979e-638c1c1f5fd6/w:1024/p:16x9/Anglais-2026-10-16T17-17-51-019Z.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261016-trump-vs-zelensky-from-the-screen-to-the-streets-gen-z-protests-from-paris-to-dehli"
     },
     {
       "time": "16 ต.ค.",
@@ -421,25 +751,14 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "White House press secretary Zacharia exiting role after short tenure",
-      "detail": "Zacharia, having served only five days in the role, is now the shortest-serving press secretary in White House history. Her departure follows a rocky debut at the podium and controversy surrounding her background.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "VALORANT Game Changers Championship 2026: Everything You Need to Know - Valorant esports",
+      "detail": "VALORANT Game Changers Championship 2026: Everything You Need to Know&nbsp;&nbsp;Valorant esports",
       "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/white-house-press-secretary-zacharia-exiting-role-after-short-tenure/a-79684341?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "France24",
-      "flag": "🇫🇷",
-      "category": "world",
-      "headline": "'US tilting toward Russia: Europeans are standing more and more solidly with Zelensky'",
-      "detail": "As transatlantic relations confront renewed geopolitical uncertainty, former Estonian President Toomas Hendrik Ilves delivers a pointed assessment of Washington's shifting approach to Russia's war on Ukraine and the profound implications for European security. At the heart of his analysis lies a fundamental question: can Europe develop the political unity, strategic independence and military…",
-      "image": "https://s.france24.com/media/display/d5a78984-c980-11f1-a6ce-638c1c1f5fd6/w:1024/p:16x9/EN-20261016-180736-182041-CS.jpg",
-      "source": "France24",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261016-us-tilting-toward-russia-europeans-are-standing-more-and-more-solidly-with-zelensky"
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUnAyRDlueTFkN0hiRWpwN3N5WmUzeVVQLWFReTlPM3p4b2lReXZfY1JVYU9EeEJnbHFzTE42clhEMEV1c2MtaTZJUW96YUVkdThXWE1zVDNsZ1dzUW1mOHh5UzhRZkROU3JUNmtNaTJKeG91NlBaMUhoNmVqdTlNUXhUZmYxUHdrWHJFZDY3eUkxTW9YaTV5ZmN2bTBrckw2NmRIVUNXeXBRT1E?oc=5"
     },
     {
       "time": "16 ต.ค.",
@@ -447,87 +766,10 @@
       "flag": "💻",
       "category": "tech",
       "headline": "Toxic algorithms wouldn't let them go - now Australia wants an off switch",
-      "detail": "Australia has proposed a switch to force social media platforms to let users turn off recommended content.",
+      "detail": "The Australian government hopes to protect social media users from being served content they don't want to see.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/21ca/live/8f226840-c966-11f1-a64c-550be9e3c66b.png",
       "source": "BBC Technology",
       "url": "https://www.bbc.co.uk/news/articles/cwr7y8er1n8vo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "India becomes the latest country to report rogue AI agent activity",
-      "detail": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Rahm sacrifices £75m to secure exit from LIV Golf",
-      "detail": "Jon Rahm sacrifices a reported $100m (£75m) still owed to him by LIV Golf to secure his exit from the league.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b204/live/49952db0-c986-11f1-b646-2b044167639a.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/golf/articles/cq80zpk1xgxpo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?",
-      "detail": "Girls wearing headscarves have been turned away from schools in Azerbaijan, triggering unusual protests involving children. The government rules do not mention hijabs. Why are schools enforcing unwritten rules?",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "DW (Germany)",
-      "flag": "🇩🇪",
-      "category": "world",
-      "headline": "At summit, EU leaders pledge support for Ukraine's Zelenskyy",
-      "detail": "President Zelenskyy has received words of encouragement from EU leaders, who pledged support for Ukraine's self-defense against Russia. This comes as winter approaches and the US seems to be withdrawing support.",
-      "image": "",
-      "source": "DW (Germany)",
-      "url": "https://www.dw.com/en/at-summit-eu-leaders-pledge-support-for-ukraine-s-zelenskyy/a-79678808?maca=en-rss-en-all-1573-xml-mrss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Game, set and tache: Carlos Alcaraz joins growing trend for a stylish top lip",
-      "detail": "Tennis superstar is latest celebrity to sport a ‘refined’ moustache which owes little to bushy Tom Selleck lookThe tennis superstar Carlos Alcaraz might have been knocked out of the Shanghai Masters in straight sets earlier this week, but he did so sporting a moustache that became almost as remarked upon as his aptitude for a sneaky drop shot.“I always wanted to step on the court at least once…",
-      "image": "https://i.guim.co.uk/img/media/ca887771548944d4c8c10f5223b5a77c6fda6c0d/268_0_3324_2659/master/3324.jpg?width=140&quality=85&auto=format&fit=max&s=658236a5e793e2510676f4ba14863369",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/fashion/2026/oct/16/game-set-tache-carlos-alcarez-growing-trend-stylish-top-lip"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Ars Technica",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "RFK Jr. proposes FDA look the other way on unproven peptides, report says",
-      "detail": "FDA scientists said none of the popular drugs have been proven safe or effective.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2268348621-1152x648.jpg",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "detail": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/"
     },
     {
       "time": "16 ต.ค.",
@@ -542,91 +784,14 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Do Manchester City have any grounds to win their appeal?",
-      "detail": "Manchester City face \"substantial hurdles\" to overcome if they are to have any chance of winning their appeal after being found guilty of breaking the Premier League's financial rules, a leading lawyer has told BBC Sport.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee2f/live/cb7000d0-b9aa-11f1-8a1a-0176f978c211.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6je5lwxk5l0o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Waymo’s robotaxis are headed to Canada",
-      "detail": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "TechCrunch",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Elorian’s first AI model wants to reason with images, not just about them",
-      "detail": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "image": "",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
+      "region": "AllAfrica",
+      "flag": "🌍",
       "category": "world",
-      "headline": "Inside Ukrainian offensive pushing Russia back - with Starlink playing a key role",
-      "detail": "The BBC joins Ukraine's Operation Vivaldi as it regains crucial territory in the Donbas, but optimism has been dampened by souring relations with President Trump.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e40/live/404f3fb0-c978-11f1-80fc-ab418b149008.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Real Madrid demand La Liga president resign over Goebbels comparison",
-      "detail": "Javier Tebas accuses Madrid of ‘propaganda techniques’Club want ‘immediate resignation’ for ‘constant attacks’Real Madrid have again demanded the resignation of the president of La Liga after he compared the club’s efforts to discredit referees with the propaganda techniques of Nazi Germany.Javier Tebas lashed out at Madrid on Friday on social media with a long post that criticised how its club…",
-      "image": "https://i.guim.co.uk/img/media/c57cca54aa339d13cc7665a8dea4bf9e79a5ecd9/271_0_6829_5464/master/6829.jpg?width=140&quality=85&auto=format&fit=max&s=9e0d3c71979b981249fb1b498c160d9f",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/16/real-madrid-demand-resignation-la-liga-president-javier-tebas-goebbels-comparison"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Does Scott's Disney+ exit unmask wider issue in coverage of women's game?",
-      "detail": "Alex Scott's sudden departure from her Disney+ presenter role reveals a pressing challenge for broadcasters of women's football.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/198d/live/498a8450-c94f-11f1-9a39-31b474234113.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm3wv4ej7lv2o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Fantasy Football Bold Predictions for Week 6 - Yahoo Sports",
-      "detail": "Fantasy Football Bold Predictions for Week 6&nbsp;&nbsp;Yahoo Sports",
+      "headline": "Nigeria: Tinubu Nominates Four New INEC National Commissioners, Two Resident Electoral Commissioners",
+      "detail": "[Premium Times] President Tinubu urged the Senate to expedite the nominees' confirmation in view of the forthcoming general elections next January.",
       "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNHB5MDJEUG5DbnduZ2h0SDVodG8ycWdUVnFTNmFhaFIxMU1tR24wTXlRdS1aRWlnWlpmb0ltUGtiYXJuSkF3QUJlN1lJTWVaazhaUlNSVjBsREpJWWppTkplN2ctQjE3S2JJUm9NYUh1cHNseWlCRUVYT3RkOERUVGxrVnd4Z1pSYTFZTWJlVFZ4LVpXRUNYRnptTkR6Zk13S3c?oc=5"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "Ars Technica",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-      "detail": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
-      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/"
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202610160535.html"
     },
     {
       "time": "16 ต.ค.",
@@ -641,36 +806,14 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "NCAA sues Ohio gov. over order allowing schools to ignore new eligibility rule - ESPN",
-      "detail": "NCAA sues Ohio gov. over order allowing schools to ignore new eligibility rule&nbsp;&nbsp;ESPN",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSzNxUkNqYTVIaDNweGg5dkNrSHI3UjhEeDZGeGtmbGVTN0FlSUplczR1RVk5alNRamxneE10T0E1c2syR25sNEwyVkRtQzVBZm5NWVdyUXVBWHlsTm0xdV9MOFoyc3RKclZLcjMxc24wODVqbV9zSzFCOWZHd1NtM3V6Z2toRXpHVkxrZmIyUFotQzNlaGlISndFbWZvWDZGZzJZZFotUEtMdE1jYlVF?oc=5"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Former Sale Sharks lock Andrews dies at team hotel in La Rochelle",
-      "detail": "Hyron Andrews dies at his Johannesburg Lions' team hotel before their Champions Cup match at La Rochelle on Saturday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/002b/live/fb4e94e0-c96f-11f1-80fc-ab418b149008.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cqdjvxynj2kyo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "BBC World",
-      "flag": "🌐",
+      "region": "AllAfrica",
+      "flag": "🌍",
       "category": "world",
-      "headline": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
-      "detail": "The BBC sees masked settlers attack Palestinians trying to harvest olives, amid a surge in similar incidents.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc2e/live/1a3bde40-c96f-11f1-9a39-31b474234113.jpg",
-      "source": "BBC World",
-      "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&at_campaign=rss"
+      "headline": "Africa: Ebola Spread Raises Fresh Urgency for Africa's Domestic Health Funding",
+      "detail": "[IPS] Bulawayo -- An Ebola death last week in Kenya is highlighting the urgency of Africa's public health emergency preparedness and how the continent's governments are committing their national budgets to the health sector.",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202610160472.html"
     },
     {
       "time": "16 ต.ค.",
@@ -685,14 +828,14 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "BBC Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Underdogs? We like that tag, says England captain Williams",
-      "detail": "Captain George Williams says England will relish their \"underdog\" tag when they take on a powerful Tonga side in their World Cup opener in Perth on Saturday.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5dce/live/6900c740-c963-11f1-bc2e-018d645d8d21.jpg",
-      "source": "BBC Sport",
-      "url": "https://www.bbc.co.uk/sport/rugby-league/articles/cx7vprd744y9o?at_medium=RSS&at_campaign=rss"
+      "region": "AllAfrica",
+      "flag": "🌍",
+      "category": "world",
+      "headline": "Kenya: Image of Kenyan Senator Edwin Sifuna Asleep At Public Event Is Doctored",
+      "detail": "[Africa Check] Image of Kenyan senator Edwin Sifuna asleep at public event is doctored",
+      "image": "",
+      "source": "AllAfrica",
+      "url": "https://allafrica.com/stories/202610160466.html"
     },
     {
       "time": "16 ต.ค.",
@@ -707,17 +850,6 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Hall of Famers v bunch of gamers: the Dodgers’ exit proves money can’t buy everything",
-      "detail": "The Brewers turned LA’s stars into ghosts during their four-game NLCS sweep, destroying the ‘team that destroyed baseball’ and revealing the sport’s hard truthMilwaukee Brewers manager Pat Murphy had just watched his club dismantle Los Angeles for a fourth straight National League Championship Series game. Standing with his team in the Dodger Stadium clubhouse, he was ready to celebrate. But…",
-      "image": "https://i.guim.co.uk/img/media/0b607cadaf492fbc79dba3400ebb6320389261c6/271_0_4089_3272/master/4089.jpg?width=140&quality=85&auto=format&fit=max&s=39d092103bee8ee6acbf961e3a4f4454",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/16/los-angeles-dodgers-milwaukee-brewers-nlcs-payroll-world-series"
-    },
-    {
-      "time": "16 ต.ค.",
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
@@ -726,28 +858,6 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b96f/live/01c77470-c963-11f1-bc2e-018d645d8d21.png",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "WNBA finals 2026 predictions: Is Angel Reese about to win a Dream title?",
-      "detail": "The Valkyries and Dream tip off the WNBA finals on Saturday at Ballhalla. Our writers give their verdicts with a first-time champion set to be crowned… of big dreams, excellent defense and smart roster construction. This franchise aimed big when it entered the league and has been more than rewarded. (An $850m valuation, $100m in revenue … next a championship?) After reaching the postseason in…",
-      "image": "https://i.guim.co.uk/img/media/28d095254f3b2ca7d62c725ebc7da1e26bdc157c/321_0_3038_2430/master/3038.jpg?width=140&quality=85&auto=format&fit=max&s=5041409a77f36c4c7de0c513c5a5d86b",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/16/wnba-finals-2026-predictions-atlanta-dream-golden-state-valkyries"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Ethiopia: Ethiopia Establishes Six-Month Caretaker Administration in Tigray",
-      "detail": "[Reporter] New admin tasked with restoring security, rebuilding institutions and preparing for elections",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202610160282.html"
     },
     {
       "time": "16 ต.ค.",
@@ -762,28 +872,6 @@
     },
     {
       "time": "16 ต.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Malawi: Gold Rush or Gold Bust? Malawi's Smuggling Crackdown Faces Credibility Test",
-      "detail": "[Nyasa Times] Malawi's latest bid to turn gold into a lifeline for its struggling economy is facing uncomfortable questions about the evidence on which it has been built.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202610160188.html"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "AllAfrica",
-      "flag": "🌍",
-      "category": "world",
-      "headline": "Somalia: Somalia's Govt Welcomes Election Timetable and Urges Political Dialogue",
-      "detail": "[Shabelle] Mogadishu -- Somalia's federal government on Thursday welcomed an election timetable announced by the Independent National Electoral and Boundaries Commission, covering elections for both houses of parliament and the president.",
-      "image": "",
-      "source": "AllAfrica",
-      "url": "https://allafrica.com/stories/202610160182.html"
-    },
-    {
-      "time": "16 ต.ค.",
       "region": "Esports Insider",
       "flag": "🎮",
       "category": "esports",
@@ -792,17 +880,6 @@
       "image": "",
       "source": "Esports Insider",
       "url": "https://esportsinsider.com/2026/10/fifae-finals-postponed"
-    },
-    {
-      "time": "16 ต.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "From the Octagon to Quantico: UFC teaching the FBI to fight is its latest tie to Trump world",
-      "detail": "The mixed martial arts organization has had links to the US president for years. Now it could be involved in training federal agentsIn the lead-up to UFC Freedom 250 – the cagefighting spectacle that took place on the South Lawn of the White House to mark Donald Trump’s 80th birthday this past summer – the FBI announced that a handful of UFC fighters would visit the bureau for an exclusive…",
-      "image": "https://i.guim.co.uk/img/media/8ccecd9e4cdfe910d4401159a53d871316832f1d/719_0_4807_3846/master/4807.jpg?width=140&quality=85&auto=format&fit=max&s=0733b12d179ba3b4ddc88739a599769e",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/sport/2026/oct/16/ufc-fbi-fight-training"
     },
     {
       "time": "16 ต.ค.",
@@ -836,6 +913,17 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/139a/live/0f24b0c0-c8b3-11f1-bc2e-018d645d8d21.png",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "time": "16 ต.ค.",
+      "region": "Google News: Esports",
+      "flag": "🎮",
+      "category": "esports",
+      "headline": "MVK Esports – Karmine Corp - Live score - Sofascore",
+      "detail": "MVK Esports – Karmine Corp - Live score&nbsp;&nbsp;Sofascore",
+      "image": "",
+      "source": "Google News: Esports",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44eTAzeDNTN3FHSWYzeE9IOWhVR1pwWGo3R2VwUl95SUxRY1liRVRrZFZnVV83M2YwbmgyMnE0ZUROOVhJck55UFEydG9LM0V4UXQyczk3ODFacUlRZzcydVpkaXUzcVB1SThkQWNuUTdCWS1pX00xZlNBVXhudW8?oc=5"
     },
     {
       "time": "16 ต.ค.",
@@ -905,17 +993,6 @@
     },
     {
       "time": "15 ต.ค.",
-      "region": "The Guardian Sport",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Premier League: 10 things to look out for this weekend",
-      "detail": "Henderson back on Merseyside, Farke threatens more misery for Carrick and Forest are a threat to ArsenalPremier League top scorers | Follow us on TikTokA lively reception awaits the former Liverpool midfielders Jordan Henderson and Xabi Alonso at Everton and, in the case of the former, any jeers can be considered an unintentional tribute. They will speak of what the 36-year-old is able to produce…",
-      "image": "https://i.guim.co.uk/img/media/9715176d9862ff937010b6d6e3a0093ce5eee2c8/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=bcddecdd531239a19d5f93291ba6ec21",
-      "source": "The Guardian Sport",
-      "url": "https://www.theguardian.com/football/2026/oct/16/premier-league-10-things-to-look-out-for-this-weekend"
-    },
-    {
-      "time": "15 ต.ค.",
       "region": "Esports Insider",
       "flag": "🎮",
       "category": "esports",
@@ -938,17 +1015,6 @@
     },
     {
       "time": "15 ต.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "2027 VCT Americas Kickoff North America Qualifiers - Valorant esports",
-      "detail": "2027 VCT Americas Kickoff North America Qualifiers&nbsp;&nbsp;Valorant esports",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbzhpRDQzOGI0RTc3Qjg1cnNMR1BHaUxKYlB0aWZhbHJzeFpoMzhCMm5NanFVc1hUSGFJLS0xUC0wY0Y1clJxaDd0Z3o1dmpmM2p2aHZoaFlUZUpjMTZJb1E2dlpSZXRtR2h3WGF3dVl2Rk9zUjZrT09CeGVTem16STR2eEtSalVrdVRn?oc=5"
-    },
-    {
-      "time": "15 ต.ค.",
       "region": "BBC Business",
       "flag": "💰",
       "category": "economy",
@@ -957,28 +1023,6 @@
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/717e/live/d95f6d50-c898-11f1-b0a4-81e564f1cfaa.jpg",
       "source": "BBC Business",
       "url": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "time": "15 ต.ค.",
-      "region": "The Guardian Business",
-      "flag": "💰",
-      "category": "economy",
-      "headline": "Tech market sell-off deepens amid fears over US inflation and AI debt",
-      "detail": "Chip makers and tech investors such as Samsung and SoftBank plunge as potential interest rate hikes spook marketsBusiness news – live updatesLarry Elliott: the global economy is muddling through. But a storm is comingAn accelerating sell-off of AI-linked shares has hit global markets, as fears over rising inflation and future interest rate hikes spooked traders already wary of the heavily…",
-      "image": "https://i.guim.co.uk/img/media/db77d2497ad333f58b03bc024b156cdce2973b96/1166_0_4632_3706/master/4632.jpg?width=140&quality=85&auto=format&fit=max&s=0c106f80a98eb99a06130d501a36d1b9",
-      "source": "The Guardian Business",
-      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt"
-    },
-    {
-      "time": "15 ต.ค.",
-      "region": "BBC Technology",
-      "flag": "💻",
-      "category": "tech",
-      "headline": "GTA 6 - all you need to know about Rockstar's blockbuster game",
-      "detail": "A new launch trailer for Grand Theft Auto VI reveals more details about what's set to be the biggest game of the year.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ab0/live/49c33180-6bce-11f1-a94c-73f00a91c697.jpg",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c9q20djz4wno?at_medium=RSS&at_campaign=rss"
     },
     {
       "time": "15 ต.ค.",
@@ -1001,17 +1045,6 @@
       "image": "https://i.guim.co.uk/img/media/277b93f5f035970797f0f81b7f05054489b5e550/489_0_2920_2336/master/2920.jpg?width=140&quality=85&auto=format&fit=max&s=d1a4ffce065bc726e5ecd0bc4da68838",
       "source": "The Guardian Business",
       "url": "https://www.theguardian.com/business/2026/oct/15/new-bill-wall-street-bosses-epstein-connections"
-    },
-    {
-      "time": "15 ต.ค.",
-      "region": "Google News: Esports",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "FIFAe Finals 2026 postponed amid regional security concerns - Pocket Gamer.biz",
-      "detail": "FIFAe Finals 2026 postponed amid regional security concerns&nbsp;&nbsp;Pocket Gamer.biz",
-      "image": "",
-      "source": "Google News: Esports",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSm1DVkRFcXR1aTJpSEl5V1A2S0JaMkNfX243MW9mSGRtT045N3Nvc0dROVU1cG9mdm93ekh2ZWFwSTJNRlkybjJxSktObGEzeEp3WTlxc21ocTdCR0Z4aG5iakE5cFpYREJWQ015YS1MMUI3QWp5aURPaE9CMHFtMnpLZ0ZzNDEyLVM5bDAxNl9jUQ?oc=5"
     },
     {
       "time": "15 ต.ค.",
@@ -1048,28 +1081,6 @@
     },
     {
       "time": "14 ต.ค.",
-      "region": "Esports Insider",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "Riot adds senior leaders for VALORANT, creators and TFT esports",
-      "detail": "Joe Lee becomes VALORANT Game Director as Riot appoints Mitchel Inkrott to lead influencer strategy and Bryce Blum to head TFT esports. The post Riot adds senior leaders for VALORANT, creators and TFT esports appeared first on Esports Insider.",
-      "image": "",
-      "source": "Esports Insider",
-      "url": "https://esportsinsider.com/2026/10/valorant-game-director"
-    },
-    {
-      "time": "14 ต.ค.",
-      "region": "Google News: Sports",
-      "flag": "⚽",
-      "category": "sports",
-      "headline": "Joe Buck, Troy Aikman Have Had Tension Amid ESPN Contract Talks - Front Office Sports",
-      "detail": "Joe Buck, Troy Aikman Have Had Tension Amid ESPN Contract Talks&nbsp;&nbsp;Front Office Sports",
-      "image": "",
-      "source": "Google News: Sports",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1VjODRlSXZQdUxHWnhFVW5raFVnRFFHTFdPU2ZtYXEzc180V1FyMTV2ZU5LT3RnUUdhcUp5UkE1OHRQbnFkQnh4ZDFvS2F6MV91eFZJb3JGcGNsTF9Gel9QTEhhd1ZGX01nRGgyNElQM3UyQVJlTWFLUFdEOTEwbFByZEI?oc=5"
-    },
-    {
-      "time": "14 ต.ค.",
       "region": "The Guardian World",
       "flag": "🇬🇧",
       "category": "world",
@@ -1089,17 +1100,6 @@
       "image": "https://i.guim.co.uk/img/media/28120a16f4ee8133901215c24889ae3476e9eeda/663_0_6627_5304/master/6627.jpg?width=140&quality=85&auto=format&fit=max&s=0ffc2facca7ee7016cb29b33c9713097",
       "source": "The Guardian World",
       "url": "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial"
-    },
-    {
-      "time": "14 ต.ค.",
-      "region": "Esports Insider",
-      "flag": "🎮",
-      "category": "esports",
-      "headline": "China’s VCT partner field set to shrink ahead of 2027",
-      "detail": "VCT China partnership plans reportedly name eight teams for 2027, as five organisations could miss out under Riot Games’ smaller regional format. The post China’s VCT partner field set to shrink ahead of 2027 appeared first on Esports Insider.",
-      "image": "",
-      "source": "Esports Insider",
-      "url": "https://esportsinsider.com/2026/10/vct-china-partnership"
     },
     {
       "time": "9 ต.ค.",
